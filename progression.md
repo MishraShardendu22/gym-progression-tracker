@@ -17,3 +17,6 @@ Do not assume the user trains every set to failure. RIR should only be recorded 
 - Do not delete old session records to hide corrections. Amend current-state files and append a clear note in the relevant session or progression log.
 - Use a separate commit for a workout session or a coherent batch of corrections, with a descriptive commit message.
 - If GitHub is unavailable, tell the user and avoid claiming that a commit was made.
+
+## Daily load-coaching protocol
+When the user asks what to lift for a given training day, use the latest confirmed session data in `workout-log.csv`, `current-state.json`, and session notes. Recommend a specific starting load for each exercise, retaining the established machine settings and using conservative double progression. If the previous load hit the top of the rep range on all working sets with good form and about 1–2 reps in reserve, recommend the smallest practical increase; otherwise hold the load or adjust downward when needed. Treat old reconstructed values as provisional until confirmed. Ask the user to report completed sets and update the repository only after a successful commit. Sunday is always a full rest day; do not shift the split if a day is missed.
