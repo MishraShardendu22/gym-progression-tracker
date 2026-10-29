@@ -11,10 +11,21 @@
     "sunday": "Full rest"
   },
   "fixed_exercises": {
-    "dumbbell_romanian_deadlift": ["Monday", "Wednesday", "Friday"],
+    "dumbbell_romanian_deadlift": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
     "seated_knee_raises": {
       "target": "50 bodyweight reps",
-      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
     },
     "farmers_carry": {
       "load_kg_each_hand": 15,
@@ -23,23 +34,89 @@
     }
   },
   "known_records": {
-    "chest_press": {"machine_setting": 2, "load_kg": 10, "reps": 10, "status": "provisional; user said same weight/reps as incline press"},
-    "incline_press": {"machine_setting": 3, "load_kg": 10, "reps": 10, "status": "provisional; conflicting historical 10 kg x 12 entry"},
-    "shoulder_press": {"machine_setting": 4, "load_kg": 11.25, "reps": 10},
-    "lat_pulldown": {"machine_setting": null, "load_kg": 33.75, "reps": 10},
-    "seated_row": {"machine_setting": null, "load_kg": 37.5, "reps": 10},
-    "rear_delt_fly": {"machine_setting": 5, "load_kg": 37.5, "reps": 6},
-    "biceps_curl": {"machine_setting": 5, "load_kg": 30, "reps": 8},
-    "triceps": {"machine_setting": 5, "load_kg": 30, "reps": 10},
-    "abdominal_machine": {"machine_setting": 7, "load_kg": 45, "reps": 10},
-    "back_extension": {"machine_setting": 1, "load_kg": 45, "reps": 10},
-    "leg_press": {"machine_setting": 5, "load_kg": 45, "reps": 20},
-    "calf_raise": {"machine_setting": null, "load_kg": 22.5, "reps": 15},
-    "cable_lateral_raise": {"load_kg": 2.5, "reps_per_side": 10},
-    "side_lying_hip_abduction": {"load_kg": 10, "reps_per_side": 10},
-    "dumbbell_romanian_deadlift": {"load_kg": 7.5, "reps": 10, "load_basis": "unknown; confirm per dumbbell vs total"},
-    "seated_knee_raises": {"load": "bodyweight", "reps": 50},
-    "farmers_carry": {"load_kg_each_hand": 15, "route": "inside gym"}
+    "chest_press": {
+      "machine_setting": 2,
+      "load_kg": 10,
+      "reps": 10,
+      "status": "provisional; user said same weight/reps as incline press"
+    },
+    "incline_press": {
+      "machine_setting": 3,
+      "load_kg": 10,
+      "reps": 10,
+      "status": "provisional; conflicting historical 10 kg x 12 entry"
+    },
+    "shoulder_press": {
+      "machine_setting": 4,
+      "load_kg": 11.25,
+      "reps": 10
+    },
+    "lat_pulldown": {
+      "machine_setting": null,
+      "load_kg": 33.75,
+      "reps": 10
+    },
+    "seated_row": {
+      "machine_setting": null,
+      "load_kg": 37.5,
+      "reps": 10
+    },
+    "rear_delt_fly": {
+      "machine_setting": 5,
+      "load_kg": 37.5,
+      "reps": 6
+    },
+    "biceps_curl": {
+      "machine_setting": 5,
+      "load_kg": 30,
+      "reps": 8
+    },
+    "triceps": {
+      "machine_setting": 5,
+      "load_kg": 30,
+      "reps": 10
+    },
+    "abdominal_machine": {
+      "machine_setting": 7,
+      "load_kg": 45,
+      "reps": 10
+    },
+    "back_extension": {
+      "machine_setting": 1,
+      "load_kg": 45,
+      "reps": 10
+    },
+    "leg_press": {
+      "machine_setting": 5,
+      "load_kg": 45,
+      "reps": 20
+    },
+    "calf_raise": {
+      "machine_setting": null,
+      "load_kg": 22.5,
+      "reps": 15
+    },
+    "cable_lateral_raise": {
+      "load_kg": 2.5,
+      "reps_per_side": 10
+    },
+    "side_lying_hip_abduction": {
+      "load_kg": 10,
+      "reps_per_side": 10
+    },
+    "dumbbell_romanian_deadlift": {
+      "load_kg": 7.5,
+      "reps": 10,
+      "load_basis": "unknown; confirm per dumbbell vs total"
+    },
+    "seated_knee_raises": {
+      "load": "bodyweight",
+      "reps": 50
+    },
+    "farmers_carry": {
+      "load_kg_each_hand": 15,
+      "route": "inside gym"
+    }
   },
   "data_quality_notes": [
     "These values are reconstructed from prior chat context, not a complete export of every workout.",
@@ -47,5 +124,100 @@
     "Several records do not distinguish warm-up from working sets.",
     "Dumbbell RDL load basis is unknown.",
     "Do not infer missing workout dates, sets, reps, RIR, or exercise completion."
+  ],
+  "best_recorded_performance": {
+    "note": "Best/most useful performance reference currently reconstructed from chat as of 2026-10-30. These are not all verified true 1RM or confirmed working-set PRs; use as starting references, confirm ambiguous load basis and set type.",
+    "exercises": {
+      "chest_press": {
+        "machine_setting": 2,
+        "load_kg": 10,
+        "reps": 10,
+        "status": "provisional; user said same weight/reps as incline press"
+      },
+      "incline_press": {
+        "machine_setting": 3,
+        "load_kg": 10,
+        "reps": 10,
+        "status": "provisional; conflicting historical 10 kg x 12 entry"
+      },
+      "shoulder_press": {
+        "machine_setting": 4,
+        "load_kg": 11.25,
+        "reps": 10
+      },
+      "lat_pulldown": {
+        "machine_setting": null,
+        "load_kg": 33.75,
+        "reps": 10
+      },
+      "seated_row": {
+        "machine_setting": null,
+        "load_kg": 37.5,
+        "reps": 10
+      },
+      "rear_delt_fly": {
+        "machine_setting": 5,
+        "load_kg": 37.5,
+        "reps": 6
+      },
+      "biceps_curl": {
+        "machine_setting": 5,
+        "load_kg": 30,
+        "reps": 8
+      },
+      "triceps": {
+        "machine_setting": 5,
+        "load_kg": 30,
+        "reps": 10
+      },
+      "abdominal_machine": {
+        "machine_setting": 7,
+        "load_kg": 45,
+        "reps": 10
+      },
+      "back_extension": {
+        "machine_setting": 1,
+        "load_kg": 45,
+        "reps": 10
+      },
+      "leg_press": {
+        "machine_setting": 5,
+        "load_kg": 45,
+        "reps": 20
+      },
+      "calf_raise": {
+        "machine_setting": null,
+        "load_kg": 22.5,
+        "reps": 15
+      },
+      "cable_lateral_raise": {
+        "load_kg": 2.5,
+        "reps_per_side": 10
+      },
+      "side_lying_hip_abduction": {
+        "load_kg": 10,
+        "reps_per_side": 10
+      },
+      "dumbbell_romanian_deadlift": {
+        "load_kg": 7.5,
+        "reps": 10,
+        "load_basis": "unknown; confirm per dumbbell vs total"
+      },
+      "seated_knee_raises": {
+        "load": "bodyweight",
+        "reps": 50
+      },
+      "farmers_carry": {
+        "load_kg_each_hand": 15,
+        "route": "inside gym"
+      }
+    }
+  },
+  "daily_coaching_protocol": [
+    "When the user asks for today's workout, determine the day using India Standard Time and follow the fixed weekly schedule. Sunday is always full rest; never shift the split after a missed session.",
+    "For each scheduled exercise, recommend a starting load based on the latest confirmed log, recent performance, machine setting, target rep range, and any reported pain/fatigue.",
+    "Ask the user to report each set in simple form (exercise, load, reps; say per dumbbell/per hand when applicable; identify warm-up vs working set if possible).",
+    "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
+    "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation."
   ]
 }
