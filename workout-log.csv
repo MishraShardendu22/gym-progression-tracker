@@ -1,1 +1,20 @@
 date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,rir,notes
+2026-10-30,Friday,Biceps curl,5,unspecified,1,26.25,machine stack,10,,Reported as 22.5 + 3.75; set classification not confirmed.
+2026-10-30,Friday,Triceps,5,unspecified,1,30,machine stack,10,,
+2026-10-30,Friday,Rear-delt fly,5,unspecified,1,26.25,machine stack,10,,Reported as 22.5 + 3.75.
+2026-10-30,Friday,Back extension,1,unspecified,1,37.5,machine stack,10,,
+2026-10-30,Friday,Seated row,,unspecified,1,30,machine stack,10,,Machine adjustment setting unknown.
+2026-10-30,Friday,Back extension,1,unspecified,2,37.5,machine stack,10,,
+2026-10-30,Friday,Back extension,1,unspecified,3,41.25,machine stack,10,,Reported as 37.5 + 3.75.
+2026-10-30,Friday,Triceps,5,unspecified,2,35.75,uncertain,7,,Ambiguous user notation; previous assistant interpreted as 35.75 kg, not confirmed.
+2026-10-30,Friday,Rear-delt fly,5,unspecified,2,30,machine stack,10,,
+2026-10-30,Friday,Biceps curl,5,unspecified,2,30,machine stack,10,,
+2026-10-30,Friday,Rear-delt fly,5,unspecified,3,37.5,machine stack,6,,
+2026-10-30,Friday,Seated row,,unspecified,2,37.5,machine stack,10,,Machine adjustment setting unknown.
+2026-10-30,Friday,Seated row,,unspecified,3,37.5,machine stack,12,,Machine adjustment setting unknown.
+2026-10-30,Friday,Biceps curl,5,unspecified,3,33.75,machine stack,8,,User corrected initial report of 6 reps to 8 reps.
+2026-10-30,Friday,Triceps,5,unspecified,3,33.75,machine stack,6,,Reported as 30 + 3.75.
+2026-10-30,Friday,Dumbbell Romanian deadlift,,unspecified,1,5,uncertain,10,,Load basis per dumbbell versus total not specified.
+2026-10-30,Friday,Dumbbell Romanian deadlift,,unspecified,2,5,uncertain,10,,Load basis per dumbbell versus total not specified.
+2026-10-30,Friday,Dumbbell Romanian deadlift,,unspecified,3,5,uncertain,10,,Load basis per dumbbell versus total not specified.
+2026-10-30,Friday,Seated knee raises,,unspecified,1,bodyweight,bodyweight,50,,Completed; number of sets not specified.
