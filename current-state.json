@@ -4,27 +4,27 @@
   "weekly_schedule": {
     "monday": "Chest + Legs + Hamstrings",
     "tuesday": "Back + Abs",
-    "wednesday": "Shoulders + Legs + Hamstrings",
-    "thursday": "Chest + Arms",
-    "friday": "Hamstrings + Arms + Back accessories",
-    "saturday": "Legs + Shoulders + Hips",
-    "sunday": "Full rest"
+    "wednesday": "Full rest",
+    "thursday": "Shoulders + Legs + Hamstrings",
+    "friday": "Chest + Arms",
+    "saturday": "Hamstrings + Arms + Back accessories",
+    "sunday": "Legs + Shoulders + Hips"
   },
   "fixed_exercises": {
     "dumbbell_romanian_deadlift": [
       "Monday",
-      "Wednesday",
-      "Friday"
+      "Thursday",
+      "Saturday"
     ],
     "seated_knee_raises": {
       "target": "50 bodyweight reps",
       "days": [
         "Monday",
         "Tuesday",
-        "Wednesday",
         "Thursday",
         "Friday",
-        "Saturday"
+        "Saturday",
+        "Sunday"
       ]
     },
     "farmers_carry": {
@@ -47,9 +47,10 @@
       "status": "provisional; conflicting historical 10 kg x 12 entry"
     },
     "shoulder_press": {
-      "machine_setting": 4,
+      "machine_setting": 5,
       "load_kg": 11.25,
-      "reps": 10
+      "reps": 10,
+      "status": "latest confirmed setting 5; earlier set at setting 4 and same load"
     },
     "lat_pulldown": {
       "machine_setting": null,
@@ -88,17 +89,20 @@
     },
     "leg_press": {
       "machine_setting": 5,
-      "load_kg": 45,
-      "reps": 20
+      "load_kg": 48.75,
+      "reps": 25,
+      "status": "latest confirmed set on 2026-10-31"
     },
     "calf_raise": {
-      "machine_setting": null,
-      "load_kg": 22.5,
-      "reps": 15
+      "machine_setting": 5,
+      "load_kg": 26.25,
+      "reps": 16,
+      "status": "latest confirmed machine setting reported as same as leg press"
     },
     "cable_lateral_raise": {
       "load_kg": 2.5,
-      "reps_per_side": 10
+      "reps_per_side": 10,
+      "status": "latest session completed 3 reported sets; side not explicitly specified"
     },
     "side_lying_hip_abduction": {
       "load_kg": 10,
@@ -115,7 +119,7 @@
     },
     "farmers_carry": {
       "load_kg_each_hand": 15,
-      "route": "inside gym"
+      "route": "distance not specified"
     }
   },
   "data_quality_notes": [
@@ -223,13 +227,16 @@
   "latest_session_reference": {
     "date": "2026-10-31",
     "day": "Saturday",
-    "source": "workout-log.csv",
-    "status": "in progress",
+    "source": "user supplied workout log",
+    "status": "completed",
     "notes": [
-      "Leg press: 10 x 45 kg, 14 x 45 kg, 25 x 48.75 kg.",
-      "Cable lateral raise: 10 x 2.5 kg reported, side not specified.",
-      "Two sets of a user-described leg side exercise: 10 x 7.5 kg each; exact exercise/setup uncertain.",
-      "Seated knee raises: 50 bodyweight reps."
+      "Seated knee raises: 50 bodyweight reps.",
+      "Leg press setting 5: 10 x 45 kg, 14 x 45 kg, 25 x 48.75 kg.",
+      "Cable lateral raise: 3 x 10 x 2.5 kg; side not explicitly specified.",
+      "Leg side exercise: 10 x 7.5 kg, 10 x 7.5 kg, 15 x 15 kg; used a plate/dumbbell against leg, exact exercise name/setup uncertain.",
+      "Calf raises setting 5: 10 x 26.25 kg, 14 x 26.25 kg, 16 x 26.25 kg.",
+      "Shoulder press: 10 x 11.25 kg setting 4, 5 x 11.25 kg setting 5, 10 x 11.25 kg setting 5.",
+      "Farmer's walk: 15 kg each hand; distance not specified."
     ]
   }
 }
