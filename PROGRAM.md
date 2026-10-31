@@ -3,20 +3,21 @@
 ## Fixed weekly schedule
 - Monday: Chest + Legs + Hamstrings
 - Tuesday: Back + Abs
-- Wednesday: Shoulders + Legs + Hamstrings
-- Thursday: Chest + Arms
-- Friday: Hamstrings + Arms + Back accessories
-- Saturday: Legs + Shoulders + Hips
-- Sunday: Full rest — no workout or prescribed exercises.
+- Wednesday: Full rest
+- Thursday: Shoulders + Legs + Hamstrings
+- Friday: Chest + Arms
+- Saturday: Hamstrings + Arms + Back accessories
+- Sunday: Legs + Shoulders + Hips
+
+The weekly order is fixed. Do not shift sessions to compensate for a missed workout.
 
 ## Fixed exercise requirements
-- Dumbbell Romanian deadlifts (RDL): Monday, Wednesday, Friday.
-- Seated knee raises: 50 bodyweight reps Monday through Saturday; none on Sunday.
+- Dumbbell Romanian deadlifts (RDL): Monday, Thursday, Saturday.
+- Seated knee raises: 50 bodyweight reps Monday, Tuesday, Thursday, Friday, Saturday, Sunday; none on Wednesday.
 - Farmer's carries: last reported load was 15 kg in each hand, walking to and fro inside the gym. Frequency is not established; do not assume daily.
 - Single-arm high-to-low cable fly: user has not done this exercise. Do not log as completed or add it without asking.
 - Side-lying hip abduction and cable lateral raises have been performed.
 - User previously asked for exercises to be arranged efficiently, with compound movements before isolation where practical and unrelated muscle groups paired when useful. Avoid unnecessary duplicate movements.
-- Do not move sessions when a workout is missed. Sunday remains the rest day.
 
 ## Available equipment
 Life Fitness chest press, incline press, shoulder press, lat pulldown, seated row, abdominal machine, back extension machine; dumbbells, kettlebells, cables, leg press, calf raise equipment, rear-delt fly, biceps curl machine, and triceps machine/exercise. Confirm exact machine or attachment when ambiguous.
