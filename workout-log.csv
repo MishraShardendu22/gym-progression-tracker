@@ -18,3 +18,10 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-10-30,Friday,Dumbbell Romanian deadlift,,unspecified,2,5,uncertain,10,,Load basis per dumbbell versus total not specified.
 2026-10-30,Friday,Dumbbell Romanian deadlift,,unspecified,3,5,uncertain,10,,Load basis per dumbbell versus total not specified.
 2026-10-30,Friday,Seated knee raises,,unspecified,1,bodyweight,bodyweight,50,,Completed; number of sets not specified.
+2026-10-31,Saturday,Seated knee raises,,unspecified,1,bodyweight,bodyweight,50,,User confirmed completed; set count not specified.
+2026-10-31,Saturday,Leg press,5,unspecified,1,45,machine stack,10,,
+2026-10-31,Saturday,Leg press,5,unspecified,2,45,machine stack,14,,
+2026-10-31,Saturday,Cable lateral raise,,unspecified,1,2.5,per side,10,,User reported one 10-rep set; side not explicitly specified.
+2026-10-31,Saturday,Leg press,5,unspecified,3,48.75,machine stack,25,,Reported as 45 + 3.75.
+2026-10-31,Saturday,Leg side exercise,,unspecified,1,7.5,uncertain,10,,User description only; exact exercise/setup not confirmed.
+2026-10-31,Saturday,Leg side exercise,,unspecified,2,7.5,uncertain,10,,User description only; exact exercise/setup not confirmed.
