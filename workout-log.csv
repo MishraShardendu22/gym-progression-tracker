@@ -33,3 +33,6 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-10-31,Saturday,Shoulder press,5,unspecified,2,11.25,machine stack,5,,User changed machine adjustment setting from 4 to 5.
 2026-10-31,Saturday,Shoulder press,5,unspecified,3,11.25,machine stack,10,,
 2026-10-31,Saturday,Cable lateral raise,,unspecified,2,2.5,per side,10,,User reported another 10-rep set; side not explicitly specified.
+2026-10-31,Saturday,Cable lateral raise,,unspecified,3,2.5,per side,10,,User reported another 10-rep set; side not explicitly specified.
+2026-10-31,Saturday,Calf raise,,unspecified,3,26.25,machine stack,16,,Reported as 22.5 + 3.75; machine adjustment setting unknown.
+2026-10-31,Saturday,Farmer's carry,,unspecified,1,15,each hand,,,Walking route/distance not specified.
