@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-10-30",
+  "last_reconstructed_from_chat": "2026-10-31",
   "weekly_schedule": {
     "monday": "Chest + Legs + Hamstrings",
     "tuesday": "Back + Abs",
@@ -219,5 +219,15 @@
     "Ask the user to report each set in simple form (exercise, load, reps; say per dumbbell/per hand when applicable; identify warm-up vs working set if possible).",
     "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
     "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation."
-  ]
+  ],
+  "latest_session_reference": {
+    "date": "2026-10-30",
+    "day": "Friday",
+    "source": "workout-log.csv",
+    "status": "logged",
+    "notes": [
+      "RDL: 3 x 10 at 5 kg, load basis uncertain.",
+      "One triceps set uses ambiguous historical notation and remains uncertain."
+    ]
+  }
 }
