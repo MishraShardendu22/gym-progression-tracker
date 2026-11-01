@@ -10,7 +10,7 @@ Private source of truth for the user's gym program, workout logs, exercise setti
 - Separate machine adjustment settings from weight-stack load. For dumbbells, specify whether load is per hand or total whenever known.
 - Mark ambiguous or conflicting historical values as uncertain; do not silently resolve contradictions.
 - Progress conservatively: generally increase reps within the target range first; increase load by the smallest practical increment after all working sets reach the top of the range with sound technique and about 1–2 reps in reserve. Do not assume every set is to failure.
-- The training week starts on Sunday as Day 1. Sunday is Legs + Shoulders + Hips. Wednesday is the full rest day. Never move the schedule to compensate for a missed session.
+- The training week starts on Sunday as Day 1. Sunday is Chest + Legs + Hamstrings. Wednesday is the full rest day. Never move the schedule to compensate for a missed session.
 - Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
 
 ## Files
