@@ -2,19 +2,19 @@
   "schema_version": 1,
   "last_reconstructed_from_chat": "2026-10-31",
   "weekly_schedule": {
-    "sunday": "Legs + Shoulders + Hips",
-    "monday": "Chest + Legs + Hamstrings",
-    "tuesday": "Back + Abs",
+    "sunday": "Chest + Legs + Hamstrings",
+    "monday": "Back + Abs",
+    "tuesday": "Shoulders + Legs + Hamstrings",
     "wednesday": "Full rest",
-    "thursday": "Shoulders + Legs + Hamstrings",
-    "friday": "Chest + Arms",
-    "saturday": "Hamstrings + Arms + Back accessories"
+    "thursday": "Chest + Arms",
+    "friday": "Hamstrings + Arms + Back accessories",
+    "saturday": "Legs + Shoulders + Hips"
   },
   "fixed_exercises": {
     "dumbbell_romanian_deadlift": [
-      "Monday",
-      "Thursday",
-      "Saturday"
+      "Sunday",
+      "Tuesday",
+      "Friday"
     ],
     "seated_knee_raises": {
       "target": "50 bodyweight reps",
