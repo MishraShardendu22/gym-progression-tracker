@@ -2,13 +2,13 @@
   "schema_version": 1,
   "last_reconstructed_from_chat": "2026-10-31",
   "weekly_schedule": {
+    "sunday": "Legs + Shoulders + Hips",
     "monday": "Chest + Legs + Hamstrings",
     "tuesday": "Back + Abs",
     "wednesday": "Full rest",
     "thursday": "Shoulders + Legs + Hamstrings",
     "friday": "Chest + Arms",
-    "saturday": "Hamstrings + Arms + Back accessories",
-    "sunday": "Legs + Shoulders + Hips"
+    "saturday": "Hamstrings + Arms + Back accessories"
   },
   "fixed_exercises": {
     "dumbbell_romanian_deadlift": [
@@ -19,18 +19,26 @@
     "seated_knee_raises": {
       "target": "50 bodyweight reps",
       "days": [
+        "Sunday",
         "Monday",
         "Tuesday",
         "Thursday",
         "Friday",
-        "Saturday",
-        "Sunday"
+        "Saturday"
       ]
     },
     "farmers_carry": {
       "load_kg_each_hand": 15,
       "route": "to and fro inside the gym",
-      "frequency": null
+      "frequency": "Every training day; none on Wednesday rest day",
+      "days": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
     }
   },
   "known_records": {
@@ -145,7 +153,7 @@
         "status": "provisional; conflicting historical 10 kg x 12 entry"
       },
       "shoulder_press": {
-        "machine_setting": 4,
+        "machine_setting": 5,
         "load_kg": 11.25,
         "reps": 10
       },
@@ -190,7 +198,7 @@
         "reps": 20
       },
       "calf_raise": {
-        "machine_setting": null,
+        "machine_setting": 5,
         "load_kg": 22.5,
         "reps": 15
       },
@@ -218,7 +226,7 @@
     }
   },
   "daily_coaching_protocol": [
-    "When the user asks for today's workout, determine the day using India Standard Time and follow the fixed weekly schedule. Sunday is always full rest; never shift the split after a missed session.",
+    "When the user asks for today's workout, determine the day using India Standard Time. The training week starts on Sunday as Day 1. Wednesday is always full rest; never shift the split after a missed session.",
     "For each scheduled exercise, recommend a starting load based on the latest confirmed log, recent performance, machine setting, target rep range, and any reported pain/fatigue.",
     "Ask the user to report each set in simple form (exercise, load, reps; say per dumbbell/per hand when applicable; identify warm-up vs working set if possible).",
     "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
@@ -238,5 +246,6 @@
       "Shoulder press: 10 x 11.25 kg setting 4, 5 x 11.25 kg setting 5, 10 x 11.25 kg setting 5.",
       "Farmer's walk: 15 kg each hand; distance not specified."
     ]
-  }
+  },
+  "week_start_day": "Sunday"
 }
