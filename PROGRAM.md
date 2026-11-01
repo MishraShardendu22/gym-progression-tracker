@@ -4,18 +4,18 @@
 
 The training week starts on **Sunday**, which is Day 1.
 
-- Sunday: Legs + Shoulders + Hips
-- Monday: Chest + Legs + Hamstrings
-- Tuesday: Back + Abs
+- Sunday: Chest + Legs + Hamstrings
+- Monday: Back + Abs
+- Tuesday: Shoulders + Legs + Hamstrings
 - Wednesday: Full rest
-- Thursday: Shoulders + Legs + Hamstrings
-- Friday: Chest + Arms
-- Saturday: Hamstrings + Arms + Back accessories
+- Thursday: Chest + Arms
+- Friday: Hamstrings + Arms + Back accessories
+- Saturday: Legs + Shoulders + Hips
 
 The weekly order is fixed. Do not shift sessions to compensate for a missed workout.
 
 ## Fixed exercise requirements
-- Dumbbell Romanian deadlifts (RDL): Monday, Thursday, Saturday.
+- Dumbbell Romanian deadlifts (RDL): Sunday, Tuesday, Friday.
 - Seated knee raises: 50 bodyweight reps on every training day, Sunday, Monday, Tuesday, Thursday, Friday, and Saturday. None on Wednesday.
 - Farmer's carries: every training day inside the gym, 15 kg in each hand, walking to and fro inside the gym. None on Wednesday rest day.
 - Single-arm high-to-low cable fly: user has not done this exercise. Do not log as completed or add it without asking.
