@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-10-31",
+  "last_reconstructed_from_chat": "2026-11-01",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -43,16 +43,16 @@
   },
   "known_records": {
     "chest_press": {
-      "machine_setting": 2,
-      "load_kg": 10,
+      "machine_setting": 3,
+      "load_kg": 18.75,
       "reps": 10,
-      "status": "provisional; user said same weight/reps as incline press"
+      "status": "latest confirmed session on 2026-11-01"
     },
     "incline_press": {
-      "machine_setting": 3,
-      "load_kg": 10,
-      "reps": 10,
-      "status": "provisional; conflicting historical 10 kg x 12 entry"
+      "machine_setting": 4,
+      "load_kg": 15,
+      "reps": 15,
+      "status": "latest confirmed session on 2026-11-01; three sets: 15, 15, 10 reps"
     },
     "shoulder_press": {
       "machine_setting": 5,
@@ -97,15 +97,15 @@
     },
     "leg_press": {
       "machine_setting": 5,
-      "load_kg": 48.75,
-      "reps": 25,
-      "status": "latest confirmed set on 2026-10-31"
+      "load_kg": 52.5,
+      "reps": 10,
+      "status": "latest confirmed session on 2026-11-01; additional 52.5 kg x 9; 48.75 kg set reps not recorded"
     },
     "calf_raise": {
       "machine_setting": 5,
-      "load_kg": 26.25,
+      "load_kg": 30,
       "reps": 16,
-      "status": "latest confirmed machine setting reported as same as leg press"
+      "status": "latest confirmed session on 2026-11-01; setting same as leg press"
     },
     "cable_lateral_raise": {
       "load_kg": 2.5,
@@ -117,9 +117,9 @@
       "reps_per_side": 10
     },
     "dumbbell_romanian_deadlift": {
-      "load_kg": 7.5,
+      "load_kg": 12.5,
       "reps": 10,
-      "load_basis": "unknown; confirm per dumbbell vs total"
+      "load_basis": "per dumbbell; confirmed by user"
     },
     "seated_knee_raises": {
       "load": "bodyweight",
@@ -138,19 +138,19 @@
     "Do not infer missing workout dates, sets, reps, RIR, or exercise completion."
   ],
   "best_recorded_performance": {
-    "note": "Best/most useful performance reference currently reconstructed from chat as of 2026-10-30. These are not all verified true 1RM or confirmed working-set PRs; use as starting references, confirm ambiguous load basis and set type.",
+    "note": "Best/most useful performance reference from confirmed logs through 2026-11-01. These are not necessarily true 1RM values.",
     "exercises": {
       "chest_press": {
-        "machine_setting": 2,
-        "load_kg": 10,
+        "machine_setting": 3,
+        "load_kg": 18.75,
         "reps": 10,
-        "status": "provisional; user said same weight/reps as incline press"
+        "status": "latest confirmed session"
       },
       "incline_press": {
-        "machine_setting": 3,
-        "load_kg": 10,
-        "reps": 10,
-        "status": "provisional; conflicting historical 10 kg x 12 entry"
+        "machine_setting": 4,
+        "load_kg": 15,
+        "reps": 15,
+        "status": "latest confirmed session"
       },
       "shoulder_press": {
         "machine_setting": 5,
@@ -194,13 +194,15 @@
       },
       "leg_press": {
         "machine_setting": 5,
-        "load_kg": 45,
-        "reps": 20
+        "load_kg": 52.5,
+        "reps": 10,
+        "status": "latest confirmed session; also 52.5 kg x 9"
       },
       "calf_raise": {
         "machine_setting": 5,
-        "load_kg": 22.5,
-        "reps": 15
+        "load_kg": 30,
+        "reps": 16,
+        "status": "latest confirmed session"
       },
       "cable_lateral_raise": {
         "load_kg": 2.5,
@@ -211,9 +213,9 @@
         "reps_per_side": 10
       },
       "dumbbell_romanian_deadlift": {
-        "load_kg": 7.5,
+        "load_kg": 12.5,
         "reps": 10,
-        "load_basis": "unknown; confirm per dumbbell vs total"
+        "load_basis": "per dumbbell; confirmed by user"
       },
       "seated_knee_raises": {
         "load": "bodyweight",
@@ -233,18 +235,18 @@
     "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation."
   ],
   "latest_session_reference": {
-    "date": "2026-10-31",
-    "day": "Saturday",
+    "date": "2026-11-01",
+    "day": "Sunday",
     "source": "user supplied workout log",
     "status": "completed",
     "notes": [
-      "Seated knee raises: 50 bodyweight reps.",
-      "Leg press setting 5: 10 x 45 kg, 14 x 45 kg, 25 x 48.75 kg.",
-      "Cable lateral raise: 3 x 10 x 2.5 kg; side not explicitly specified.",
-      "Leg side exercise: 10 x 7.5 kg, 10 x 7.5 kg, 15 x 15 kg; used a plate/dumbbell against leg, exact exercise name/setup uncertain.",
-      "Calf raises setting 5: 10 x 26.25 kg, 14 x 26.25 kg, 16 x 26.25 kg.",
-      "Shoulder press: 10 x 11.25 kg setting 4, 5 x 11.25 kg setting 5, 10 x 11.25 kg setting 5.",
-      "Farmer's walk: 15 kg each hand; distance not specified."
+      "Chest press setting 3: 11.25 x 10, 15 x 10, 18.75 x 10.",
+      "Incline chest press setting 4: 15 x 15, 15 x 15, 15 x 10.",
+      "Farmer carry: 15 kg each hand, then 17.5 kg each hand; distance not specified.",
+      "Seated knee raises: bodyweight x 50.",
+      "Dumbbell Romanian deadlift: 7.5 x 10, 10 x 10, 12.5 x 10, each dumbbell.",
+      "Leg press setting 5: 48.75 kg with reps not recorded, 52.5 x 10, 52.5 x 9.",
+      "Calf raises setting 5: 30 x 12, 30 x 12, 30 x 16."
     ]
   },
   "week_start_day": "Sunday"
