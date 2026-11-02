@@ -10,7 +10,14 @@ Do not assume the user trains every set to failure. RIR should only be recorded 
 2. Incline press: both 10 kg × 10 and 10 kg × 12 appear in historical notes; set type is unclear.
 3. Dumbbell RDL: 7.5 kg × 10 recorded, but it is unknown whether this is per dumbbell or total.
 4. Several machine records lack clear warm-up/working-set labels.
-5. Lat pulldown, seated row, and calf raise machine adjustment settings are unknown.
+5. Lat pulldown and seated row machine adjustment settings are unknown.
+
+## Confirmed update: 2026-11-01 Sunday
+- Chest press machine setting updated to 3. Latest recorded sets: 11.25 × 10, 15 × 10, 18.75 × 10.
+- Incline chest press machine setting updated to 4. Latest recorded sets: 15 × 15, 15 × 15, 15 × 10.
+- Dumbbell RDL loads are confirmed as per dumbbell: 7.5 × 10, 10 × 10, 12.5 × 10.
+- Leg press setting remains 5. Latest sets: 48.75 kg with reps not recorded, 52.5 × 10, 52.5 × 9.
+- Calf raise setting remains 5. Latest sets: 30 × 12, 30 × 12, 30 × 16.
 
 ## Update policy
 - New confirmed workout data takes precedence over inferred/reconstructed reference values.
