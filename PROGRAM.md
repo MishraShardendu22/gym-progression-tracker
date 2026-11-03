@@ -17,7 +17,7 @@ The weekly order is fixed. Do not shift sessions to compensate for a missed work
 ## Fixed exercise requirements
 - Dumbbell Romanian deadlifts (RDL): Sunday, Tuesday, Friday.
 - Seated knee raises: 50 bodyweight reps on every training day, Sunday, Monday, Tuesday, Thursday, Friday, and Saturday. None on Wednesday.
-- Farmer's carries: every training day inside the gym, 15 kg in each hand, walking to and fro inside the gym. None on Wednesday rest day.
+- Farmer's carries: every training day inside the gym, **17.5 kg in each hand**, 2 rounds, walking to and fro inside the gym. None on Wednesday rest day. This replaces the previous 15 kg each-hand baseline.
 - Single-arm high-to-low cable fly: user has not done this exercise. Do not log as completed or add it without asking.
 - Side-lying hip abduction and cable lateral raises have been performed.
 - User previously asked for exercises to be arranged efficiently, with compound movements before isolation where practical and unrelated muscle groups paired when useful. Avoid unnecessary duplicate movements.
