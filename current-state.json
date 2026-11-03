@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-01",
+  "last_reconstructed_from_chat": "2026-11-02",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -62,13 +62,15 @@
     },
     "lat_pulldown": {
       "machine_setting": null,
-      "load_kg": 33.75,
-      "reps": 10
+      "load_kg": 37.5,
+      "reps": 4,
+      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md."
     },
     "seated_row": {
       "machine_setting": null,
-      "load_kg": 37.5,
-      "reps": 10
+      "load_kg": 45,
+      "reps": 10,
+      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10."
     },
     "rear_delt_fly": {
       "machine_setting": 5,
@@ -88,7 +90,8 @@
     "abdominal_machine": {
       "machine_setting": 7,
       "load_kg": 45,
-      "reps": 10
+      "reps": 10,
+      "status": "latest confirmed session on 2026-11-02."
     },
     "back_extension": {
       "machine_setting": 1,
@@ -126,15 +129,18 @@
       "reps": 50
     },
     "farmers_carry": {
-      "load_kg_each_hand": 15,
-      "route": "distance not specified"
+      "load_kg_each_hand": 17.5,
+      "route": "walking to and fro inside gym",
+      "status": "2026-11-02 log included 15 kg each hand and an additional 17.5 kg each hand carry; fixed daily target remains 15 kg each hand."
     }
   },
   "data_quality_notes": [
     "These values are reconstructed from prior chat context, not a complete export of every workout.",
     "Chest press and incline press records have conflicting historical entries; confirm before using for exact progression.",
     "Several records do not distinguish warm-up from working sets.",
-    "Dumbbell RDL load basis is unknown.",
+    "The 2026-11-02 session did not specify warm-up versus working-set classifications or RIR.",
+    "The 2026-11-02 lat pulldown sequence is recorded grip by grip in the order reported; machine adjustment setting remains unknown.",
+    "Historical 2026-10-30 dumbbell RDL load basis remains uncertain; 2026-11-01 RDL loads were confirmed per dumbbell.",
     "Do not infer missing workout dates, sets, reps, RIR, or exercise completion."
   ],
   "best_recorded_performance": {
@@ -235,18 +241,22 @@
     "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation."
   ],
   "latest_session_reference": {
-    "date": "2026-11-01",
-    "day": "Sunday",
-    "source": "user supplied workout log",
+    "date": "2026-11-02",
+    "day": "Monday",
+    "source": "user supplied workout log in chat",
     "status": "completed",
     "notes": [
-      "Chest press setting 3: 11.25 x 10, 15 x 10, 18.75 x 10.",
-      "Incline chest press setting 4: 15 x 15, 15 x 15, 15 x 10.",
-      "Farmer carry: 15 kg each hand, then 17.5 kg each hand; distance not specified.",
-      "Seated knee raises: bodyweight x 50.",
-      "Dumbbell Romanian deadlift: 7.5 x 10, 10 x 10, 12.5 x 10, each dumbbell.",
-      "Leg press setting 5: 48.75 kg with reps not recorded, 52.5 x 10, 52.5 x 9.",
-      "Calf raises setting 5: 30 x 12, 30 x 12, 30 x 16."
+      "Farmer's carry: 15 kg each hand, then an additional 17.5 kg each hand; walking route noted as to and fro inside the gym for the standard carry, exact distance not specified.",
+      "Seated knee raises: bodyweight x 50 reps; set count not specified.",
+      "Lat pulldown at 30 kg: wide 5, less-wide 5, close 10 reps.",
+      "Lat pulldown at 33.75 kg: wide 5, less-wide 5, close 5 reps.",
+      "Lat pulldown at 37.5 kg: wide 5, less-wide 5, close 4 reps.",
+      "Seated row: 37.5 kg x 10, 41.25 kg x 13, 45 kg x 10; machine adjustment setting unknown.",
+      "Abdominal machine setting 7: 45 kg x 10."
+    ],
+    "data_notes": [
+      "Set type and RIR were not supplied.",
+      "Lat pulldown grip order and repetitions were preserved exactly as reported."
     ]
   },
   "week_start_day": "Sunday"
