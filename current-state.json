@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-02",
+  "last_reconstructed_from_chat": "2026-11-03",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -28,8 +28,8 @@
       ]
     },
     "farmers_carry": {
-      "load_kg_each_hand": 15,
-      "route": "to and fro inside the gym",
+      "load_kg_each_hand": 17.5,
+      "route": "walking to and fro inside the gym",
       "frequency": "Every training day; none on Wednesday rest day",
       "days": [
         "Sunday",
@@ -38,7 +38,8 @@
         "Thursday",
         "Friday",
         "Saturday"
-      ]
+      ],
+      "rounds": 2
     }
   },
   "known_records": {
@@ -56,9 +57,9 @@
     },
     "shoulder_press": {
       "machine_setting": 5,
-      "load_kg": 11.25,
+      "load_kg": 15,
       "reps": 10,
-      "status": "latest confirmed setting 5; earlier set at setting 4 and same load"
+      "status": "latest session 2026-11-03; additional set 15 kg x 8"
     },
     "lat_pulldown": {
       "machine_setting": null,
@@ -75,7 +76,8 @@
     "rear_delt_fly": {
       "machine_setting": 5,
       "load_kg": 37.5,
-      "reps": 6
+      "reps": 10,
+      "status": "latest session 2026-11-03; 33.75 x 12, 37.5 x 10, 45 x 5"
     },
     "biceps_curl": {
       "machine_setting": 5,
@@ -100,29 +102,30 @@
     },
     "leg_press": {
       "machine_setting": 5,
-      "load_kg": 52.5,
-      "reps": 10,
-      "status": "latest confirmed session on 2026-11-01; additional 52.5 kg x 9; 48.75 kg set reps not recorded"
+      "load_kg": 63.75,
+      "reps": 21,
+      "status": "latest session 2026-11-03; 52.5 x 20, 60 x 21, 63.75 x 21"
     },
     "calf_raise": {
       "machine_setting": 5,
-      "load_kg": 30,
-      "reps": 16,
-      "status": "latest confirmed session on 2026-11-01; setting same as leg press"
+      "load_kg": 37.5,
+      "reps": 23,
+      "status": "latest session 2026-11-03; 30 x 23, 33.75 x 21, 37.5 x 23"
     },
     "cable_lateral_raise": {
-      "load_kg": 2.5,
+      "load_kg": 5,
       "reps_per_side": 10,
-      "status": "latest session completed 3 reported sets; side not explicitly specified"
+      "status": "2026-11-03; earlier set 2.5 kg each hand x 10"
     },
     "side_lying_hip_abduction": {
       "load_kg": 10,
       "reps_per_side": 10
     },
     "dumbbell_romanian_deadlift": {
-      "load_kg": 12.5,
+      "load_kg": 15,
       "reps": 10,
-      "load_basis": "per dumbbell; confirmed by user"
+      "load_basis": "unspecified for 2026-11-03 session",
+      "status": "12.5 x 10, 15 x 10, 15 x 10; per-dumbbell versus combined load not specified"
     },
     "seated_knee_raises": {
       "load": "bodyweight",
@@ -130,8 +133,9 @@
     },
     "farmers_carry": {
       "load_kg_each_hand": 17.5,
+      "rounds": 2,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-02 log included 15 kg each hand and an additional 17.5 kg each hand carry; fixed daily target remains 15 kg each hand."
+      "status": "updated standard from 2026-11-03"
     }
   },
   "data_quality_notes": [
@@ -141,7 +145,9 @@
     "The 2026-11-02 session did not specify warm-up versus working-set classifications or RIR.",
     "The 2026-11-02 lat pulldown sequence is recorded grip by grip in the order reported; machine adjustment setting remains unknown.",
     "Historical 2026-10-30 dumbbell RDL load basis remains uncertain; 2026-11-01 RDL loads were confirmed per dumbbell.",
-    "Do not infer missing workout dates, sets, reps, RIR, or exercise completion."
+    "Do not infer missing workout dates, sets, reps, RIR, or exercise completion.",
+    "2026-11-03 RDL load basis was not specified; retain as reported without assuming per dumbbell or combined.",
+    "2026-11-03 set type and RIR were not supplied."
   ],
   "best_recorded_performance": {
     "note": "Best/most useful performance reference from confirmed logs through 2026-11-01. These are not necessarily true 1RM values.",
@@ -160,8 +166,9 @@
       },
       "shoulder_press": {
         "machine_setting": 5,
-        "load_kg": 11.25,
-        "reps": 10
+        "load_kg": 15,
+        "reps": 10,
+        "status": "latest session 2026-11-03"
       },
       "lat_pulldown": {
         "machine_setting": null,
@@ -176,7 +183,8 @@
       "rear_delt_fly": {
         "machine_setting": 5,
         "load_kg": 37.5,
-        "reps": 6
+        "reps": 10,
+        "status": "latest session 2026-11-03; 45 kg x 5 also logged"
       },
       "biceps_curl": {
         "machine_setting": 5,
@@ -200,15 +208,15 @@
       },
       "leg_press": {
         "machine_setting": 5,
-        "load_kg": 52.5,
-        "reps": 10,
-        "status": "latest confirmed session; also 52.5 kg x 9"
+        "load_kg": 63.75,
+        "reps": 21,
+        "status": "latest session 2026-11-03"
       },
       "calf_raise": {
         "machine_setting": 5,
-        "load_kg": 30,
-        "reps": 16,
-        "status": "latest confirmed session"
+        "load_kg": 37.5,
+        "reps": 23,
+        "status": "latest session 2026-11-03"
       },
       "cable_lateral_raise": {
         "load_kg": 2.5,
@@ -219,16 +227,17 @@
         "reps_per_side": 10
       },
       "dumbbell_romanian_deadlift": {
-        "load_kg": 12.5,
+        "load_kg": 15,
         "reps": 10,
-        "load_basis": "per dumbbell; confirmed by user"
+        "load_basis": "unspecified for 2026-11-03 session"
       },
       "seated_knee_raises": {
         "load": "bodyweight",
         "reps": 50
       },
       "farmers_carry": {
-        "load_kg_each_hand": 15,
+        "load_kg_each_hand": 17.5,
+        "rounds": 2,
         "route": "inside gym"
       }
     }
@@ -238,25 +247,27 @@
     "For each scheduled exercise, recommend a starting load based on the latest confirmed log, recent performance, machine setting, target rep range, and any reported pain/fatigue.",
     "Ask the user to report each set in simple form (exercise, load, reps; say per dumbbell/per hand when applicable; identify warm-up vs working set if possible).",
     "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
-    "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation."
+    "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation.",
+    "Use the user's demonstrated 2026-11-03 loads to calibrate future prescriptions; avoid prescribing loads materially below recent confirmed working performance without a specific warm-up, fatigue, technique, or recovery rationale."
   ],
   "latest_session_reference": {
-    "date": "2026-11-02",
-    "day": "Monday",
-    "source": "user supplied workout log in chat",
+    "date": "2026-11-03",
+    "day": "Tuesday",
+    "source": "user supplied workout log",
     "status": "completed",
     "notes": [
-      "Farmer's carry: 15 kg each hand, then an additional 17.5 kg each hand; walking route noted as to and fro inside the gym for the standard carry, exact distance not specified.",
-      "Seated knee raises: bodyweight x 50 reps; set count not specified.",
-      "Lat pulldown at 30 kg: wide 5, less-wide 5, close 10 reps.",
-      "Lat pulldown at 33.75 kg: wide 5, less-wide 5, close 5 reps.",
-      "Lat pulldown at 37.5 kg: wide 5, less-wide 5, close 4 reps.",
-      "Seated row: 37.5 kg x 10, 41.25 kg x 13, 45 kg x 10; machine adjustment setting unknown.",
-      "Abdominal machine setting 7: 45 kg x 10."
+      "Seated knee raises: bodyweight x 50.",
+      "Farmer's carry: 17.5 kg each hand, 2 rounds.",
+      "Shoulder press setting 5: 15 kg x 10, 15 kg x 8.",
+      "Rear-delt fly setting 5: 33.75 kg x 12, 37.5 kg x 10, 45 kg x 5.",
+      "Cable lateral raise: 2.5 kg each hand x 10, 5 kg each side x 10.",
+      "Leg press setting 5: 52.5 kg x 20, 60 kg x 21, 63.75 kg x 21.",
+      "Calf raises setting 5: 30 kg x 23, 33.75 kg x 21, 37.5 kg x 23.",
+      "Dumbbell RDL: 12.5 kg x 10, 15 kg x 10, 15 kg x 10. Load basis per dumbbell versus combined load was not specified."
     ],
     "data_notes": [
-      "Set type and RIR were not supplied.",
-      "Lat pulldown grip order and repetitions were preserved exactly as reported."
+      "Warm-up/working classifications and RIR were not supplied.",
+      "RDL load basis is unspecified for this session."
     ]
   },
   "week_start_day": "Sunday"
