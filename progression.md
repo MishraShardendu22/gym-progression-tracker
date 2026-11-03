@@ -37,3 +37,14 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Seated knee raises: bodyweight × 50.
 - Warm-up/working classification and RIR were not reported; no such labels have been inferred.
 
+## Confirmed update: 2026-11-03 Tuesday
+- Shoulder press setting 5: 15 kg x 10, 15 kg x 8.
+- Rear-delt fly setting 5: 33.75 kg x 12, 37.5 kg x 10, 45 kg x 5.
+- Cable lateral raise: 2.5 kg each hand x 10, then 5 kg each side x 10. The exact cable loading convention is recorded as reported.
+- Leg press setting 5: 52.5 kg x 20, 60 kg x 21, 63.75 kg x 21.
+- Calf raise setting 5: 30 kg x 23, 33.75 kg x 21, 37.5 kg x 23.
+- Dumbbell RDL: 12.5 kg x 10, 15 kg x 10, 15 kg x 10. Per-dumbbell versus combined load was not specified; do not assume.
+- Seated knee raises: bodyweight x 50.
+- Farmer's carry: 17.5 kg each hand, 2 rounds. This becomes the standard farmer's carry target on every training day, replacing 15 kg each hand.
+- Warm-up/working classifications and RIR were not supplied.
+- Coaching calibration: the prior prescriptions materially undershot the user's demonstrated loads and repetitions. Future working-load recommendations must use these latest performances rather than treating old lower reference loads as current targets. Distinguish warm-up loads from working loads and do not label challenging demonstrated loads as easy.
