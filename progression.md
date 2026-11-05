@@ -48,3 +48,13 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Farmer's carry: 17.5 kg each hand, 2 rounds. This becomes the standard farmer's carry target on every training day, replacing 15 kg each hand.
 - Warm-up/working classifications and RIR were not supplied.
 - Coaching calibration: the prior prescriptions materially undershot the user's demonstrated loads and repetitions. Future working-load recommendations must use these latest performances rather than treating old lower reference loads as current targets. Distinguish warm-up loads from working loads and do not label challenging demonstrated loads as easy.
+
+
+## Confirmed update: 2026-11-05 Thursday
+- Biceps curl setting 5: 37.5 kg x 7, 37.5 kg x 5, 37.5 kg x 4.
+- Triceps setting 5: 37.5 kg x 5, 37.5 kg x 6, 37.5 kg x 3.
+- Chest press setting 3: 22.5 kg x 30, then 26.25 kg x 10 and 26.25 kg x 10 (26.25 kg reported as 22.5 + 3.75).
+- Incline chest press setting 4: 18.75 kg x 10 for three sets (reported as 15 + 3.75).
+- Farmer's carry: 17.5 kg each hand for 2 sets, walking to and fro inside gym.
+- Seated knee raises: bodyweight x 50.
+- Warm-up/working classifications and RIR were not supplied. Chest press 22.5 kg x 30 is recorded literally as reported; confirm if 30 reps was intended.
