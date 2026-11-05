@@ -4,14 +4,14 @@
 
 | Exercise | Machine setting | Known load × reps | Confidence / notes |
 |---|---:|---|---|
-| Chest press | 3 | 18.75 kg × 10 | Latest confirmed session on 2026-11-01: 11.25 × 10, 15 × 10, 18.75 × 10. |
-| Incline press | 4 | 15 kg × 15 | Latest confirmed session on 2026-11-01: 15 × 15, 15 × 15, 15 × 10. |
+| Chest press | 3 | 26.25 kg × 10 | Latest session 2026-11-05: 22.5 × 30, then 26.25 × 10 for two sets. The 30-rep entry is recorded literally as reported. |
+| Incline press | 4 | 18.75 kg × 10 | Latest session 2026-11-05: 18.75 × 10 for three sets (reported as 15 + 3.75 kg). |
 | Shoulder press | 5 | 15 kg × 10 | Latest session 2026-11-03: 15 × 10, 15 × 8. |
 | Lat pulldown | Unknown | 37.5 kg × 4 | Latest session 2026-11-02: at 30 kg, wide 5, less-wide 5, close 10; at 33.75 kg, 5/5/5; at 37.5 kg, 5/5/4. Grip order preserved. |
 | Seated row | Unknown | 45 kg × 10 | Latest session 2026-11-02: 37.5 × 10, 41.25 × 13, 45 × 10. |
 | Rear-delt fly | 5 | 37.5 kg × 10 | Latest session 2026-11-03: 33.75 × 12, 37.5 × 10, 45 × 5. |
-| Biceps curl machine | 5 | 30 kg × 8 | Earlier 26.25 kg × 10 (22.5 + 3.75). |
-| Triceps exercise/machine | 5 | 30 kg × 10 | Exact exercise/machine naming should be confirmed if needed. |
+| Biceps curl machine | 5 | 37.5 kg × 7 | Latest session 2026-11-05: 37.5 × 7, 5, 4. |
+| Triceps exercise/machine | 5 | 37.5 kg × 6 | Latest session 2026-11-05: 37.5 × 5, 6, 3. Exact exercise/machine naming should be confirmed if needed. |
 | Abdominal machine | 7 | 45 kg × 10 | Latest confirmed session 2026-11-02: 45 × 10. Earlier 33.75 kg × 12 and × 15 (30 + 3.75). |
 | Back extension | 1 | 45 kg × 10 | Earlier 33.75 kg × 12 and × 15. |
 | Leg press | 5 | 63.75 kg × 21 | Latest session 2026-11-03: 52.5 × 20, 60 × 21, 63.75 × 21. |
