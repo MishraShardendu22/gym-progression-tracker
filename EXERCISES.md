@@ -40,3 +40,9 @@
 - Do not treat a recorded best set as multiple working sets.
 - Record future sets individually, including warm-ups and working sets.
 - When a user corrects a record, update the current reference and leave the historical commit intact.
+
+
+## Temporary return-phase overrides (2026-11-22 to 2026-12-05)
+- Farmer's carry coaching target during this phase: 15 kg in each hand, walking to and fro inside the gym. This is a temporary user-directed reduction from the historically logged 17.5 kg each hand; preserve the historical performance record above.
+- Shoulder press setting remains 5. Leg press setting remains 5. Calf raise setting is also 5, the same as leg press.
+- The user's hometown report confirms lateral-raise and seated-row loads were unchanged across five visits, but exact dates, machine identities, and all sets are not available. Do not invent or backfill detailed session records.
