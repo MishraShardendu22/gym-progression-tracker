@@ -58,3 +58,13 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Farmer's carry: 17.5 kg each hand for 2 sets, walking to and fro inside gym.
 - Seated knee raises: bodyweight x 50.
 - Warm-up/working classifications and RIR were not supplied. Chest press 22.5 kg x 30 is recorded literally as reported; confirm if 30 reps was intended.
+
+
+## Temporary return-to-training phase: 2026-11-22 to 2026-12-05
+- The user reports five gym visits during a two-week hometown break, with a maintenance rather than strength-gain objective. The final hometown session used two sets per exercise. The user confirms lateral raises and seated rows stayed at the same loads across the hometown sessions. Dates, complete exercise coverage, exact machine identities, and all individual sets are not established. Do not fabricate session dates or add these sessions to workout-log.csv.
+- A 14-day return-to-training phase runs Sunday 2026-11-22 through Saturday 2026-12-05. The user explicitly requests no rest days during this temporary phase. The regular Wednesday full-rest rule is temporarily replaced by low-stress active recovery on 2026-11-25 and 2026-12-02. This override expires after 2026-12-05.
+- Normal lifting days use two working sets per exercise, week 1 around 3 RIR and week 2 around 2–3 RIR. Wednesday active recovery is easy cardio/mobility only, no hard sets. Do not chase PRs or force load increases.
+- User explicitly sets Farmer's carries to 15 kg in each hand, walking to and fro inside the gym, every training day. Use two rounds on normal lifting days and at most one easy round on Wednesday if comfortable. This is a temporary explicit override of the older 17.5 kg repository baseline.
+- Seated knee raises remain bodyweight × 50 every day except Wednesday.
+- Detailed 14-day prescription, conservative starting loads, warm-ups, and return to the permanent split are in PHASE-2026-11-22-to-2026-12-05.md.
+- Resume the fixed six-training-days/one-full-rest-day schedule on Sunday 2026-12-06. Do not shift days after missed sessions.
