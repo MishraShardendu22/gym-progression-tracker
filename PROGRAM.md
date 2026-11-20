@@ -36,3 +36,8 @@ Use double progression as a default, not a rigid rule:
 - Add reps before load. Once all working sets reach the top of the chosen range with consistent technique and roughly 1–2 reps in reserve, consider the smallest practical load increase.
 - Avoid automatically taking every set to failure. Account for technique, fatigue, pain, and recovery.
 - These are general defaults; record any exercise-specific range agreed with the user.
+
+
+## Temporary 14-day return-to-training phase
+
+See [PHASE-2026-11-22-to-2026-12-05.md](PHASE-2026-11-22-to-2026-12-05.md) for the complete temporary plan. From 2026-11-22 through 2026-12-05, train on all 14 days. Wednesday is temporarily active recovery rather than full rest. This exception expires after 2026-12-05; the permanent Wednesday full-rest schedule resumes 2026-12-06. All other weekday split assignments remain unchanged.
