@@ -14,7 +14,8 @@
 | Triceps exercise/machine | 5 | 37.5 kg × 6 | Latest session 2026-11-05: 37.5 × 5, 6, 3. Exact exercise/machine naming should be confirmed if needed. |
 | Abdominal machine | 7 | 45 kg × 10 | Latest confirmed session 2026-11-02: 45 × 10. Earlier 33.75 kg × 12 and × 15 (30 + 3.75). |
 | Back extension | 1 | 45 kg × 10 | Earlier 33.75 kg × 12 and × 15. |
-| Leg press | 5 | 63.75 kg × 21 | Latest session 2026-11-03: 52.5 × 20, 60 × 21, 63.75 × 21. |
+| Leg press (historical stance unspecified) | 5 | 63.75 kg × 21 | Latest historical session 2026-11-03: 52.5 × 20, 60 × 21, 63.75 × 21. Stance was not recorded. |
+| Wide-stance leg press | 5 | 63.75 kg × 17 | First explicitly logged wide-stance session 2026-11-22: 63.75 × 17, then 63.75 × 9. Wide stance is now the user's intended leg-press variation; it emphasizes glutes and hip adductors relative to a narrower stance. |
 | Calf raise | 5 | 37.5 kg × 23 | Latest session 2026-11-03: 30 × 23, 33.75 × 21, 37.5 × 23. |
 | Cable lateral raise | N/A | 5 kg × 10 per side | Latest session 2026-11-03: 2.5 kg each hand × 10, then 5 kg each side × 10. Exact cable load convention as reported. |
 | Side-lying hip abduction | N/A | 10 kg × 10 per side | Earlier warm-up: 5 kg × 10 per side. Confirm whether load denotes a cable/ankle load or another setup. |
@@ -46,3 +47,7 @@
 - Farmer's carry coaching target during this phase: 15 kg in each hand, walking to and fro inside the gym. This is a temporary user-directed reduction from the historically logged 17.5 kg each hand; preserve the historical performance record above.
 - Shoulder press setting remains 5. Leg press setting remains 5. Calf raise setting is also 5, the same as leg press.
 - The user's hometown report confirms lateral-raise and seated-row loads were unchanged across five visits, but exact dates, machine identities, and all sets are not available. Do not invent or backfill detailed session records.
+
+
+## 2026-11-22 variation clarification
+- The user is switching to **wide-stance leg press** as the intended leg-press variation. Keep the historical generic leg-press entries unchanged because their stance was not specified. Log future sets under `Wide-stance leg press` unless the user reports a different stance.
