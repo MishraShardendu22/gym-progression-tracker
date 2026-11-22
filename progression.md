@@ -68,3 +68,15 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Seated knee raises remain bodyweight × 50 every day except Wednesday.
 - Detailed 14-day prescription, conservative starting loads, warm-ups, and return to the permanent split are in PHASE-2026-11-22-to-2026-12-05.md.
 - Resume the fixed six-training-days/one-full-rest-day schedule on Sunday 2026-12-06. Do not shift days after missed sessions.
+
+
+## Confirmed update: 2026-11-22 Sunday
+- Chest press setting 3: 26.25 kg (22.5 + 3.75) x 17, then x 16.
+- Incline chest press setting 4: 18.75 kg (15 + 3.75) x 12, then 22.5 kg x 10.
+- Wide-stance leg press setting 5: 63.75 kg (60 + 3.75) x 17, then x 9. This is the first explicitly recorded wide-stance session. Future sessions should use the name Wide-stance leg press; historical leg-press records remain stance-unspecified.
+- Dumbbell RDL: 12.5 kg x 12, then 15 kg x 7 to failure. Per-dumbbell versus combined load was not specified.
+- Back extension setting 1: 41.25 kg (37.5 + 3.75) x 10 and x 9.
+- Farmer's carry: 17.5 kg each hand x 2 rounds, walking to and fro inside gym.
+- Seated knee raises: bodyweight x 50.
+- Set classifications were not supplied. RIR was not supplied except the second RDL set was explicitly to failure.
+- Wide stance generally shifts emphasis toward the gluteal muscles and hip adductors; it should not be described as activating more muscles universally. Keep stance, depth, and foot placement consistent when comparing progression.
