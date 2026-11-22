@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-20",
+  "last_reconstructed_from_chat": "2026-11-22",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -39,14 +39,17 @@
     "chest_press": {
       "machine_setting": 3,
       "load_kg": 26.25,
-      "reps": 10,
-      "status": "latest session 2026-11-05; two sets at 26.25 x 10, plus 22.5 x 30"
+      "reps": [
+        17,
+        16
+      ],
+      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16"
     },
     "incline_press": {
       "machine_setting": 4,
-      "load_kg": 18.75,
+      "load_kg": 22.5,
       "reps": 10,
-      "status": "latest session 2026-11-05; three sets at 18.75 x 10"
+      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10"
     },
     "shoulder_press": {
       "machine_setting": 5,
@@ -92,8 +95,12 @@
     },
     "back_extension": {
       "machine_setting": 1,
-      "load_kg": 45,
-      "reps": 10
+      "load_kg": 41.25,
+      "reps": [
+        10,
+        9
+      ],
+      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9"
     },
     "leg_press": {
       "machine_setting": 5,
@@ -118,9 +125,9 @@
     },
     "dumbbell_romanian_deadlift": {
       "load_kg": 15,
-      "reps": 10,
-      "load_basis": "unspecified for 2026-11-03 session",
-      "status": "12.5 x 10, 15 x 10, 15 x 10; per-dumbbell versus combined load not specified"
+      "reps": 7,
+      "load_basis": "unspecified",
+      "status": "2026-11-22: 12.5 kg x 12, then 15 kg x 7 to failure; per-dumbbell versus combined load not stated"
     },
     "seated_knee_raises": {
       "load": "bodyweight",
@@ -131,6 +138,15 @@
       "rounds": 2,
       "route": "walking to and fro inside gym",
       "status": "updated standard from 2026-11-03"
+    },
+    "wide_stance_leg_press": {
+      "machine_setting": 5,
+      "load_kg": 63.75,
+      "reps": [
+        17,
+        9
+      ],
+      "status": "first explicitly logged wide-stance session 2026-11-22; reported as 60 + 3.75 kg"
     }
   },
   "data_quality_notes": [
@@ -248,21 +264,24 @@
     "Temporary 2026-11-22 through 2026-12-05 return phase: train all 14 days, use two working sets per exercise on normal lifting days, keep 3 RIR in week 1 and 2-3 RIR in week 2; Wednesdays are low-stress active recovery only. Resume normal Wednesday full rest on 2026-12-06."
   ],
   "latest_session_reference": {
-    "date": "2026-11-05",
-    "day": "Thursday",
-    "source": "user supplied workout log",
+    "date": "2026-11-22",
+    "day": "Sunday",
+    "source": "user supplied workout report",
     "status": "completed",
     "notes": [
-      "Biceps curl setting 5: 37.5 kg x 7, x 5, x 4.",
-      "Triceps setting 5: 37.5 kg x 5, x 6, x 3.",
-      "Chest press setting 3: 22.5 kg x 30, then 26.25 kg x 10, x 10.",
-      "Incline chest press setting 4: 18.75 kg x 10 for 3 sets.",
-      "Farmer's carry: 17.5 kg each hand, 2 sets, walking to and fro inside gym.",
+      "Chest press setting 3: 26.25 kg x 17 and x 16 (22.5 + 3.75).",
+      "Incline chest press setting 4: 18.75 kg x 12, then 22.5 kg x 10.",
+      "Wide-stance leg press setting 5: 63.75 kg x 17 and x 9 (60 + 3.75).",
+      "Dumbbell RDL: 12.5 kg x 12, then 15 kg x 7 to failure; load basis not specified.",
+      "Back extension setting 1: 41.25 kg x 10 and x 9 (37.5 + 3.75).",
+      "Farmer's carry: 17.5 kg each hand x 2 rounds, walking to and fro inside gym.",
       "Seated knee raises: bodyweight x 50."
     ],
     "data_notes": [
-      "Warm-up/working classifications and RIR were not supplied.",
-      "The chest press entry of 22.5 kg x 30 is recorded as reported; confirm if '30' was intended to mean 30 reps."
+      "Set type was not specified for the reported sets.",
+      "RIR was not supplied except the second RDL set was explicitly reported to failure.",
+      "RDL load basis was not specified.",
+      "Wide stance was explicitly reported for leg press; future leg-press logging should use the name Wide-stance leg press unless the user says otherwise."
     ]
   },
   "week_start_day": "Sunday",
