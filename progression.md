@@ -80,3 +80,8 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Seated knee raises: bodyweight x 50.
 - Set classifications were not supplied. RIR was not supplied except the second RDL set was explicitly to failure.
 - Wide stance generally shifts emphasis toward the gluteal muscles and hip adductors; it should not be described as activating more muscles universally. Keep stance, depth, and foot placement consistent when comparing progression.
+
+
+## Confirmed update: 2026-11-23 Monday
+- Side-lying leg raises (side-lying hip abduction) are now a daily fixed exercise, including rest days. User confirmed this was intended as an everyday exercise.
+- Completed today: 10 kg per leg x 20 reps per leg. Use this as the latest performance reference; retain reps-per-leg logging.
