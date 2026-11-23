@@ -18,6 +18,7 @@ The weekly order is fixed. Do not shift sessions to compensate for a missed work
 - Dumbbell Romanian deadlifts (RDL): Sunday, Tuesday, Friday.
 - Wide-stance leg press is the user's intended leg-press variation; use this exact name in future prescriptions and logs unless the user specifies otherwise.
 - Seated knee raises: 50 bodyweight reps on every training day, Sunday, Monday, Tuesday, Thursday, Friday, and Saturday. None on Wednesday.
+- Side-lying leg raises (side-lying hip abduction): daily, 10 kg per leg. Track reps per leg; do not omit on rest days unless the user changes this instruction.
 - Farmer's carries: every training day inside the gym, **17.5 kg in each hand**, 2 rounds, walking to and fro inside the gym. None on Wednesday rest day. This replaces the previous 15 kg each-hand baseline.
 - Single-arm high-to-low cable fly: user has not done this exercise. Do not log as completed or add it without asking.
 - Side-lying hip abduction and cable lateral raises have been performed.
