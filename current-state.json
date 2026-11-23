@@ -33,6 +33,12 @@
       "frequency": "Every training day, including temporary Wednesday active-recovery days",
       "rounds": 2,
       "note": "Temporary 15 kg target explicitly requested on 2026-11-20; supersedes older 17.5 kg target for current coaching."
+    },
+    "side_lying_hip_abduction": {
+      "target": "10 kg per leg",
+      "frequency": "Daily, including rest days",
+      "reps": "Track per leg",
+      "latest_completed": "2026-11-23: 20 reps per leg at 10 kg"
     }
   },
   "known_records": {
@@ -121,7 +127,8 @@
     },
     "side_lying_hip_abduction": {
       "load_kg": 10,
-      "reps_per_side": 10
+      "reps_per_side": 20,
+      "status": "2026-11-23: user confirmed 20 reps on each leg at 10 kg"
     },
     "dumbbell_romanian_deadlift": {
       "load_kg": 15,
@@ -261,7 +268,8 @@
     "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
     "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation.",
     "Use the user's demonstrated 2026-11-03 loads to calibrate future prescriptions; avoid prescribing loads materially below recent confirmed working performance without a specific warm-up, fatigue, technique, or recovery rationale.",
-    "Temporary 2026-11-22 through 2026-12-05 return phase: train all 14 days, use two working sets per exercise on normal lifting days, keep 3 RIR in week 1 and 2-3 RIR in week 2; Wednesdays are low-stress active recovery only. Resume normal Wednesday full rest on 2026-12-06."
+    "Temporary 2026-11-22 through 2026-12-05 return phase: train all 14 days, use two working sets per exercise on normal lifting days, keep 3 RIR in week 1 and 2-3 RIR in week 2; Wednesdays are low-stress active recovery only. Resume normal Wednesday full rest on 2026-12-06.",
+    "Side-lying leg raises (side-lying hip abduction) are a daily exercise, including rest days, at the user's current 10 kg per leg load. Record reps per leg."
   ],
   "latest_session_reference": {
     "date": "2026-11-22",
