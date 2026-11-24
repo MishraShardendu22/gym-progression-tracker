@@ -1,9 +1,39 @@
 # Progression Decisions
 
-## Default progression method
-Use double progression unless a specific exercise requires another approach. Start with a practical rep range (typically 8–12 for compounds/machines, 10–15 for isolation, 10–20 for abs/calves). Add reps while maintaining consistent technique. When every working set reaches the top of the selected range with around 1–2 reps in reserve, consider a small load increase. Reassess after increases; reps may drop back toward the lower end.
+## User-specific load selection and progression
 
-Do not assume the user trains every set to failure. RIR should only be recorded when supplied or explicitly estimated with the user's agreement. Pain, technique breakdown, and unusual fatigue override load progression.
+The user's normal working-set method is to take working sets to failure. The intended load is the heaviest practical weight that allows at least 10 clean repetitions. Ten is a minimum, not a cap: continue beyond 10 until failure and record the actual count.
+
+- Failure above 10 reps: consider the smallest practical load increase for the next session.
+- Failure below 10 reps: hold or reduce the load by the smallest practical increment.
+- Failure at 10 reps: hold the load unless the other sets and recent performance justify a change.
+- Apply this per set and preserve different loads within the same exercise if the user reports them.
+- Track the heaviest load completed for at least 10 reps and the best reps at each load as separate PR markers. Do not invent estimated 1RM values.
+- Define failure as inability to complete another clean concentric repetition. On RDLs and other technically sensitive free-weight exercises, stop at technical failure before form degrades. Do not recommend forced reps or technique breakdown.
+- Do not prescribe RIR by default. This user has explicitly stated that normal working sets go to failure. Do not retroactively classify historical sets as failure unless the user confirms.
+
+## Warm-up
+
+The user's warm-up consists of seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, generic warm-up circuits, ramp-up sets, or preparation sets by default. The user considers these movements sufficient preparation for the session. They are recorded as warm-up, not as ordinary working sets.
+
+## Current Bengaluru equipment rule
+
+Only prescribe equipment confirmed at the current Bengaluru gym. Historical machine records from Kanpur or previous gyms are preserved for historical tracking but are not proof of current availability. Explicitly unavailable: seated/lying hamstring curl. Historical chest press, incline press, lat pulldown, seated row, abdominal machine, back extension, biceps curl machine, triceps machine, and cable stations are not confirmed for Bengaluru; do not prescribe them without explicit confirmation.
+
+## Automatic carry-forward
+
+Every completed session updates the next session's starting point:
+- Farmer's carries: current load is 20 kg in each hand, walking to and fro inside the gym. Latest volume: 3 rounds. Never revert to 15 kg without user-reported difficulty or a specific reason.
+- Seated knee raises: current target is 75 bodyweight reps every training day except Wednesday. Never revert to 50 after this update.
+- Side-lying leg raises: latest 15 kg × 30 (reps-per-leg basis not specified), performed daily.
+- For all lifts, use the most recent confirmed set-level data, not older historical baselines.
+
+## Historical ambiguities to resolve
+1. Earlier dumbbell RDL entries do not always distinguish per-dumbbell from combined load. Latest 2026-11-24 entry remains unspecified.
+2. Lateral raise equipment/load convention remains unspecified.
+3. Side-lying leg-raise reps on 2026-11-24 may be per leg or total; not confirmed.
+4. Farmer's carry distance/time per round was not supplied on 2026-11-24.
+5. Historical machine availability from Kanpur/previous gyms is not confirmed for Bengaluru.
 
 ## Historical ambiguities to resolve
 1. Chest press: user clarified the same weight/reps as incline press, currently represented as 10 kg × 10, but older entries differ.
@@ -25,8 +55,12 @@ Do not assume the user trains every set to failure. RIR should only be recorded 
 - Use a separate commit for a workout session or a coherent batch of corrections, with a descriptive commit message.
 - If GitHub is unavailable, tell the user and avoid claiming that a commit was made.
 
-## Daily load-coaching protocol
-When the user asks what to lift for a given training day, use the latest confirmed session data in `workout-log.csv`, `current-state.json`, and session notes. Recommend a specific starting load for each exercise, retaining the established machine settings and using conservative double progression. If the previous load hit the top of the rep range on all working sets with good form and about 1–2 reps in reserve, recommend the smallest practical increase; otherwise hold the load or adjust downward when needed. Treat old reconstructed values as provisional until confirmed. Ask the user to report completed sets and update the repository only after a successful commit. Sunday is always a full rest day; do not shift the split if a day is missed.
+## Daily coaching protocol
+
+Before coaching, read the latest repository state and session notes. Determine the date/day in Asia/Kolkata and honor the fixed Sunday-start split. Never shift the schedule after a missed workout. Use only Bengaluru-confirmed equipment. The warm-up is seated knee raises, Farmer's carries, and side-lying leg raises; do not add separate warm-up routines. Current warm-up targets are 75 bodyweight knee raises on training days except Wednesday, 20 kg Farmer's carries in each hand (latest 3 rounds), and side-lying raises at 15 kg (latest 30 reps, side basis uncertain).
+
+For working sets, use the user's failure method and minimum-10-rep loading rule. Continue past 10 to failure. Recommend exact starting loads based on the latest confirmed results and PRs. Record actual loads/reps for every set, distinguish weight PRs from rep PRs, and propagate each new load/rep target into the next session. Do not prescribe RIR by default, invent equipment, or revert to obsolete targets. During the temporary return phase, retain two working sets per exercise on normal lifting days; Wednesday remains active recovery until the phase ends. Commit and verify repository updates after the user reports a session.
+
 
 ## Confirmed update: 2026-11-02 Monday
 - Lat pulldown machine setting remains unknown. Grip-by-grip sequence: 30 kg wide 5, less-wide 5, close 10; 33.75 kg wide 5, less-wide 5, close 5; 37.5 kg wide 5, less-wide 5, close 4. These are recorded as separate sets in the CSV; set type and RIR were not supplied.
@@ -99,3 +133,13 @@ When the user asks what to lift for a given training day, use the latest confirm
 - Farmer's carry: 15 kg each hand, 3 x 20; the unit for 20 was not specified. Route remains walking to and fro inside gym.
 - Set types and RIR were not supplied. Preserve these unknowns in the log.
 - Equipment correction: user confirmed no hamstring curl machine is available at the current gym. Do not prescribe or assume access to one.
+
+
+## Coaching system correction: 2026-11-24
+- User confirms the current gym is in Bengaluru. Historical Kanpur/previous-gym equipment must not be treated as available in Bengaluru.
+- The warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. No extra warm-up routine by default.
+- User's working sets normally go to failure; 10 reps is a minimum, not a cap.
+- Farmer's carries corrected to 20 kg each hand for 3 rounds. Carry 20 kg each hand forward as the next starting load.
+- Seated knee raise target updated to 75 bodyweight reps on training days except Wednesday.
+- Side-lying leg raise latest load updated to 15 kg × 30; whether reps are per leg or total remains unspecified.
+- Preserve historic machine data, but do not prescribe a machine unless Bengaluru availability is explicitly confirmed.
