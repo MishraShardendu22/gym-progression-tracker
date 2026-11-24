@@ -85,3 +85,17 @@ When the user asks what to lift for a given training day, use the latest confirm
 ## Confirmed update: 2026-11-23 Monday
 - Side-lying leg raises (side-lying hip abduction) are now a daily fixed exercise, including rest days. User confirmed this was intended as an everyday exercise.
 - Completed today: 10 kg per leg x 20 reps per leg. Use this as the latest performance reference; retain reps-per-leg logging.
+
+
+## Confirmed update: 2026-11-24 Tuesday
+- Wide-stance leg press setting 5: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10.
+- Rear-delt fly setting 5: 37.5 kg x 10, then 41.25 kg (37.5 + 3.75) x 5. The heavier set fell below the usual isolation rep range; do not increase load.
+- Dumbbell RDL: 12.5 kg x 10, then 15 kg x 10. Per-dumbbell versus combined load was not specified.
+- Calf raise setting 5: 37.5 kg x 19 and x 18.
+- Shoulder press setting 5: 15 kg x 17 and x 10.
+- Lateral raise: 5 kg x 5; equipment type and load basis were not specified.
+- Seated knee raises: bodyweight x 75.
+- Side-lying leg raise: 15 kg x 30; whether reps were per leg or total was not specified.
+- Farmer's carry: 15 kg each hand, 3 x 20; the unit for 20 was not specified. Route remains walking to and fro inside gym.
+- Set types and RIR were not supplied. Preserve these unknowns in the log.
+- Equipment correction: user confirmed no hamstring curl machine is available at the current gym. Do not prescribe or assume access to one.
