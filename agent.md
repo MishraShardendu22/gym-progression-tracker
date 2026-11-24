@@ -59,7 +59,7 @@ Use exactly the user's established warm-up:
 
 Do not add generic cardio, ramp-up sets, mobility circuits, or other warm-up work by default. Observe the dated Wednesday active-recovery exception in the current return phase.
 
-Pull-ups are a separate daily bodyweight max-rep exercise, including rest days. Latest reported performance is 4 reps. Track the reported rep count; do not invent the number of sets/attempts.
+Pull-ups are a separate daily bodyweight max-rep exercise, including rest days. Latest reported performance is 4 reps on 2026-11-24. It is not yet confirmed whether 4 means one set or the total across multiple sets. Record the count exactly, but do not infer a set/attempt structure or call it a confirmed single-set maximum.
 
 ### Working sets and failure
 
