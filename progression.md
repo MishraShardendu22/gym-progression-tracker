@@ -16,17 +16,35 @@ The user's normal working-set method is to take working sets to failure. The int
 
 The user's warm-up consists of seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, generic warm-up circuits, ramp-up sets, or preparation sets by default. The user considers these movements sufficient preparation for the session. They are recorded as warm-up, not as ordinary working sets.
 
-## Current Bengaluru equipment rule
+## Confirmed Bengaluru equipment
 
-Only prescribe equipment confirmed at the current Bengaluru gym. Historical machine records from Kanpur or previous gyms are preserved for historical tracking but are not proof of current availability. Explicitly unavailable: seated/lying hamstring curl. Historical chest press, incline press, lat pulldown, seated row, abdominal machine, back extension, biceps curl machine, triceps machine, and cable stations are not confirmed for Bengaluru; do not prescribe them without explicit confirmation.
+The following equipment is all confirmed available in the user's current Bengaluru gym:
+- One combined press machine: chest press setting 3, incline press setting 4, shoulder press setting 5.
+- One combined leg press/calf raise machine: setting 5 for both.
+- One combined lat pulldown/seated row machine; setting not recorded.
+- Abdominal machine setting 7.
+- Back extension machine setting 1.
+- Combined biceps/triceps machine, setting 5.
+- Rear-delt fly machine, setting 5.
+- Cable machine used for lateral raises and pulls only. Lateral raise is 5 kg per hand.
+- Dumbbells for RDL, 15 kg per dumbbell (30 kg total).
+- Pull-up station.
+- Seated knee raise and Farmer's carry setup.
+- Side-lying leg raises, 20 kg per leg × 30 reps per leg.
+- Only explicitly unavailable machine: seated/lying hamstring curl.
+
+Do not describe the confirmed equipment above as Kanpur-only or previous-gym-only. All settings supplied by the user refer to the current Bengaluru machines.
 
 ## Automatic carry-forward
 
 Every completed session updates the next session's starting point:
-- Farmer's carries: current load is 20 kg in each hand, walking to and fro inside the gym. Latest volume: 3 rounds. Never revert to 15 kg without user-reported difficulty or a specific reason.
-- Seated knee raises: current target is 75 bodyweight reps every training day except Wednesday. Never revert to 50 after this update.
-- Side-lying leg raises: latest 15 kg × 30 (reps-per-leg basis not specified), performed daily.
-- For all lifts, use the most recent confirmed set-level data, not older historical baselines.
+- Farmer's carries: 20 kg in each hand, walking to and fro inside the gym. Normal training-day baseline: 3 rounds. During the temporary Wednesday active-recovery days, use the phase-specific easy round.
+- Seated knee raises: bodyweight × 75 on every training day except Wednesday. Never revert to 50.
+- Side-lying leg raises: 20 kg per leg × 30 reps per leg, daily including rest days.
+- Pull-ups: daily maximum clean bodyweight reps, including Wednesday. Latest report: 4 reps on 2026-11-24.
+- RDL: 15 kg per dumbbell (30 kg total).
+- Lateral raise: cable machine, 5 kg per hand.
+- For all lifts, use most recent confirmed set-level data, not older baselines.
 
 ## Historical ambiguities to resolve
 1. Earlier dumbbell RDL entries do not always distinguish per-dumbbell from combined load. Latest 2026-11-24 entry remains unspecified.
@@ -158,3 +176,14 @@ For working sets, use the user's failure method and minimum-10-rep loading rule.
 - Working-set count: normally 2 per exercise; if the user elects 3 due to time, use 3 across all exercises that workout.
 - Strength-biased hypertrophy preference: perform main/heaviest lifts early while fresh after the established warm-up.
 - Carry the newest load and rep targets forward. Do not revert to old performance baselines.
+
+
+## Explicit user correction: 2026-11-24
+- The complete machine inventory above is confirmed in Bengaluru. Do not confuse it with Kanpur equipment. The settings are: chest 3, incline 4, shoulder 5, leg press/calf 5, lat/row combined setting unknown, abs 7, back extension 1, biceps/triceps 5, rear delt 5.
+- Daily pull-ups are a separate max-rep exercise, including Wednesdays. Latest is 4 bodyweight reps.
+- Side-lying leg raises are 20 kg per leg for 30 reps per leg.
+- Farmer's carry is 20 kg in each hand, 3 rounds on normal training days.
+- Seated knee raises are bodyweight × 75 on training days except Wednesday.
+- RDL is 15 kg per dumbbell, total 30 kg. Cable lateral raise is 5 kg per hand.
+- Usually 2 working sets per exercise. If user elects 3 because of time, use 3 for all exercises in that workout, never a mixture.
+- User prefers strength-biased hypertrophy: perform main/heaviest compound exercises early while fresh, following their established warm-up. All working sets are taken to failure; load should allow at least 10 clean reps, then continue beyond 10 until failure.
