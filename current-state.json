@@ -544,7 +544,9 @@
             "total_load_kg": 30,
             "reps": 10
           }
-        ]
+        ],
+        "load_basis": "per dumbbell",
+        "note": "15 kg per dumbbell, 30 kg total; latest 2026-11-24 result."
       },
       "Farmer's carry": {
         "load_kg_each_hand": 20,
