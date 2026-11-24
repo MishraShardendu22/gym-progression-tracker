@@ -143,3 +143,18 @@ For working sets, use the user's failure method and minimum-10-rep loading rule.
 - Seated knee raise target updated to 75 bodyweight reps on training days except Wednesday.
 - Side-lying leg raise latest load updated to 15 kg × 30; whether reps are per leg or total remains unspecified.
 - Preserve historic machine data, but do not prescribe a machine unless Bengaluru availability is explicitly confirmed.
+
+
+## User confirmation and current-gym corrections: 2026-11-24
+- Full Bengaluru equipment inventory confirmed: combined chest/incline/shoulder press machine with settings 3/4/5; combined leg press/calf raise machine setting 5; combined lat pulldown/seated row machine; abdominal machine setting 7; back extension setting 1; combined biceps/triceps machine setting 5; rear-delt fly setting 5; cable machine used for lateral raises and pulls; dumbbells; pull-up station. These are not Kanpur-only machines. Seated/lying hamstring curl remains unavailable.
+- RDL load basis: 15 kg per dumbbell, 30 kg total. 2026-11-24 set data corrected accordingly.
+- Lateral raise: 5 kg per hand on the cable machine.
+- Side-lying leg raise: 20 kg per leg × 30 reps per leg. 2026-11-24 record corrected from the earlier ambiguous/wrong entry.
+- Farmer's carries: 20 kg each hand, 3 rounds. 2026-11-24 record clarified and carried forward.
+- Seated knee raises: bodyweight × 75, replaces the older 50-rep target.
+- Pull-ups: daily, bodyweight maximum clean reps. Latest 2026-11-24 performance: 4 reps.
+- Warm-up: seated knee raises, Farmer's carries, side-lying leg raises only. Do not add other warm-up blocks by default.
+- All working sets normally go to failure. Choose a load permitting at least 10 clean reps, then continue beyond 10 until failure. Track weight and rep PRs separately. Do not use RIR targets by default.
+- Working-set count: normally 2 per exercise; if the user elects 3 due to time, use 3 across all exercises that workout.
+- Strength-biased hypertrophy preference: perform main/heaviest lifts early while fresh after the established warm-up.
+- Carry the newest load and rep targets forward. Do not revert to old performance baselines.
