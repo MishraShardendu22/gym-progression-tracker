@@ -35,7 +35,7 @@ Every completed session updates the next session's starting point:
 4. Farmer's carry distance/time per round was not supplied on 2026-11-24.
 5. Historical machine availability from Kanpur/previous gyms is not confirmed for Bengaluru.
 
-## Historical ambiguities to resolve
+## Older reconstructed ambiguities from previous gyms
 1. Chest press: user clarified the same weight/reps as incline press, currently represented as 10 kg × 10, but older entries differ.
 2. Incline press: both 10 kg × 10 and 10 kg × 12 appear in historical notes; set type is unclear.
 3. Dumbbell RDL: 7.5 kg × 10 recorded, but it is unknown whether this is per dumbbell or total.
