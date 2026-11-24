@@ -122,15 +122,16 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-11-24,Tuesday,Wide-stance leg press,5,working,2,63.75,machine stack,10,0,Reported as 60 + 3.75 kg. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
 2026-11-24,Tuesday,Rear-delt fly,5,working,1,37.5,machine stack,10,0,User-reported set. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
 2026-11-24,Tuesday,Rear-delt fly,5,working,2,41.25,machine stack,5,0,Reported as 37.5 + 3.75 kg. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
-2026-11-24,Tuesday,Dumbbell Romanian deadlift,,working,1,12.5,load basis unspecified,10,0,Per-dumbbell versus combined load not stated. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
-2026-11-24,Tuesday,Dumbbell Romanian deadlift,,working,2,15,load basis unspecified,10,0,Per-dumbbell versus combined load not stated. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
+2026-11-24,Tuesday,Dumbbell Romanian deadlift,,working,1,12.5,per dumbbell,10,0,15 kg per dumbbell = 30 kg total; user clarified load basis.
+2026-11-24,Tuesday,Dumbbell Romanian deadlift,,working,2,15,per dumbbell,10,0,15 kg per dumbbell = 30 kg total; user clarified load basis.
 2026-11-24,Tuesday,Calf raise,5,working,1,37.5,machine stack,19,0,User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
 2026-11-24,Tuesday,Calf raise,5,working,2,37.5,machine stack,18,0,User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
 2026-11-24,Tuesday,Shoulder press,5,working,1,15,machine stack,17,0,User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
 2026-11-24,Tuesday,Shoulder press,5,working,2,15,machine stack,10,0,User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
-2026-11-24,Tuesday,Lateral raise,,working,1,5,load basis unspecified,5,0,User did not specify dumbbell/cable or per-side basis. User's standing method is working sets to failure; applied to this session per clarification on 2026-11-24.
+2026-11-24,Tuesday,Lateral raise,,working,1,5,per hand,5,0,Cable machine; user clarified 5 kg per hand.
 2026-11-24,Tuesday,Seated knee raises,,warm-up,1,bodyweight,bodyweight,75,,75 bodyweight reps; part of user's warm-up.
-2026-11-24,Tuesday,Side-lying leg raise,,warm-up,1,15,load basis unspecified,30,,15 kg x 30; reps-per-leg versus total unspecified. Daily warm-up movement.
-2026-11-24,Tuesday,Farmer's carry,,warm-up,1,20,each hand,,,User clarified this is 20 kg in each hand for 3 rounds, not 20 reps; walking to and fro inside gym; distance/time not reported.
-2026-11-24,Tuesday,Farmer's carry,,warm-up,2,20,each hand,,,User clarified this is 20 kg in each hand for 3 rounds, not 20 reps; walking to and fro inside gym; distance/time not reported.
-2026-11-24,Tuesday,Farmer's carry,,warm-up,3,20,each hand,,,User clarified this is 20 kg in each hand for 3 rounds, not 20 reps; walking to and fro inside gym; distance/time not reported.
+2026-11-24,Tuesday,Side-lying leg raise,,warm-up,1,20,per leg,30,,User clarified 20 kg per leg x 30 reps per leg.
+2026-11-24,Tuesday,Farmer's carry,,warm-up,1,20,each hand,,,3 rounds; walking to and fro inside gym. User clarified 20 kg in each hand., not 20 reps; walking to and fro inside gym; distance/time not reported.
+2026-11-24,Tuesday,Farmer's carry,,warm-up,2,20,each hand,,,3 rounds; walking to and fro inside gym. User clarified 20 kg in each hand., not 20 reps; walking to and fro inside gym; distance/time not reported.
+2026-11-24,Tuesday,Farmer's carry,,warm-up,3,20,each hand,,,3 rounds; walking to and fro inside gym. User clarified 20 kg in each hand., not 20 reps; walking to and fro inside gym; distance/time not reported.
+2026-11-24,Tuesday,Pull-ups,,working,1,bodyweight,bodyweight,4,,Daily max-rep performance; user reported 4 reps; attempt count not separately confirmed.
