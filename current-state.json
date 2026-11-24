@@ -200,7 +200,7 @@
     "Historical machine data is retained but is not confirmed Bengaluru equipment inventory. Do not prescribe prior-gym machines without explicit reconfirmation."
   ],
   "best_recorded_performance": {
-    "note": "Latest current performance references are tracked per exercise; these are performance PR markers, not 1RM estimates.",
+    "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
     "exercises": {
       "chest_press": {
         "machine_setting": 3,
@@ -217,11 +217,9 @@
       "shoulder_press": {
         "machine_setting": 5,
         "load_kg": 15,
-        "reps": [
-          17,
-          10
-        ],
-        "status": "2026-11-24"
+        "reps": 17,
+        "date": "2026-11-24",
+        "status": "Best recorded set: 15 kg x 17. Latest session also included 15 kg x 10."
       },
       "lat_pulldown": {
         "machine_setting": null,
@@ -235,17 +233,10 @@
       },
       "rear_delt_fly": {
         "machine_setting": 5,
-        "sets": [
-          {
-            "load_kg": 37.5,
-            "reps": 10
-          },
-          {
-            "load_kg": 41.25,
-            "reps": 5
-          }
-        ],
-        "status": "2026-11-24"
+        "load_kg": 37.5,
+        "reps": 10,
+        "date": "2026-11-03",
+        "status": "Best confirmed set at or above the 10-rep minimum: 37.5 kg x 10. Heavier 45 kg x 5 historical and 41.25 kg x 5 on 2026-11-24 do not qualify for the 10+ rep load benchmark."
       },
       "biceps_curl": {
         "machine_setting": 5,
@@ -276,11 +267,9 @@
       "calf_raise": {
         "machine_setting": 5,
         "load_kg": 37.5,
-        "reps": [
-          19,
-          18
-        ],
-        "status": "2026-11-24"
+        "reps": 23,
+        "date": "2026-11-03",
+        "status": "Historical rep PR: 37.5 kg x 23. Latest session 2026-11-24: 37.5 x 19 and x 18."
       },
       "cable_lateral_raise": {
         "load_kg": 2.5,
@@ -289,45 +278,35 @@
       "side_lying_hip_abduction": {
         "load_kg": 15,
         "reps": 30,
-        "status": "2026-11-24; reps basis unspecified"
+        "date": "2026-11-24",
+        "reps_basis": "Unspecified",
+        "status": "Latest highest reported load/reps. Per-leg versus total rep basis remains unconfirmed, so treat as provisional rather than a confirmed per-leg PR."
       },
       "dumbbell_romanian_deadlift": {
-        "sets": [
-          {
-            "load_kg": 12.5,
-            "reps": 10
-          },
-          {
-            "load_kg": 15,
-            "reps": 10
-          }
-        ],
+        "load_kg": 15,
+        "reps": 10,
+        "date": "2026-11-24",
         "load_basis": "Unspecified",
-        "status": "2026-11-24"
+        "status": "Best current recorded result: 15 kg x 10; per-dumbbell versus combined load is not confirmed."
       },
       "seated_knee_raises": {
         "load": "bodyweight",
         "reps": 75,
-        "status": "2026-11-24"
+        "date": "2026-11-24",
+        "status": "Current rep target/PR: 75 bodyweight reps."
       },
       "farmers_carry": {
         "load_kg_each_hand": 20,
         "rounds": 3,
-        "status": "2026-11-24"
+        "date": "2026-11-24",
+        "status": "Current carry load PR/reference: 20 kg each hand for 3 rounds."
       },
       "wide_stance_leg_press": {
         "machine_setting": 5,
-        "sets": [
-          {
-            "load_kg": 60,
-            "reps": 23
-          },
-          {
-            "load_kg": 63.75,
-            "reps": 10
-          }
-        ],
-        "status": "2026-11-24"
+        "load_kg": 63.75,
+        "reps": 17,
+        "date": "2026-11-22",
+        "status": "Best recorded wide-stance leg press set at 63.75 kg x 17; latest session 2026-11-24 was 60 x 23 and 63.75 x 10."
       }
     }
   },
@@ -437,5 +416,91 @@
     "failure_definition": "Stop when another clean concentric repetition cannot be completed. For RDL and other technically sensitive free-weight movements, stop at technical failure before form degrades.",
     "next_session_load_rule": "If failure occurs above 10 reps, evaluate the smallest practical load increase. If failure occurs below 10, hold or reduce. At 10 reps, hold unless broader performance supports an increase.",
     "logging": "Record actual load and reps per set. Track load PRs and rep PRs separately. Do not assign RIR by default."
+  },
+  "performance_prs": {
+    "tracking_rule": "Track weight PR and rep PR separately. For lifting movements, benchmark the heaviest load that reaches at least 10 clean reps to failure, and best rep count at each exact load. Do not infer estimated 1RM.",
+    "exercises": {
+      "Wide-stance leg press": {
+        "heaviest_load_with_10plus_reps_kg": 63.75,
+        "reps_at_that_load": 17,
+        "date": "2026-11-22",
+        "latest_sets": [
+          {
+            "load_kg": 60,
+            "reps": 23
+          },
+          {
+            "load_kg": 63.75,
+            "reps": 10
+          }
+        ]
+      },
+      "Rear-delt fly": {
+        "heaviest_load_with_10plus_reps_kg": 37.5,
+        "reps_at_that_load": 10,
+        "date": "2026-11-03",
+        "latest_sets": [
+          {
+            "load_kg": 37.5,
+            "reps": 10
+          },
+          {
+            "load_kg": 41.25,
+            "reps": 5
+          }
+        ]
+      },
+      "Calf raise": {
+        "heaviest_load_with_10plus_reps_kg": 37.5,
+        "reps_at_that_load": 23,
+        "date": "2026-11-03",
+        "latest_sets": [
+          {
+            "load_kg": 37.5,
+            "reps": 19
+          },
+          {
+            "load_kg": 37.5,
+            "reps": 18
+          }
+        ]
+      },
+      "Shoulder press": {
+        "heaviest_load_with_10plus_reps_kg": 15,
+        "reps_at_that_load": 17,
+        "date": "2026-11-24",
+        "latest_sets": [
+          {
+            "load_kg": 15,
+            "reps": 17
+          },
+          {
+            "load_kg": 15,
+            "reps": 10
+          }
+        ]
+      },
+      "Dumbbell RDL": {
+        "heaviest_load_with_10plus_reps_kg": 15,
+        "reps_at_that_load": 10,
+        "date": "2026-11-24",
+        "load_basis": "Unspecified"
+      },
+      "Farmer's carry": {
+        "load_kg_each_hand": 20,
+        "rounds": 3,
+        "date": "2026-11-24"
+      },
+      "Seated knee raises": {
+        "reps": 75,
+        "date": "2026-11-24"
+      },
+      "Side-lying leg raise": {
+        "load_kg": 15,
+        "reps": 30,
+        "date": "2026-11-24",
+        "reps_basis": "Unspecified, provisional"
+      }
+    }
   }
 }
