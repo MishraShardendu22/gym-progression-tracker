@@ -198,7 +198,8 @@
     "2026-11-24 user correction: current Bengaluru equipment inventory includes combined chest/incline/shoulder press (settings 3/4/5), leg press/calf raise (setting 5), lat pulldown/seated row combo, abdominal machine setting 7, back extension setting 1, biceps/triceps combo setting 5, rear-delt setting 5, cable machine for lateral raises and pulls, dumbbells, and pull-up station. Do not classify these as Kanpur equipment.",
     "2026-11-24 user correction: RDL is 15 kg per dumbbell (30 kg total); lateral raise is 5 kg per hand; side-lying raise is 20 kg per leg x 30 reps per leg; Farmer's carry is 20 kg each hand; daily pull-ups latest 4 reps.",
     "2026-11-24 set strategy: usually 2 working sets per exercise; optional 3rd set is across all exercises if time permits. All working sets to failure. Minimum 10 clean reps, continue past 10; adjust next-session load based on actual failure reps.",
-    "2026-11-24 workout report was clarified: RDL is per dumbbell, lateral raise 5 kg per hand, side-lying leg raise 20 kg per leg x 30 reps per leg, Farmer's carry 20 kg each hand for 3 rounds, and pull-ups daily max reps with 4 reported today."
+    "2026-11-24 workout report was clarified: RDL is per dumbbell, lateral raise 5 kg per hand, side-lying leg raise 20 kg per leg x 30 reps per leg, Farmer's carry 20 kg each hand for 3 rounds, and pull-ups daily max reps with 4 reported today.",
+    "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
@@ -378,8 +379,8 @@
       "Side-lying leg raises"
     ],
     "side_lying_leg_raises": "20 kg per leg x 30 reps per leg, daily",
-    "pull_ups": "Daily bodyweight max reps, including Wednesday; latest 4 reps",
-    "working_set_count": "Usually 2 working sets per exercise; if opting for 3, use 3 for all exercises in that workout."
+    "pull_ups": "Daily bodyweight max reps including Wednesday; latest 4 reps",
+    "working_set_count": "Usually 2 working sets per exercise; if the user opts for 3, use 3 across all exercises that workout."
   },
   "equipment_availability": {
     "current_location": "Bengaluru",
