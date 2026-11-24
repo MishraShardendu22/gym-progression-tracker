@@ -1,5 +1,8 @@
 # Training Program
 
+> Read [instruction.md](instruction.md) for the canonical user training rules and [agent.md](agent.md) for the workflow any AI agent must follow. Where older records conflict, apply the latest explicit user correction.
+
+
 ## Fixed weekly schedule
 
 The training week starts on **Sunday**, which is Day 1.
