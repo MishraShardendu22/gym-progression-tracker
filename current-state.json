@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-22",
+  "last_reconstructed_from_chat": "2026-11-24",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -60,8 +60,11 @@
     "shoulder_press": {
       "machine_setting": 5,
       "load_kg": 15,
-      "reps": 10,
-      "status": "latest session 2026-11-03; additional set 15 kg x 8"
+      "reps": [
+        17,
+        10
+      ],
+      "status": "2026-11-24: 15 kg x 17 and x 10."
     },
     "lat_pulldown": {
       "machine_setting": null,
@@ -77,9 +80,12 @@
     },
     "rear_delt_fly": {
       "machine_setting": 5,
-      "load_kg": 37.5,
-      "reps": 10,
-      "status": "latest session 2026-11-03; 33.75 x 12, 37.5 x 10, 45 x 5"
+      "load_kg": 41.25,
+      "reps": [
+        10,
+        5
+      ],
+      "status": "2026-11-24: 37.5 kg x 10, then 41.25 kg (37.5 + 3.75) x 5."
     },
     "biceps_curl": {
       "machine_setting": 5,
@@ -117,43 +123,51 @@
     "calf_raise": {
       "machine_setting": 5,
       "load_kg": 37.5,
-      "reps": 23,
-      "status": "latest session 2026-11-03; 30 x 23, 33.75 x 21, 37.5 x 23"
+      "reps": [
+        19,
+        18
+      ],
+      "status": "2026-11-24: 37.5 kg x 19 and x 18."
     },
     "cable_lateral_raise": {
       "load_kg": 5,
-      "reps_per_side": 10,
-      "status": "2026-11-03; earlier set 2.5 kg each hand x 10"
+      "reps": 5,
+      "status": "2026-11-24: lateral raise 5 kg x 5; equipment type and per-side/load basis not specified."
     },
     "side_lying_hip_abduction": {
-      "load_kg": 10,
-      "reps_per_side": 20,
-      "status": "2026-11-23: user confirmed 20 reps on each leg at 10 kg"
+      "load_kg": 15,
+      "reps": 30,
+      "load_basis": "unspecified",
+      "status": "2026-11-24: 15 kg x 30; user did not specify whether reps were per leg."
     },
     "dumbbell_romanian_deadlift": {
       "load_kg": 15,
-      "reps": 7,
+      "reps": [
+        10,
+        10
+      ],
       "load_basis": "unspecified",
-      "status": "2026-11-22: 12.5 kg x 12, then 15 kg x 7 to failure; per-dumbbell versus combined load not stated"
+      "status": "2026-11-24: 12.5 kg x 10, then 15 kg x 10; per-dumbbell versus combined load not stated."
     },
     "seated_knee_raises": {
       "load": "bodyweight",
-      "reps": 50
+      "reps": 75,
+      "status": "2026-11-24: bodyweight x 75."
     },
     "farmers_carry": {
-      "load_kg_each_hand": 17.5,
-      "rounds": 2,
+      "load_kg_each_hand": 15,
+      "rounds": 3,
       "route": "walking to and fro inside gym",
-      "status": "updated standard from 2026-11-03"
+      "status": "2026-11-24: 15 kg each hand, 3 x 20; unit for 20 was not specified."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
       "load_kg": 63.75,
       "reps": [
-        17,
-        9
+        23,
+        10
       ],
-      "status": "first explicitly logged wide-stance session 2026-11-22; reported as 60 + 3.75 kg"
+      "status": "2026-11-24: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10."
     }
   },
   "data_quality_notes": [
@@ -166,7 +180,9 @@
     "Do not infer missing workout dates, sets, reps, RIR, or exercise completion.",
     "2026-11-03 RDL load basis was not specified; retain as reported without assuming per dumbbell or combined.",
     "2026-11-03 set type and RIR were not supplied.",
-    "2026-11-05 session: all set types and RIR were unspecified. Chest press 22.5 kg x 30 is recorded literally as reported; confirm if this was intended as 30 reps."
+    "2026-11-05 session: all set types and RIR were unspecified. Chest press 22.5 kg x 30 is recorded literally as reported; confirm if this was intended as 30 reps.",
+    "2026-11-24 session: set types and RIR were not supplied; do not infer warm-up/working classification or effort.",
+    "2026-11-24 RDL load basis, lateral-raise equipment/load basis, side-lying leg-raise rep basis, and Farmer's carry '20' unit remain unspecified."
   ],
   "best_recorded_performance": {
     "note": "Best/most useful performance reference from confirmed logs through 2026-11-01. These are not necessarily true 1RM values.",
@@ -272,24 +288,27 @@
     "Side-lying leg raises (side-lying hip abduction) are a daily exercise, including rest days, at the user's current 10 kg per leg load. Record reps per leg."
   ],
   "latest_session_reference": {
-    "date": "2026-11-22",
-    "day": "Sunday",
+    "date": "2026-11-24",
+    "day": "Tuesday",
     "source": "user supplied workout report",
     "status": "completed",
     "notes": [
-      "Chest press setting 3: 26.25 kg x 17 and x 16 (22.5 + 3.75).",
-      "Incline chest press setting 4: 18.75 kg x 12, then 22.5 kg x 10.",
-      "Wide-stance leg press setting 5: 63.75 kg x 17 and x 9 (60 + 3.75).",
-      "Dumbbell RDL: 12.5 kg x 12, then 15 kg x 7 to failure; load basis not specified.",
-      "Back extension setting 1: 41.25 kg x 10 and x 9 (37.5 + 3.75).",
-      "Farmer's carry: 17.5 kg each hand x 2 rounds, walking to and fro inside gym.",
-      "Seated knee raises: bodyweight x 50."
+      "Wide-stance leg press setting 5: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10.",
+      "Rear-delt fly setting 5: 37.5 kg x 10, then 41.25 kg (37.5 + 3.75) x 5.",
+      "Dumbbell RDL: 12.5 kg x 10, then 15 kg x 10; load basis unspecified.",
+      "Calf raise setting 5: 37.5 kg x 19 and x 18.",
+      "Shoulder press setting 5: 15 kg x 17 and x 10.",
+      "Lateral raise: 5 kg x 5; equipment and load basis unspecified.",
+      "Seated knee raises: bodyweight x 75.",
+      "Side-lying leg raise: 15 kg x 30; reps-per-leg basis not confirmed.",
+      "Farmer's carry: 15 kg each hand, 3 x 20; unit for 20 unspecified, walking to and fro inside gym."
     ],
     "data_notes": [
-      "Set type was not specified for the reported sets.",
-      "RIR was not supplied except the second RDL set was explicitly reported to failure.",
+      "Set type and RIR were not supplied for any reported set.",
       "RDL load basis was not specified.",
-      "Wide stance was explicitly reported for leg press; future leg-press logging should use the name Wide-stance leg press unless the user says otherwise."
+      "Lateral raise equipment and load basis were not specified.",
+      "Side-lying leg raise rep basis (per leg or total) was not specified.",
+      "Farmer's carry distance/time/count unit for each reported 20 was not specified."
     ]
   },
   "week_start_day": "Sunday",
