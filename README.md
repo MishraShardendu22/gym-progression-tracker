@@ -9,8 +9,11 @@ Private source of truth for the user's gym program, workout logs, exercise setti
 - Treat this repository as the canonical workout record; chat memory is only a convenience. In a new chat, fetch the repository before relying on prior numbers.
 - Separate machine adjustment settings from weight-stack load. For dumbbells, specify whether load is per hand or total whenever known.
 - Mark ambiguous or conflicting historical values as uncertain; do not silently resolve contradictions.
-- Progress conservatively: generally increase reps within the target range first; increase load by the smallest practical increment after all working sets reach the top of the range with sound technique and about 1–2 reps in reserve. Do not assume every set is to failure.
+- Follow the user's failure-based loading method: choose the heaviest practical load that permits at least 10 clean reps, continue past 10 until failure, and log actual reps. If failure occurs above 10, evaluate the smallest practical load increase next session; if below 10, hold or reduce. Do not stop sets at 10 or prescribe RIR by default.
+- Use only equipment confirmed at the current Bengaluru gym. Historical machine records from Kanpur or other gyms are not proof of Bengaluru availability. Never prescribe an unconfirmed machine.
 - The training week starts on Sunday as Day 1. Sunday is Chest + Legs + Hamstrings. Wednesday is the full rest day. Never move the schedule to compensate for a missed session.
+- The user's warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, ramp-up sets, or generic warm-up blocks unless requested.
+- Carry forward updated loads and rep targets from the latest session. Do not revert to older baselines: current targets include 20 kg each hand for Farmer's carries and 75 bodyweight seated knee raises.
 - Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
 
 ## Files
