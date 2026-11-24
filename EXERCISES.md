@@ -1,12 +1,8 @@
-# Exercise Reference and Known Performance
+# Exercise Reference and Performance
 
-**Important:** This file contains historical performance records, not a complete list of machines currently available. The user is currently training in Bengaluru. Historical machine entries from Kanpur/previous gyms must not be prescribed in Bengaluru unless explicitly reconfirmed. Adjustment settings are not load weights.
+The machine inventory below is confirmed for the user's current Bengaluru gym. The records table preserves historical sessions and latest reported performances. Use the newest dated performance for coaching. Machine setting and machine load are separate values.
 
-## Current Bengaluru equipment confirmation (2026-11-24)
-
-**Important:** This file includes historical performance records. The current Bengaluru inventory is explicitly confirmed as follows. All machine settings previously provided by the user refer to this Bengaluru equipment.
-
-## Current Bengaluru equipment confirmation (2026-11-24)
+## Confirmed Bengaluru equipment
 
 - Combined press machine: chest press setting 3, incline press setting 4, shoulder press setting 5.
 - Combined leg press/calf raise machine: setting 5 for both.
@@ -15,13 +11,13 @@
 - Back extension machine: setting 1.
 - Combined biceps/triceps machine: setting 5.
 - Rear-delt fly machine: setting 5.
-- Cable machine: used only for lateral raises and pulls. Lateral raise: 5 kg per hand.
+- Cable machine: used for lateral raises and pulls only. Lateral raise load: 5 kg per hand.
 - Dumbbells for RDL: 15 kg per dumbbell, 30 kg total.
-- Pull-up station: daily bodyweight max reps, latest 4 reps.
-- Seated knee raises: 75 bodyweight reps.
-- Farmer's carries: 20 kg each hand, 3 rounds.
-- Side-lying leg raises: 20 kg per leg × 30 reps per leg.
+- Pull-up station: daily bodyweight max-rep pull-ups.
+- Seated knee raises, Farmer's carries, and side-lying leg raises.
 - Explicitly unavailable: seated/lying hamstring curl machine.
+
+## Exercise records
 
 | Exercise | Machine setting | Known load × reps | Confidence / notes |
 |---|---:|---|---|
@@ -45,52 +41,30 @@
 | Farmer's carry | N/A | 20 kg each hand × 3 rounds | Latest Bengaluru session 2026-11-24: walking to and fro inside the gym. |
 | Pull-ups | N/A | Bodyweight × 4 max reps | Daily maximum clean reps; latest report 2026-11-24. Attempt/set count not separately specified. |
 
-## Machine adjustment settings, all confirmed in Bengaluru
-- Chest press: 3
-- Incline press: 4
-- Shoulder press: 5
-- Lat pulldown and seated row: combined machine; setting unknown
-- Abdominal machine: 7
-- Back extension: 1
-- Biceps and triceps: combined machine; setting 5
-- Rear-delt fly: 5
-- Wide-stance leg press: 5
-- Calf raise: 5, same machine as leg press
-- Cable machine: lateral raises and pulls only
 
-## Data integrity rules
-- Do not convert plate/stack labels or combined notation into a different load basis unless confirmed.
-- Do not treat a recorded best set as multiple working sets.
-- Record future sets individually, including warm-ups and working sets.
-- When a user corrects a record, update the current reference and leave the historical commit intact.
+## Machine adjustment settings
 
+| Machine / movement | Setting | Availability |
+|---|---:|---|
+| Chest press | 3 | Bengaluru, combined press machine |
+| Incline press | 4 | Bengaluru, combined press machine |
+| Shoulder press | 5 | Bengaluru, combined press machine |
+| Leg press | 5 | Bengaluru, combined leg press/calf machine |
+| Calf raise | 5 | Same machine as leg press |
+| Lat pulldown / seated row | Not recorded | Bengaluru, combined machine |
+| Abdominal machine | 7 | Bengaluru |
+| Back extension | 1 | Bengaluru |
+| Biceps / triceps | 5 | Bengaluru, combined machine |
+| Rear-delt fly | 5 | Bengaluru |
+| Cable machine | N/A | Lateral raises and pulls only |
 
-## Temporary return-phase overrides (2026-11-22 to 2026-12-05)
-- Farmer's carry current target is 20 kg in each hand, walking to and fro inside the gym. The 2026-11-24 report was clarified as three rounds at 20 kg each hand, not 15 kg for 20 repetitions.
-- Shoulder press setting remains 5. Leg press setting remains 5. Calf raise setting is also 5, the same as leg press.
-- The user's hometown report confirms lateral-raise and seated-row loads were unchanged across five visits, but exact dates, machine identities, and all sets are not available. Do not invent or backfill detailed session records.
+## Current fixed performance references
 
+- RDL: 15 kg per dumbbell, 30 kg total.
+- Cable lateral raise: 5 kg per hand.
+- Side-lying leg raise: 20 kg per leg × 30 reps per leg.
+- Farmer's carry: 20 kg each hand × 3 rounds.
+- Seated knee raises: bodyweight × 75 reps on training days except Wednesday.
+- Pull-ups: daily max clean bodyweight reps; latest report 4 reps.
 
-## 2026-11-22 variation clarification
-- The user is switching to **wide-stance leg press** as the intended leg-press variation. Keep the historical generic leg-press entries unchanged because their stance was not specified. Log future sets under `Wide-stance leg press` unless the user reports a different stance.
-
-
-## Bengaluru equipment and coaching correction (2026-11-24)
-- The user clarified that the Farmer's carry report means **20 kg in each hand for 3 rounds**. It does not mean 15 kg for 20 repetitions. Carry 20 kg each hand forward as the next starting load.
-- Seated knee raises are now 75 bodyweight reps, not 50.
-- Side-lying leg raises: latest 15 kg × 30; reps-per-leg versus total remains unconfirmed.
-- User's warm-up consists of seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, ramp-up sets, or other generic warm-up steps by default.
-- The user normally takes working sets to failure. Ten reps is a minimum reference, not a cap; continue beyond 10 to failure and log actual reps.
-- Historical machine records are retained for historical accuracy but are not current Bengaluru equipment inventory. Do not prescribe unconfirmed machines from Kanpur/previous gyms.
-- The user explicitly confirmed no hamstring curl machine is available in Bengaluru.
-
-## Clarifications confirmed by user (2026-11-24)
-- All equipment in the above current Bengaluru inventory is available now. Do not classify the listed chest/incline/shoulder press, lat/row, abs/back, biceps/triceps, rear-delt or cable machines as Kanpur-only.
-- RDL is 15 kg per dumbbell, 30 kg total.
-- Lateral raise is 5 kg per hand on the cable machine.
-- Side-lying leg raise is 20 kg per leg for 30 reps per leg.
-- Farmer's carry is 20 kg in each hand.
-- Pull-ups are daily, bodyweight, maximum clean reps; latest 2026-11-24 report is 4 reps.
-- The user normally takes all working sets to failure; minimum 10 clean reps is a load-selection threshold, not a cap.
-- Normal working-set count is 2 per exercise; if the user has time for a third set, use 3 sets across all exercises in that workout, not a mixture.
-- The user's warm-up consists of seated knee raises, Farmer's carries and side-lying leg raises. Do not add other warm-up blocks by default.
+See `instruction.md` for the complete coaching rules and `agent.md` for the agent workflow. Preserve the historical context in old rows; do not treat an old PR as the latest session result.
