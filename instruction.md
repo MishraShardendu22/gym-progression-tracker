@@ -39,9 +39,9 @@ Temporary phase exception: during the current 2026-11-22 through 2026-12-05 retu
 
 ## 3. Daily pull-ups
 
-Pull-ups are performed **every day**, including Wednesday, separately from the three-movement warm-up. Use bodyweight and perform as many clean reps as possible. Latest reported result: **4 reps on 2026-11-24**.
+Pull-ups are performed **every day**, including Wednesday, separately from the three-movement warm-up. Use bodyweight for daily max-rep work. Latest reported result: **4 reps on 2026-11-24**. The user has not yet clarified whether this was one set or the total across multiple sets.
 
-Track the daily max-rep result. Do not invent the number of sets or attempts when the user has only reported a rep count.
+Record the reported rep count exactly. Do not infer or prescribe an unconfirmed number of sets/attempts, and do not label the 4 reps as a confirmed single-set maximum until the set structure is clarified.
 
 ## 4. Fixed weekly split
 
