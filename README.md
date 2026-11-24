@@ -16,6 +16,10 @@ Private source of truth for the user's gym program, workout logs, exercise setti
 - Carry forward updated loads and rep targets from the latest session. Do not revert to older baselines: current targets include 20 kg each hand for Farmer's carries, 75 bodyweight seated knee raises, and daily max-rep pull-ups (4 reps latest).
 - Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
 
+## Operating documents
+- `instruction.md`: canonical user training rules and preferences.
+- `agent.md`: tool-agnostic instructions for any AI agent coaching and maintaining this repository.
+
 ## Files
 - `PROGRAM.md`: weekly split and fixed constraints.
 - `EXERCISES.md`: equipment/settings and known performance records.
