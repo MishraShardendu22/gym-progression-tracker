@@ -1,50 +1,31 @@
 # Progression Decisions
 
-## User-specific load selection and progression
+## Current user-specific progression rules
 
-The user's normal working-set method is to take working sets to failure. The intended load is the heaviest practical weight that allows at least 10 clean repetitions. Ten is a minimum, not a cap: continue beyond 10 until failure and record the actual count.
+The canonical rules are in [instruction.md](instruction.md). In brief:
 
-- Failure above 10 reps: consider the smallest practical load increase for the next session.
-- Failure below 10 reps: hold or reduce the load by the smallest practical increment.
-- Failure at 10 reps: hold the load unless the other sets and recent performance justify a change.
-- Apply this per set and preserve different loads within the same exercise if the user reports them.
-- Track the heaviest load completed for at least 10 reps and the best reps at each load as separate PR markers. Do not invent estimated 1RM values.
-- Define failure as inability to complete another clean concentric repetition. On RDLs and other technically sensitive free-weight exercises, stop at technical failure before form degrades. Do not recommend forced reps or technique breakdown.
-- Do not prescribe RIR by default. This user has explicitly stated that normal working sets go to failure. Do not retroactively classify historical sets as failure unless the user confirms.
-
-## Warm-up
-
-The user's warm-up consists of seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, generic warm-up circuits, ramp-up sets, or preparation sets by default. The user considers these movements sufficient preparation for the session. They are recorded as warm-up, not as ordinary working sets.
+- Strength-biased hypertrophy. Prioritize main/heaviest compound movements while fresh, after the user's established warm-up.
+- Every working set normally goes to failure. Select the heaviest practical load that permits at least 10 clean reps, then continue past 10 until failure. Ten is not a cap.
+- Above 10 reps at failure: assess the smallest practical load increase next session. Below 10: hold or reduce. Do not prescribe RIR by default.
+- RDL and other technically sensitive movements stop at technical failure before form deteriorates. No forced reps.
+- Normally 2 working sets per exercise. If the user opts for 3, use 3 across every exercise in that workout.
+- Warm-up is seated knee raises (75 reps on training days except Wednesday), Farmer's carries (20 kg each hand, 3 rounds on normal training days), and side-lying leg raises (20 kg per leg × 30 per leg daily). Do not add generic warm-up routines.
+- Pull-ups are daily max-rep bodyweight work; latest report: 4 reps.
+- Carry each new confirmed load and rep target forward. Track load PR and rep PR separately; do not infer estimated 1RM.
 
 ## Confirmed Bengaluru equipment
 
-The following equipment is all confirmed available in the user's current Bengaluru gym:
-- One combined press machine: chest press setting 3, incline press setting 4, shoulder press setting 5.
-- One combined leg press/calf raise machine: setting 5 for both.
-- One combined lat pulldown/seated row machine; setting not recorded.
-- Abdominal machine setting 7.
-- Back extension machine setting 1.
-- Combined biceps/triceps machine, setting 5.
-- Rear-delt fly machine, setting 5.
-- Cable machine used for lateral raises and pulls only. Lateral raise is 5 kg per hand.
-- Dumbbells for RDL, 15 kg per dumbbell (30 kg total).
-- Pull-up station.
-- Seated knee raise and Farmer's carry setup.
-- Side-lying leg raises, 20 kg per leg × 30 reps per leg.
-- Only explicitly unavailable machine: seated/lying hamstring curl.
-
-Do not describe the confirmed equipment above as Kanpur-only or previous-gym-only. All settings supplied by the user refer to the current Bengaluru machines.
+The current Bengaluru inventory is confirmed in [PROGRAM.md](PROGRAM.md) and [instruction.md](instruction.md): combined chest/incline/shoulder press (settings 3/4/5); combined leg press/calf raise (setting 5); combined lat pulldown/seated row; abdominal machine (setting 7); back extension (setting 1); combined biceps/triceps (setting 5); rear-delt fly (setting 5); cable machine used for lateral raises and pulls; dumbbells for RDL; pull-up station. Seated/lying hamstring curl is unavailable. Do not classify the confirmed machines as Kanpur-only.
 
 ## Automatic carry-forward
 
-Every completed session updates the next session's starting point:
-- Farmer's carries: 20 kg in each hand, walking to and fro inside the gym. Normal training-day baseline: 3 rounds. During the temporary Wednesday active-recovery days, use the phase-specific easy round.
-- Seated knee raises: bodyweight × 75 on every training day except Wednesday. Never revert to 50.
-- Side-lying leg raises: 20 kg per leg × 30 reps per leg, daily including rest days.
-- Pull-ups: daily maximum clean bodyweight reps, including Wednesday. Latest report: 4 reps on 2026-11-24.
-- RDL: 15 kg per dumbbell (30 kg total).
-- Lateral raise: cable machine, 5 kg per hand.
-- For all lifts, use most recent confirmed set-level data, not older baselines.
+- Farmer's carries: 20 kg in each hand, 3 rounds on normal training days, walking to and fro.
+- Seated knee raises: 75 bodyweight reps on training days except Wednesday.
+- Side-lying leg raises: 20 kg per leg × 30 reps per leg, daily.
+- Pull-ups: daily max clean bodyweight reps, latest 4.
+- RDL: 15 kg per dumbbell, 30 kg total.
+- Cable lateral raise: 5 kg per hand.
+- Use the latest dated set records for every other exercise.
 
 ## Historical ambiguities to resolve
 1. Earlier dumbbell RDL entries do not always distinguish per-dumbbell from combined load. Latest 2026-11-24 entry remains unspecified.
@@ -75,9 +56,11 @@ Every completed session updates the next session's starting point:
 
 ## Daily coaching protocol
 
-Before coaching, read the latest repository state and session notes. Determine the date/day in Asia/Kolkata and honor the fixed Sunday-start split. Never shift the schedule after a missed workout. Use only Bengaluru-confirmed equipment. The warm-up is seated knee raises, Farmer's carries, and side-lying leg raises; do not add separate warm-up routines. Current warm-up targets are 75 bodyweight knee raises on training days except Wednesday, 20 kg Farmer's carries in each hand (latest 3 rounds), and side-lying raises at 15 kg (latest 30 reps, side basis uncertain).
+Read `instruction.md`, `agent.md`, `PROGRAM.md`, `EXERCISES.md`, `current-state.json`, `workout-log.csv`, and relevant session notes before coaching. Follow the tool-agnostic workflow in `agent.md`. Determine local date/day in Asia/Kolkata. Apply only dated active-phase exceptions. Never shift the weekly split after a missed day.
 
-For working sets, use the user's failure method and minimum-10-rep loading rule. Continue past 10 to failure. Recommend exact starting loads based on the latest confirmed results and PRs. Record actual loads/reps for every set, distinguish weight PRs from rep PRs, and propagate each new load/rep target into the next session. Do not prescribe RIR by default, invent equipment, or revert to obsolete targets. During the temporary return phase, retain two working sets per exercise on normal lifting days; Wednesday remains active recovery until the phase ends. Commit and verify repository updates after the user reports a session.
+Use the complete confirmed Bengaluru equipment inventory in `instruction.md` and `PROGRAM.md`. The only explicitly unavailable listed machine is seated/lying hamstring curl. Warm-up is exactly seated knee raises, Farmer's carries, and side-lying leg raises. Pull-ups are also performed daily as separate max-rep bodyweight work.
+
+Follow the user's strength-biased hypertrophy style, failure-based minimum-10-rep method, and 2-or-3-sets-for-all rule. Recommend exact starting loads from latest results. Track load PR and rep PR separately and carry every new confirmed load/rep target forward. Log each set individually and preserve ambiguity. After reported sessions, update the CSV, current state, exercise references, progression notes, and dated session file. Verify GitHub writes before reporting a commit.
 
 
 ## Confirmed update: 2026-11-02 Monday
