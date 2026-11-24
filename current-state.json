@@ -17,7 +17,7 @@
       "Friday"
     ],
     "seated_knee_raises": {
-      "target": "50 bodyweight reps",
+      "target": "75 bodyweight reps",
       "days": [
         "Sunday",
         "Monday",
@@ -28,17 +28,18 @@
       ]
     },
     "farmers_carry": {
-      "load_kg_each_hand": 15,
+      "load_kg_each_hand": 20,
       "route": "walking to and fro inside the gym",
-      "frequency": "Every training day, including temporary Wednesday active-recovery days",
-      "rounds": 2,
-      "note": "Temporary 15 kg target explicitly requested on 2026-11-20; supersedes older 17.5 kg target for current coaching."
+      "frequency": "Every training day",
+      "rounds": 3,
+      "note": "2026-11-24 correction: the reported 3 x 20 means 3 rounds at 20 kg in each hand. Use 20 kg each hand as the next starting load; do not revert to 15 kg without a user-reported reason."
     },
     "side_lying_hip_abduction": {
-      "target": "10 kg per leg",
+      "target": "15 kg",
       "frequency": "Daily, including rest days",
-      "reps": "Track per leg",
-      "latest_completed": "2026-11-23: 20 reps per leg at 10 kg"
+      "reps": 30,
+      "reps_basis": "Unspecified; user did not state whether reps were per leg or total.",
+      "latest_completed": "2026-11-24: 15 kg x 30; reps basis unconfirmed."
     }
   },
   "known_records": {
@@ -49,13 +50,15 @@
         17,
         16
       ],
-      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16"
+      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "incline_press": {
       "machine_setting": 4,
       "load_kg": 22.5,
       "reps": 10,
-      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10"
+      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "shoulder_press": {
       "machine_setting": 5,
@@ -70,13 +73,15 @@
       "machine_setting": null,
       "load_kg": 37.5,
       "reps": 4,
-      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md."
+      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md.",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "seated_row": {
       "machine_setting": null,
       "load_kg": 45,
       "reps": 10,
-      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10."
+      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10.",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "rear_delt_fly": {
       "machine_setting": 5,
@@ -91,19 +96,22 @@
       "machine_setting": 5,
       "load_kg": 37.5,
       "reps": 7,
-      "status": "latest session 2026-11-05; subsequent sets 37.5 x 5 and 37.5 x 4"
+      "status": "latest session 2026-11-05; subsequent sets 37.5 x 5 and 37.5 x 4",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "triceps": {
       "machine_setting": 5,
       "load_kg": 37.5,
       "reps": 6,
-      "status": "latest session 2026-11-05; other sets 37.5 x 5 and 37.5 x 3"
+      "status": "latest session 2026-11-05; other sets 37.5 x 5 and 37.5 x 3",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "abdominal_machine": {
       "machine_setting": 7,
       "load_kg": 45,
       "reps": 10,
-      "status": "latest confirmed session on 2026-11-02."
+      "status": "latest confirmed session on 2026-11-02.",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "back_extension": {
       "machine_setting": 1,
@@ -112,7 +120,8 @@
         10,
         9
       ],
-      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9"
+      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9",
+      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
     },
     "leg_press": {
       "machine_setting": 5,
@@ -132,13 +141,16 @@
     "cable_lateral_raise": {
       "load_kg": 5,
       "reps": 5,
-      "status": "2026-11-24: lateral raise 5 kg x 5; equipment type and per-side/load basis not specified."
+      "load_basis": "Unspecified",
+      "equipment_type": "Unspecified",
+      "status": "2026-11-24: lateral raise 5 kg x 5; setup and load convention not specified."
     },
     "side_lying_hip_abduction": {
       "load_kg": 15,
       "reps": 30,
-      "load_basis": "unspecified",
-      "status": "2026-11-24: 15 kg x 30; user did not specify whether reps were per leg."
+      "load_basis": "Unspecified",
+      "reps_basis": "Unspecified; per leg versus total not confirmed.",
+      "status": "2026-11-24: 15 kg x 30."
     },
     "dumbbell_romanian_deadlift": {
       "load_kg": 15,
@@ -146,19 +158,19 @@
         10,
         10
       ],
-      "load_basis": "unspecified",
+      "load_basis": "Unspecified",
       "status": "2026-11-24: 12.5 kg x 10, then 15 kg x 10; per-dumbbell versus combined load not stated."
     },
     "seated_knee_raises": {
       "load": "bodyweight",
       "reps": 75,
-      "status": "2026-11-24: bodyweight x 75."
+      "status": "2026-11-24: bodyweight x 75; this is the current target, superseding 50."
     },
     "farmers_carry": {
-      "load_kg_each_hand": 15,
+      "load_kg_each_hand": 20,
       "rounds": 3,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-24: 15 kg each hand, 3 x 20; unit for 20 was not specified."
+      "status": "2026-11-24 clarification: 20 kg in each hand for 3 rounds; distance/time per round not supplied."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
@@ -182,10 +194,13 @@
     "2026-11-03 set type and RIR were not supplied.",
     "2026-11-05 session: all set types and RIR were unspecified. Chest press 22.5 kg x 30 is recorded literally as reported; confirm if this was intended as 30 reps.",
     "2026-11-24 session: set types and RIR were not supplied; do not infer warm-up/working classification or effort.",
-    "2026-11-24 RDL load basis, lateral-raise equipment/load basis, side-lying leg-raise rep basis, and Farmer's carry '20' unit remain unspecified."
+    "2026-11-24 RDL load basis, lateral-raise equipment/load basis, side-lying leg-raise rep basis, and Farmer's carry '20' unit remain unspecified.",
+    "2026-11-24 clarified training method: warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. The other reported exercises are working sets normally taken to failure; this general rule applies going forward and is not retroactively assigned to older sessions.",
+    "2026-11-24 corrected Farmer's carry interpretation: 20 kg each hand for 3 rounds, not 15 kg for 20 reps. Distance/time per round not supplied.",
+    "Historical machine data is retained but is not confirmed Bengaluru equipment inventory. Do not prescribe prior-gym machines without explicit reconfirmation."
   ],
   "best_recorded_performance": {
-    "note": "Best/most useful performance reference from confirmed logs through 2026-11-01. These are not necessarily true 1RM values.",
+    "note": "Latest current performance references are tracked per exercise; these are performance PR markers, not 1RM estimates.",
     "exercises": {
       "chest_press": {
         "machine_setting": 3,
@@ -202,8 +217,11 @@
       "shoulder_press": {
         "machine_setting": 5,
         "load_kg": 15,
-        "reps": 10,
-        "status": "latest session 2026-11-03"
+        "reps": [
+          17,
+          10
+        ],
+        "status": "2026-11-24"
       },
       "lat_pulldown": {
         "machine_setting": null,
@@ -217,9 +235,17 @@
       },
       "rear_delt_fly": {
         "machine_setting": 5,
-        "load_kg": 37.5,
-        "reps": 10,
-        "status": "latest session 2026-11-03; 45 kg x 5 also logged"
+        "sets": [
+          {
+            "load_kg": 37.5,
+            "reps": 10
+          },
+          {
+            "load_kg": 41.25,
+            "reps": 5
+          }
+        ],
+        "status": "2026-11-24"
       },
       "biceps_curl": {
         "machine_setting": 5,
@@ -250,42 +276,71 @@
       "calf_raise": {
         "machine_setting": 5,
         "load_kg": 37.5,
-        "reps": 23,
-        "status": "latest session 2026-11-03"
+        "reps": [
+          19,
+          18
+        ],
+        "status": "2026-11-24"
       },
       "cable_lateral_raise": {
         "load_kg": 2.5,
         "reps_per_side": 10
       },
       "side_lying_hip_abduction": {
-        "load_kg": 10,
-        "reps_per_side": 10
+        "load_kg": 15,
+        "reps": 30,
+        "status": "2026-11-24; reps basis unspecified"
       },
       "dumbbell_romanian_deadlift": {
-        "load_kg": 15,
-        "reps": 10,
-        "load_basis": "unspecified for 2026-11-03 session"
+        "sets": [
+          {
+            "load_kg": 12.5,
+            "reps": 10
+          },
+          {
+            "load_kg": 15,
+            "reps": 10
+          }
+        ],
+        "load_basis": "Unspecified",
+        "status": "2026-11-24"
       },
       "seated_knee_raises": {
         "load": "bodyweight",
-        "reps": 50
+        "reps": 75,
+        "status": "2026-11-24"
       },
       "farmers_carry": {
-        "load_kg_each_hand": 17.5,
-        "rounds": 2,
-        "route": "inside gym"
+        "load_kg_each_hand": 20,
+        "rounds": 3,
+        "status": "2026-11-24"
+      },
+      "wide_stance_leg_press": {
+        "machine_setting": 5,
+        "sets": [
+          {
+            "load_kg": 60,
+            "reps": 23
+          },
+          {
+            "load_kg": 63.75,
+            "reps": 10
+          }
+        ],
+        "status": "2026-11-24"
       }
     }
   },
   "daily_coaching_protocol": [
-    "When the user asks for today's workout, determine the day using India Standard Time. The training week starts on Sunday as Day 1. Wednesday is always full rest; never shift the split after a missed session.",
-    "For each scheduled exercise, recommend a starting load based on the latest confirmed log, recent performance, machine setting, target rep range, and any reported pain/fatigue.",
-    "Ask the user to report each set in simple form (exercise, load, reps; say per dumbbell/per hand when applicable; identify warm-up vs working set if possible).",
-    "Do not invent unreported sets, reps, RIR, dates, or completion. Mark reconstructed or ambiguous records clearly.",
-    "After the session, update workout-log.csv, current-state.json, and session notes as needed; commit changes to GitHub only after successful tool confirmation.",
-    "Use the user's demonstrated 2026-11-03 loads to calibrate future prescriptions; avoid prescribing loads materially below recent confirmed working performance without a specific warm-up, fatigue, technique, or recovery rationale.",
-    "Temporary 2026-11-22 through 2026-12-05 return phase: train all 14 days, use two working sets per exercise on normal lifting days, keep 3 RIR in week 1 and 2-3 RIR in week 2; Wednesdays are low-stress active recovery only. Resume normal Wednesday full rest on 2026-12-06.",
-    "Side-lying leg raises (side-lying hip abduction) are a daily exercise, including rest days, at the user's current 10 kg per leg load. Record reps per leg."
+    "Before every prescription, retrieve the latest repository records and relevant session notes. Determine local date and weekday in Asia/Kolkata.",
+    "Use the fixed Sunday-start weekly split. Never shift it after a missed session. The 2026-11-22 through 2026-12-05 temporary phase has Wednesday active recovery; permanent Wednesday full rest resumes 2026-12-06.",
+    "Current gym is Bengaluru. Use only equipment explicitly confirmed in Bengaluru. Historical Kanpur/previous-gym machines are not current inventory. Seated/lying hamstring curl is unavailable.",
+    "Warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. Do not add cardio, ramp-up sets, or generic warm-up blocks by default.",
+    "Seated knee raises: 75 bodyweight reps every training day except Wednesday. Side-lying leg raises: daily; latest 15 kg x 30, reps basis unconfirmed. Farmer's carries: 20 kg each hand, walking to and fro inside the gym; latest volume 3 rounds.",
+    "User's working sets normally go to failure. Select the heaviest practical load that allows at least 10 clean reps, then continue past 10 until failure. Never cap at 10. Above 10 reps at failure: assess the smallest practical load increase next time. Below 10: hold or reduce. Around 10: hold unless other data supports an increase.",
+    "Track weight PRs and rep PRs separately for every exercise. Base recommendations on the most recent actual sets, not stale historical baselines. Propagate the latest load/rep targets into the next workout and current-state record.",
+    "Record every set individually, including load, reps, machine setting, load basis, warm-up versus working classification, and failure status when known. Do not invent unknown values. Do not retroactively mark old sets as failure.",
+    "After a session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note as needed. Commit only after successful GitHub writes and verify the final records."
   ],
   "latest_session_reference": {
     "date": "2026-11-24",
@@ -317,23 +372,69 @@
     "start_date": "2026-11-22",
     "end_date": "2026-12-05",
     "days": 14,
-    "objective": "Controlled return after a hometown maintenance period; do not chase strength PRs.",
+    "objective": "Follow the user's current load and failure method; no invented equipment or unnecessary warm-up routines.",
     "training_days": "14 consecutive calendar days",
     "wednesday_override": "Active recovery on 2026-11-25 and 2026-12-02, replacing the normal full-rest day temporarily.",
     "working_sets_per_exercise": 2,
-    "rir_target": {
-      "week_1": "approximately 3",
-      "week_2": "2-3"
-    },
+    "rir_target": null,
     "farmer_carry": {
-      "load_kg_each_hand": 15,
+      "load_kg_each_hand": 20,
       "route": "walking to and fro inside the gym",
-      "normal_day_rounds": 2,
-      "wednesday_rounds": "1 easy round only if comfortable"
+      "normal_day_rounds": 3,
+      "wednesday_rounds": "Use 20 kg each hand for one easy round only if comfortable."
     },
-    "seated_knee_raises": "50 bodyweight reps every day except Wednesday",
+    "seated_knee_raises": "75 bodyweight reps every day except Wednesday",
     "hometown_context": "User reports five gym visits during a two-week hometown break; final session used two sets per exercise. Lateral raise and seated row loads stayed the same as previous hometown sessions. Exact dates and complete set details are not established; do not create dated logs.",
     "plan_file": "PHASE-2026-11-22-to-2026-12-05.md",
-    "resume_regular_program": "2026-12-06"
+    "resume_regular_program": "2026-12-06",
+    "failure_method": "Working sets taken to failure using the user's 10-rep minimum, no 10-rep cap.",
+    "warm_up": [
+      "Seated knee raises",
+      "Farmer's carries",
+      "Side-lying leg raises"
+    ]
+  },
+  "equipment_availability": {
+    "current_location": "Bengaluru",
+    "last_confirmed": "2026-11-24",
+    "confirmed_exercises_and_equipment": [
+      "Wide-stance leg press, setting 5",
+      "Calf raise, setting 5",
+      "Shoulder press, setting 5",
+      "Rear-delt fly, setting 5",
+      "Dumbbells used for RDL",
+      "Lateral raises (exact setup unconfirmed)",
+      "Side-lying leg raises (exact setup unconfirmed)",
+      "Seated knee raises",
+      "Farmer's carries"
+    ],
+    "explicitly_unavailable": [
+      "Seated/lying hamstring curl machine"
+    ],
+    "historical_not_confirmed_for_bengaluru": [
+      "Chest press",
+      "Incline press",
+      "Lat pulldown",
+      "Seated row",
+      "Abdominal machine",
+      "Back extension machine",
+      "Biceps curl machine",
+      "Triceps machine",
+      "Cable stations"
+    ],
+    "instruction": "Do not prescribe equipment listed as historical or unconfirmed unless the user explicitly confirms it is available in Bengaluru."
+  },
+  "training_method": {
+    "warm_up": [
+      "Seated knee raises",
+      "Farmer's carries",
+      "Side-lying leg raises"
+    ],
+    "no_extra_warm_up_by_default": true,
+    "working_sets": "User normally takes working sets to failure.",
+    "rep_rule": "Choose the heaviest practical load that permits at least 10 clean reps; continue beyond 10 until failure. Ten is a minimum reference, not a cap.",
+    "failure_definition": "Stop when another clean concentric repetition cannot be completed. For RDL and other technically sensitive free-weight movements, stop at technical failure before form degrades.",
+    "next_session_load_rule": "If failure occurs above 10 reps, evaluate the smallest practical load increase. If failure occurs below 10, hold or reduce. At 10 reps, hold unless broader performance supports an increase.",
+    "logging": "Record actual load and reps per set. Track load PRs and rep PRs separately. Do not assign RIR by default."
   }
 }
