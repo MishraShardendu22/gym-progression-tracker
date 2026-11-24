@@ -32,14 +32,19 @@
       "route": "walking to and fro inside the gym",
       "frequency": "Every training day",
       "rounds": 3,
-      "note": "2026-11-24 correction: the reported 3 x 20 means 3 rounds at 20 kg in each hand. Use 20 kg each hand as the next starting load; do not revert to 15 kg without a user-reported reason."
+      "note": "2026-11-24: 20 kg each hand for 3 rounds. Carry forward this load; do not revert to 15 kg without user-reported difficulty."
     },
     "side_lying_hip_abduction": {
-      "target": "15 kg",
+      "load_kg_per_leg": 20,
+      "target": "30 reps per leg",
       "frequency": "Daily, including rest days",
-      "reps": 30,
-      "reps_basis": "Unspecified; user did not state whether reps were per leg or total.",
-      "latest_completed": "2026-11-24: 15 kg x 30; reps basis unconfirmed."
+      "latest_completed": "2026-11-24: 20 kg per leg x 30 reps per leg."
+    },
+    "pull_ups": {
+      "load": "bodyweight",
+      "frequency": "Daily including Wednesday",
+      "target": "Maximum clean reps",
+      "latest_completed": "2026-11-24: 4 reps"
     }
   },
   "known_records": {
@@ -50,15 +55,13 @@
         17,
         16
       ],
-      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16"
     },
     "incline_press": {
       "machine_setting": 4,
       "load_kg": 22.5,
       "reps": 10,
-      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10"
     },
     "shoulder_press": {
       "machine_setting": 5,
@@ -73,15 +76,13 @@
       "machine_setting": null,
       "load_kg": 37.5,
       "reps": 4,
-      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md.",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md."
     },
     "seated_row": {
       "machine_setting": null,
       "load_kg": 45,
       "reps": 10,
-      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10.",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10."
     },
     "rear_delt_fly": {
       "machine_setting": 5,
@@ -96,22 +97,19 @@
       "machine_setting": 5,
       "load_kg": 37.5,
       "reps": 7,
-      "status": "latest session 2026-11-05; subsequent sets 37.5 x 5 and 37.5 x 4",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "latest session 2026-11-05; subsequent sets 37.5 x 5 and 37.5 x 4"
     },
     "triceps": {
       "machine_setting": 5,
       "load_kg": 37.5,
       "reps": 6,
-      "status": "latest session 2026-11-05; other sets 37.5 x 5 and 37.5 x 3",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "latest session 2026-11-05; other sets 37.5 x 5 and 37.5 x 3"
     },
     "abdominal_machine": {
       "machine_setting": 7,
       "load_kg": 45,
       "reps": 10,
-      "status": "latest confirmed session on 2026-11-02.",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "latest confirmed session on 2026-11-02."
     },
     "back_extension": {
       "machine_setting": 1,
@@ -120,8 +118,7 @@
         10,
         9
       ],
-      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9",
-      "availability_status": "Historical previous-gym record; not confirmed available in Bengaluru. Do not prescribe unless user reconfirms."
+      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9"
     },
     "leg_press": {
       "machine_setting": 5,
@@ -139,38 +136,35 @@
       "status": "2026-11-24: 37.5 kg x 19 and x 18."
     },
     "cable_lateral_raise": {
-      "load_kg": 5,
+      "load_kg_per_hand": 5,
       "reps": 5,
-      "load_basis": "Unspecified",
-      "equipment_type": "Unspecified",
-      "status": "2026-11-24: lateral raise 5 kg x 5; setup and load convention not specified."
+      "equipment": "Cable machine",
+      "status": "2026-11-24: 5 kg per hand x 5."
     },
     "side_lying_hip_abduction": {
-      "load_kg": 15,
-      "reps": 30,
-      "load_basis": "Unspecified",
-      "reps_basis": "Unspecified; per leg versus total not confirmed.",
-      "status": "2026-11-24: 15 kg x 30."
+      "load_kg_per_leg": 20,
+      "reps_per_leg": 30,
+      "status": "User clarification 2026-11-24: 20 kg per leg x 30 reps per leg."
     },
     "dumbbell_romanian_deadlift": {
-      "load_kg": 15,
+      "load_kg_per_dumbbell": 15,
+      "total_load_kg": 30,
       "reps": [
         10,
         10
       ],
-      "load_basis": "Unspecified",
-      "status": "2026-11-24: 12.5 kg x 10, then 15 kg x 10; per-dumbbell versus combined load not stated."
+      "status": "2026-11-24: 12.5 kg per dumbbell x 10, then 15 kg per dumbbell x 10."
     },
     "seated_knee_raises": {
       "load": "bodyweight",
       "reps": 75,
-      "status": "2026-11-24: bodyweight x 75; this is the current target, superseding 50."
+      "status": "2026-11-24: bodyweight x 75."
     },
     "farmers_carry": {
       "load_kg_each_hand": 20,
       "rounds": 3,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-24 clarification: 20 kg in each hand for 3 rounds; distance/time per round not supplied."
+      "status": "2026-11-24: 20 kg each hand for 3 rounds."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
@@ -180,6 +174,12 @@
         10
       ],
       "status": "2026-11-24: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10."
+    },
+    "pull_ups": {
+      "load": "bodyweight",
+      "reps": 4,
+      "frequency": "Daily max reps",
+      "status": "2026-11-24: 4 reps; set/attempt count not separately confirmed."
     }
   },
   "data_quality_notes": [
@@ -197,7 +197,10 @@
     "2026-11-24 RDL load basis, lateral-raise setup/load basis, and side-lying leg-raise reps-per-leg basis remain unspecified. Farmer's carry was subsequently clarified as 20 kg each hand for 3 rounds.",
     "2026-11-24 clarified training method: warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. The other reported exercises are working sets normally taken to failure; this general rule applies going forward and is not retroactively assigned to older sessions.",
     "2026-11-24 corrected Farmer's carry interpretation: 20 kg each hand for 3 rounds, not 15 kg for 20 reps. Distance/time per round not supplied.",
-    "Historical machine data is retained but is not confirmed Bengaluru equipment inventory. Do not prescribe prior-gym machines without explicit reconfirmation."
+    "Historical machine data is retained but is not confirmed Bengaluru equipment inventory. Do not prescribe prior-gym machines without explicit reconfirmation.",
+    "2026-11-24 user correction: current Bengaluru equipment inventory includes combined chest/incline/shoulder press (settings 3/4/5), leg press/calf raise (setting 5), lat pulldown/seated row combo, abdominal machine setting 7, back extension setting 1, biceps/triceps combo setting 5, rear-delt setting 5, cable machine for lateral raises and pulls, dumbbells, and pull-up station. Do not classify these as Kanpur equipment.",
+    "2026-11-24 user correction: RDL is 15 kg per dumbbell (30 kg total); lateral raise is 5 kg per hand; side-lying raise is 20 kg per leg x 30 reps per leg; Farmer's carry is 20 kg each hand; daily pull-ups latest 4 reps.",
+    "2026-11-24 set strategy: usually 2 working sets per exercise; optional 3rd set is across all exercises if time permits. All working sets to failure. Minimum 10 clean reps, continue past 10; adjust next-session load based on actual failure reps."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
@@ -272,34 +275,30 @@
         "status": "Historical rep PR: 37.5 kg x 23. Latest session 2026-11-24: 37.5 x 19 and x 18."
       },
       "cable_lateral_raise": {
-        "load_kg": 2.5,
-        "reps_per_side": 10
+        "load_kg_per_hand": 5,
+        "reps": 5,
+        "status": "2026-11-24"
       },
       "side_lying_hip_abduction": {
-        "load_kg": 15,
-        "reps": 30,
-        "date": "2026-11-24",
-        "reps_basis": "Unspecified",
-        "status": "Latest highest reported load/reps. Per-leg versus total rep basis remains unconfirmed, so treat as provisional rather than a confirmed per-leg PR."
+        "load_kg_per_leg": 20,
+        "reps_per_leg": 30,
+        "status": "2026-11-24"
       },
       "dumbbell_romanian_deadlift": {
-        "load_kg": 15,
+        "load_kg_per_dumbbell": 15,
+        "total_load_kg": 30,
         "reps": 10,
-        "date": "2026-11-24",
-        "load_basis": "Unspecified",
-        "status": "Best current recorded result: 15 kg x 10; per-dumbbell versus combined load is not confirmed."
+        "status": "2026-11-24"
       },
       "seated_knee_raises": {
         "load": "bodyweight",
         "reps": 75,
-        "date": "2026-11-24",
-        "status": "Current rep target/PR: 75 bodyweight reps."
+        "status": "2026-11-24"
       },
       "farmers_carry": {
         "load_kg_each_hand": 20,
         "rounds": 3,
-        "date": "2026-11-24",
-        "status": "Current carry load PR/reference: 20 kg each hand for 3 rounds."
+        "status": "2026-11-24"
       },
       "wide_stance_leg_press": {
         "machine_setting": 5,
@@ -307,19 +306,25 @@
         "reps": 17,
         "date": "2026-11-22",
         "status": "Best recorded wide-stance leg press set at 63.75 kg x 17; latest session 2026-11-24 was 60 x 23 and 63.75 x 10."
+      },
+      "pull_ups": {
+        "load": "bodyweight",
+        "max_reps": 4,
+        "status": "2026-11-24"
       }
     }
   },
   "daily_coaching_protocol": [
-    "Before every prescription, retrieve the latest repository records and relevant session notes. Determine local date and weekday in Asia/Kolkata.",
-    "Use the fixed Sunday-start weekly split. Never shift it after a missed session. The 2026-11-22 through 2026-12-05 temporary phase has Wednesday active recovery; permanent Wednesday full rest resumes 2026-12-06.",
-    "Current gym is Bengaluru. Use only equipment explicitly confirmed in Bengaluru. Historical Kanpur/previous-gym machines are not current inventory. Seated/lying hamstring curl is unavailable.",
-    "Warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. Do not add cardio, ramp-up sets, or generic warm-up blocks by default.",
-    "Seated knee raises: 75 bodyweight reps every training day except Wednesday. Side-lying leg raises: daily; latest 15 kg x 30, reps basis unconfirmed. Farmer's carries: 20 kg each hand, walking to and fro inside the gym; latest volume 3 rounds.",
-    "User's working sets normally go to failure. Select the heaviest practical load that allows at least 10 clean reps, then continue past 10 until failure. Never cap at 10. Above 10 reps at failure: assess the smallest practical load increase next time. Below 10: hold or reduce. Around 10: hold unless other data supports an increase.",
-    "Track weight PRs and rep PRs separately for every exercise. Base recommendations on the most recent actual sets, not stale historical baselines. Propagate the latest load/rep targets into the next workout and current-state record.",
-    "Record every set individually, including load, reps, machine setting, load basis, warm-up versus working classification, and failure status when known. Do not invent unknown values. Do not retroactively mark old sets as failure.",
-    "After a session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note as needed. Commit only after successful GitHub writes and verify the final records."
+    "Before coaching, retrieve latest repository records and relevant session notes. Determine date/weekday in Asia/Kolkata and follow the fixed Sunday-start split. Never shift the schedule after a missed workout. Temporary active-recovery Wednesdays continue through 2026-12-05; normal Wednesday full rest resumes 2026-12-06.",
+    "Current Bengaluru gym equipment is confirmed: combined chest/incline/shoulder press machine (settings 3/4/5), combined leg press/calf raise machine (setting 5), combined lat pulldown/seated row machine (setting unknown), abdominal machine (setting 7), back extension (setting 1), combined biceps/triceps machine (setting 5), rear-delt fly (setting 5), cable machine used only for lateral raises and pulls, dumbbells for RDL, and pull-up station. Hamstring curl machine is unavailable.",
+    "Warm-up is seated knee raises, Farmer's carries, side-lying leg raises. Do not add separate cardio, mobility, ramp-up, or preparation sets by default.",
+    "Seated knee raises: bodyweight x 75 every training day except Wednesday. Farmer's carries: 20 kg each hand, walking to and fro, 3 rounds baseline. Side-lying leg raises: 20 kg per leg x 30 reps per leg daily. Pull-ups: daily bodyweight maximum clean reps, latest 4.",
+    "RDL: 15 kg per dumbbell (30 kg total) latest reference. Cable lateral raise: 5 kg per hand. Use machine settings confirmed in current inventory.",
+    "Strength-biased hypertrophy method: place main/heaviest compound lifts early while fresh after the user's warm-up. All working sets normally go to failure. Heaviest practical load permitting at least 10 clean reps, then continue past 10 to failure. Above 10 at failure: assess smallest load increase next session. Below 10: hold or reduce. Do not prescribe RIR.",
+    "Usually use 2 working sets per exercise. If the user opts for 3 due to time, use 3 for all exercises in that workout; do not mix 2 and 3 sets.",
+    "Track load PR and rep PR separately. Carry every new load/rep result into the next session. Do not revert seated knee raises to 50, Farmer's carries to 15 kg, RDL to total-load interpretation, or side leg raises to old 10/15 kg records.",
+    "Log each set individually, retain load basis, machine settings and role. Pull-up latest max-rep performance 4 is one daily metric; do not assume number of attempts unless specified.",
+    "After session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and session note. Commit only after write succeeds and verify persisted records."
   ],
   "latest_session_reference": {
     "date": "2026-11-24",
@@ -335,15 +340,16 @@
       "Lateral raise: 5 kg x 5; equipment type/load basis unspecified; working set taken to failure per user's standing method.",
       "Warm-up: seated knee raises, bodyweight x 75.",
       "Warm-up: side-lying leg raise, 15 kg x 30; whether reps were per leg or total unspecified.",
-      "Warm-up: Farmer's carry, 20 kg each hand for 3 rounds, walking to and fro inside gym; distance/time per round not supplied."
+      "Warm-up: Farmer's carry, 20 kg each hand for 3 rounds, walking to and fro inside gym; distance/time per round not supplied.",
+      "Daily pull-ups: bodyweight x 4 maximum reps; set/attempt count not separately confirmed."
     ],
     "data_notes": [
-      "Working sets are classified as failure sets according to the user's standing training method clarified on 2026-11-24.",
-      "Dumbbell RDL load basis remains unspecified.",
-      "Lateral-raise equipment type and load basis remain unspecified.",
-      "Side-lying leg-raise rep basis (per leg or total) remains unspecified.",
-      "Farmer's carry load is confirmed as 20 kg each hand for 3 rounds; distance/time per round is not supplied.",
-      "No hamstring curl machine is available in Bengaluru."
+      "Working sets are normally taken to failure; the user confirmed this applies to every working set.",
+      "RDL load is per dumbbell; 15 kg per dumbbell = 30 kg total.",
+      "Lateral raise is 5 kg per hand on the cable machine.",
+      "Side-lying leg raises are 20 kg per leg for 30 reps per leg.",
+      "Farmer's carries are 20 kg per hand for 3 rounds.",
+      "Pull-ups are daily max reps; 4 reported on 2026-11-24. Number of attempts not specified."
     ]
   },
   "week_start_day": "Sunday",
@@ -377,32 +383,68 @@
   "equipment_availability": {
     "current_location": "Bengaluru",
     "last_confirmed": "2026-11-24",
-    "confirmed_exercises_and_equipment": [
-      "Wide-stance leg press, setting 5",
-      "Calf raise, setting 5",
-      "Shoulder press, setting 5",
-      "Rear-delt fly, setting 5",
-      "Dumbbells used for RDL",
-      "Lateral raises (exact setup unconfirmed)",
-      "Side-lying leg raises (exact setup unconfirmed)",
-      "Seated knee raises",
-      "Farmer's carries"
+    "confirmed_equipment": [
+      {
+        "item": "Combined press machine",
+        "exercises": [
+          "Chest press",
+          "Incline press",
+          "Shoulder press"
+        ],
+        "settings": {
+          "chest_press": 3,
+          "incline_press": 4,
+          "shoulder_press": 5
+        }
+      },
+      {
+        "item": "Combined leg press/calf raise machine",
+        "exercises": [
+          "Wide-stance leg press",
+          "Calf raise"
+        ],
+        "settings": {
+          "leg_press": 5,
+          "calf_raise": 5
+        }
+      },
+      {
+        "item": "Combined lat pulldown/seated row machine",
+        "settings": "Unknown"
+      },
+      {
+        "item": "Abdominal machine",
+        "setting": 7
+      },
+      {
+        "item": "Back extension machine",
+        "setting": 1
+      },
+      {
+        "item": "Combined biceps/triceps machine",
+        "setting": 5
+      },
+      {
+        "item": "Rear-delt fly machine",
+        "setting": 5
+      },
+      {
+        "item": "Cable machine",
+        "use": "Lateral raises and pulls only"
+      },
+      {
+        "item": "Dumbbells",
+        "use": "Romanian deadlifts"
+      },
+      {
+        "item": "Pull-up station",
+        "use": "Daily bodyweight max-rep pull-ups"
+      }
     ],
     "explicitly_unavailable": [
       "Seated/lying hamstring curl machine"
     ],
-    "historical_not_confirmed_for_bengaluru": [
-      "Chest press",
-      "Incline press",
-      "Lat pulldown",
-      "Seated row",
-      "Abdominal machine",
-      "Back extension machine",
-      "Biceps curl machine",
-      "Triceps machine",
-      "Cable stations"
-    ],
-    "instruction": "Do not prescribe equipment listed as historical or unconfirmed unless the user explicitly confirms it is available in Bengaluru."
+    "instruction": "All inventory items listed above are confirmed available in Bengaluru. Do not label them as Kanpur-only or previous-gym-only. Only the hamstring curl machine is explicitly unavailable."
   },
   "training_method": {
     "warm_up": [
@@ -411,11 +453,12 @@
       "Side-lying leg raises"
     ],
     "no_extra_warm_up_by_default": true,
-    "working_sets": "User normally takes working sets to failure.",
-    "rep_rule": "Choose the heaviest practical load that permits at least 10 clean reps; continue beyond 10 until failure. Ten is a minimum reference, not a cap.",
+    "working_sets": "All working sets normally go to failure. Usually 2 working sets per exercise; if time permits and the user opts for 3, use 3 for all exercises in that workout.",
+    "rep_rule": "Choose the heaviest practical load that permits at least 10 clean reps; continue beyond 10 until failure. Ten is a minimum, not a cap.",
     "failure_definition": "Stop when another clean concentric repetition cannot be completed. For RDL and other technically sensitive free-weight movements, stop at technical failure before form degrades.",
-    "next_session_load_rule": "If failure occurs above 10 reps, evaluate the smallest practical load increase. If failure occurs below 10, hold or reduce. At 10 reps, hold unless broader performance supports an increase.",
-    "logging": "Record actual load and reps per set. Track load PRs and rep PRs separately. Do not assign RIR by default."
+    "next_session_load_rule": "If failure occurs above 10 reps, assess the smallest practical load increase. If failure occurs below 10, hold or reduce. At 10 reps, hold unless broader performance supports an increase.",
+    "logging": "Record actual load and reps per set. Track load PRs and rep PRs separately. Do not assign RIR by default.",
+    "exercise_order": "Prioritize the day's main/heaviest compound lifts early while fresh, after the user's established warm-up. This reflects the user's strength-biased hypertrophy preference."
   },
   "performance_prs": {
     "tracking_rule": "Track weight PR and rep PR separately. For lifting movements, benchmark the heaviest load that reaches at least 10 clean reps to failure, and best rep count at each exact load. Do not infer estimated 1RM.",
