@@ -1,6 +1,20 @@
 # Exercise Reference and Known Performance
 
-**Important:** The records below are reconstructed from previous chat logs. Some entries conflict or lack set classification. Treat them as reference points, not guaranteed current working-set prescriptions. Adjustment settings are not load weights.
+**Important:** This file contains historical performance records, not a complete list of machines currently available. The user is currently training in Bengaluru. Historical machine entries from Kanpur/previous gyms must not be prescribed in Bengaluru unless explicitly reconfirmed. Adjustment settings are not load weights.
+
+## Current Bengaluru equipment confirmation (2026-11-24)
+
+Confirmed exercises/equipment from the latest Bengaluru session:
+- Wide-stance leg press, setting 5.
+- Calf raise, setting 5 (same setting as leg press).
+- Shoulder press, setting 5.
+- Rear-delt fly, setting 5.
+- Dumbbells, used for RDL (latest load basis unspecified).
+- Lateral raise, performed at 5 kg × 5; exact equipment and load convention unspecified.
+- Side-lying leg raise, performed at 15 kg × 30; per-leg versus total reps unspecified.
+- Seated knee raises and Farmer's carries.
+
+Not confirmed as available in Bengaluru: chest press, incline press, lat pulldown, seated row, abdominal machine, back extension, biceps curl machine, triceps machine, and cable stations. Treat those entries as historical previous-gym records, not active inventory. The seated hamstring curl machine is explicitly unavailable in Bengaluru.
 
 | Exercise | Machine setting | Known load × reps | Confidence / notes |
 |---|---:|---|---|
@@ -21,20 +35,17 @@
 | Side-lying hip abduction | N/A | 15 kg × 30 | Latest session 2026-11-24. User did not specify whether 30 reps were per leg or total; confirm. |
 | Dumbbell Romanian deadlift | N/A | 12.5 kg × 10; 15 kg × 10 | Latest session 2026-11-24: 12.5 × 10, 15 × 10. Load basis not specified; do not assume per dumbbell. |
 | Seated knee raises | N/A | Bodyweight, 75 reps | Latest session 2026-11-24: 75 reps. Every training day, Sunday, Monday, Tuesday, Thursday, Friday, Saturday. None on Wednesday. |
-| Farmer's carry | N/A | 17.5 kg each hand | Updated standard from 2026-11-03: 2 rounds, walking to and fro inside the gym. |
+| Farmer's carry | N/A | 20 kg each hand | Latest Bengaluru session 2026-11-24: 20 kg in each hand for 3 rounds, walking to and fro inside the gym. |
 
-## Machine adjustment settings recorded
-- Chest press: 3
-- Incline press: 4
+## Machine adjustment settings
+
+Current Bengaluru-confirmed settings:
 - Shoulder press: 5
 - Rear-delt fly: 5
-- Biceps curl: 5
-- Triceps: 5
-- Abdominal machine: 7
-- Back extension: 1
-- Leg press: 5
+- Wide-stance leg press: 5
 - Calf raise: 5, same as leg press
-- Lat pulldown and seated row: unknown
+
+Other machine settings in historical rows belong to prior-gym records and are not evidence of current Bengaluru availability.
 
 ## Data integrity rules
 - Do not convert plate/stack labels or combined notation into a different load basis unless confirmed.
@@ -44,7 +55,7 @@
 
 
 ## Temporary return-phase overrides (2026-11-22 to 2026-12-05)
-- Farmer's carry coaching target during this phase: 15 kg in each hand, walking to and fro inside the gym. This is a temporary user-directed reduction from the historically logged 17.5 kg each hand; preserve the historical performance record above.
+- Farmer's carry current target is 20 kg in each hand, walking to and fro inside the gym. The 2026-11-24 report was clarified as three rounds at 20 kg each hand, not 15 kg for 20 repetitions.
 - Shoulder press setting remains 5. Leg press setting remains 5. Calf raise setting is also 5, the same as leg press.
 - The user's hometown report confirms lateral-raise and seated-row loads were unchanged across five visits, but exact dates, machine identities, and all sets are not available. Do not invent or backfill detailed session records.
 
@@ -53,6 +64,11 @@
 - The user is switching to **wide-stance leg press** as the intended leg-press variation. Keep the historical generic leg-press entries unchanged because their stance was not specified. Log future sets under `Wide-stance leg press` unless the user reports a different stance.
 
 
-## Equipment availability correction (2026-11-24)
-- User confirmed no hamstring curl machine is available at the current gym. Do not prescribe or assume access to a seated hamstring curl machine unless the user explicitly confirms availability at a later date.
-- Farmer's carry on 2026-11-24: 15 kg each hand, 3 x 20; unit for 20 unspecified.
+## Bengaluru equipment and coaching correction (2026-11-24)
+- The user clarified that the Farmer's carry report means **20 kg in each hand for 3 rounds**. It does not mean 15 kg for 20 repetitions. Carry 20 kg each hand forward as the next starting load.
+- Seated knee raises are now 75 bodyweight reps, not 50.
+- Side-lying leg raises: latest 15 kg × 30; reps-per-leg versus total remains unconfirmed.
+- User's warm-up consists of seated knee raises, Farmer's carries, and side-lying leg raises. Do not add separate cardio, ramp-up sets, or other generic warm-up steps by default.
+- The user normally takes working sets to failure. Ten reps is a minimum reference, not a cap; continue beyond 10 to failure and log actual reps.
+- Historical machine records are retained for historical accuracy but are not current Bengaluru equipment inventory. Do not prescribe unconfirmed machines from Kanpur/previous gyms.
+- The user explicitly confirmed no hamstring curl machine is available in Bengaluru.
