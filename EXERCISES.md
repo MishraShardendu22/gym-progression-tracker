@@ -43,6 +43,7 @@
 | Dumbbell Romanian deadlift | N/A | 15 kg per dumbbell × 10 (30 kg total) | Latest session 2026-11-24: 12.5 kg per dumbbell × 10, then 15 kg per dumbbell × 10. |
 | Seated knee raises | N/A | Bodyweight × 75 | Latest session 2026-11-24. Every training day except Wednesday. |
 | Farmer's carry | N/A | 20 kg each hand × 3 rounds | Latest Bengaluru session 2026-11-24: walking to and fro inside the gym. |
+| Pull-ups | N/A | Bodyweight × 4 max reps | Daily maximum clean reps; latest report 2026-11-24. Attempt/set count not separately specified. |
 
 ## Machine adjustment settings, all confirmed in Bengaluru
 - Chest press: 3
