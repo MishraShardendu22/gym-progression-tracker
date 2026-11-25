@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-24",
+  "last_reconstructed_from_chat": "2026-11-25",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -25,20 +25,21 @@
         "Thursday",
         "Friday",
         "Saturday"
-      ]
+      ],
+      "latest_completed": "2026-11-25: bodyweight x 75 completed."
     },
     "farmers_carry": {
       "load_kg_each_hand": 20,
       "route": "walking to and fro inside the gym",
       "frequency": "Every training day",
       "rounds": 3,
-      "note": "2026-11-24: 20 kg each hand for 3 rounds. Carry forward this load; do not revert to 15 kg without user-reported difficulty."
+      "note": "2026-11-25: 20 kg each hand for 3 rounds completed."
     },
     "side_lying_hip_abduction": {
       "load_kg_per_leg": 20,
       "target": "30 reps per leg",
       "frequency": "Daily, including rest days",
-      "latest_completed": "2026-11-24: 20 kg per leg x 30 reps per leg."
+      "latest_completed": "2026-11-25: 15 kg per leg x 30 reps per leg; 20 kg per leg x 30 remains previous best."
     },
     "pull_ups": {
       "load": "bodyweight",
@@ -74,15 +75,25 @@
     },
     "lat_pulldown": {
       "machine_setting": null,
-      "load_kg": 37.5,
-      "reps": 4,
-      "status": "latest session 2026-11-02; final close-grip set. Full grip-by-grip sequence is in sessions/2026-11-02.md."
+      "load_kg": 41.25,
+      "reps": [
+        5,
+        5,
+        4,
+        5,
+        5,
+        3
+      ],
+      "status": "2026-11-25: two reported grip sequences at 41.25 kg (37.5 + 3.75): wide 5, less-wide 5, close 4; then wide 5, less-wide 5, close 3. Setting unknown."
     },
     "seated_row": {
       "machine_setting": null,
       "load_kg": 45,
-      "reps": 10,
-      "status": "latest session 2026-11-02; sets were 37.5 x 10, 41.25 x 13, 45 x 10."
+      "reps": [
+        9,
+        9
+      ],
+      "status": "2026-11-25: 45 kg x 9, then 45 kg x 9. Machine setting unknown."
     },
     "rear_delt_fly": {
       "machine_setting": 5,
@@ -107,18 +118,21 @@
     },
     "abdominal_machine": {
       "machine_setting": 7,
-      "load_kg": 45,
-      "reps": 10,
-      "status": "latest confirmed session on 2026-11-02."
+      "load_kg": 48.75,
+      "reps": [
+        18,
+        16
+      ],
+      "status": "2026-11-25: 48.75 kg (45 + 3.75) x 18 and x 16."
     },
     "back_extension": {
       "machine_setting": 1,
-      "load_kg": 41.25,
+      "load_kg": 45,
       "reps": [
-        10,
-        9
+        15,
+        8
       ],
-      "status": "2026-11-22: 41.25 kg (37.5 + 3.75) x 10 and x 9"
+      "status": "2026-11-25: 45 kg x 15, then 45 kg x 8."
     },
     "leg_press": {
       "machine_setting": 5,
@@ -142,9 +156,9 @@
       "status": "2026-11-24: 5 kg per hand x 5."
     },
     "side_lying_hip_abduction": {
-      "load_kg_per_leg": 20,
+      "load_kg_per_leg": 15,
       "reps_per_leg": 30,
-      "status": "2026-11-24: 20 kg per leg x 30 reps per leg."
+      "status": "2026-11-25: 15 kg per leg x 30 reps per leg. Previous 20 kg x 30 remains historical best."
     },
     "dumbbell_romanian_deadlift": {
       "load_kg_per_dumbbell": 15,
@@ -158,13 +172,13 @@
     "seated_knee_raises": {
       "load": "bodyweight",
       "reps": 75,
-      "status": "2026-11-24: bodyweight x 75."
+      "status": "2026-11-25: bodyweight x 75."
     },
     "farmers_carry": {
       "load_kg_each_hand": 20,
       "rounds": 3,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-24: 20 kg each hand for 3 rounds."
+      "status": "2026-11-25: 20 kg each hand x 3 rounds."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
@@ -325,32 +339,7 @@
     "Log each set individually, retain load basis, machine settings and role. Pull-up latest max-rep performance 4 is one daily metric; do not assume number of attempts unless specified.",
     "After session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and session note. Commit only after write succeeds and verify persisted records."
   ],
-  "latest_session_reference": {
-    "date": "2026-11-24",
-    "day": "Tuesday",
-    "source": "user supplied workout report, with method and carry clarification supplied later the same day",
-    "status": "completed",
-    "notes": [
-      "Wide-stance leg press setting 5: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10; working sets taken to failure per user's standing method.",
-      "Rear-delt fly setting 5: 37.5 kg x 10, then 41.25 kg (37.5 + 3.75) x 5; working sets taken to failure per user's standing method.",
-      "Dumbbell RDL: 12.5 kg per dumbbell x 10, then 15 kg per dumbbell x 10 (30 kg total on second set); working sets taken to failure.",
-      "Calf raise setting 5: 37.5 kg x 19 and x 18; working sets taken to failure per user's standing method.",
-      "Shoulder press setting 5: 15 kg x 17 and x 10; working sets taken to failure per user's standing method.",
-      "Lateral raise on cable machine: 5 kg per hand x 5; working set taken to failure.",
-      "Warm-up: seated knee raises, bodyweight x 75.",
-      "Warm-up: side-lying leg raise, 20 kg per leg x 30 reps per leg.",
-      "Warm-up: Farmer's carry, 20 kg each hand for 3 rounds, walking to and fro inside gym; distance/time per round not supplied.",
-      "Daily pull-ups: bodyweight x 4 maximum reps; set/attempt count not separately confirmed."
-    ],
-    "data_notes": [
-      "Working sets are normally taken to failure; the user confirmed this applies to every working set.",
-      "RDL load is per dumbbell; 15 kg per dumbbell = 30 kg total.",
-      "Lateral raise is 5 kg per hand on the cable machine.",
-      "Side-lying leg raises are 20 kg per leg for 30 reps per leg.",
-      "Farmer's carries are 20 kg per hand for 3 rounds.",
-      "Pull-ups are daily max reps; 4 reported on 2026-11-24. Number of attempts not specified."
-    ]
-  },
+  "latest_session_reference": "sessions/2026-11-25.md",
   "week_start_day": "Sunday",
   "active_phase": {
     "name": "Two-week return-to-training / maintenance phase",
@@ -358,17 +347,17 @@
     "end_date": "2026-12-05",
     "days": 14,
     "objective": "Follow the user's current load and failure method; no invented equipment or unnecessary warm-up routines.",
-    "training_days": "14 consecutive calendar days",
-    "wednesday_override": "Active recovery on 2026-11-25 and 2026-12-02, replacing the normal full-rest day temporarily.",
+    "training_days": "14 consecutive calendar days; no rest days, including lifting on Wednesdays.",
+    "wednesday_override": "Normal lifting session on 2026-11-25 (Back + Abs) and 2026-12-02; user explicitly corrected that there are no rest days this week and next week.",
     "working_sets_per_exercise": 2,
     "rir_target": null,
     "farmer_carry": {
       "load_kg_each_hand": 20,
       "route": "walking to and fro inside the gym",
       "normal_day_rounds": 3,
-      "wednesday_rounds": "Use 20 kg each hand for one easy round only if comfortable."
+      "wednesday_rounds": "3 rounds on 2026-11-25 and 2026-12-02, per user's no-rest-days correction."
     },
-    "seated_knee_raises": "75 bodyweight reps every day except Wednesday",
+    "seated_knee_raises": "75 bodyweight reps daily, including Wednesdays, per user's no-rest-days correction.",
     "hometown_context": "User reports five gym visits during a two-week hometown break; final session used two sets per exercise. Lateral raise and seated row loads stayed the same as previous hometown sessions. Exact dates and complete set details are not established; do not create dated logs.",
     "plan_file": "PHASE-2026-11-22-to-2026-12-05.md",
     "resume_regular_program": "2026-12-06",
@@ -378,7 +367,7 @@
       "Farmer's carries",
       "Side-lying leg raises"
     ],
-    "side_lying_leg_raises": "20 kg per leg x 30 reps per leg, daily",
+    "side_lying_leg_raises": "Daily; latest completed 2026-11-25: 15 kg per leg x 30 reps per leg.",
     "pull_ups": "Daily bodyweight max reps including Wednesday; latest 4 reps",
     "working_set_count": "Usually 2 working sets per exercise; if the user opts for 3, use 3 across all exercises that workout."
   },
@@ -551,17 +540,25 @@
       "Farmer's carry": {
         "load_kg_each_hand": 20,
         "rounds": 3,
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       },
       "Seated knee raises": {
         "load": "bodyweight",
         "reps": 75,
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       },
       "Side-lying leg raise": {
         "load_kg_per_leg": 20,
         "reps_per_leg": 30,
-        "date": "2026-11-24"
+        "date": "2026-11-24",
+        "latest_sets": [
+          {
+            "load_kg_per_leg": 15,
+            "reps_per_leg": 30,
+            "date": "2026-11-25"
+          }
+        ],
+        "note": "Historical best remains 20 kg per leg x 30 on 2026-11-24; latest completed 2026-11-25 was 15 kg per leg x 30."
       },
       "Pull-ups": {
         "load": "bodyweight",
