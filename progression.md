@@ -170,3 +170,13 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 - RDL is 15 kg per dumbbell, total 30 kg. Cable lateral raise is 5 kg per hand.
 - Usually 2 working sets per exercise. If user elects 3 because of time, use 3 for all exercises in that workout, never a mixture.
 - User prefers strength-biased hypertrophy: perform main/heaviest compound exercises early while fresh, following their established warm-up. All working sets are taken to failure; load should allow at least 10 clean reps, then continue beyond 10 until failure.
+
+
+## Confirmed update: 2026-11-25 Wednesday
+- Lat pulldown at 41.25 kg (37.5 + 3.75): two reported grip sequences, each wide 5, less-wide 5, close 4 on the first sequence and close 3 on the second. Full sequence logged as six individual sets. Hold or reduce load next exposure because all reported grip results were below 10.
+- Seated row: 45 kg × 9 for both sets. Hold or reduce next exposure to target at least 10 clean reps.
+- Abdominal machine setting 7: 48.75 kg (45 + 3.75) × 18 and × 16. Assess smallest practical increase next exposure.
+- Back extension setting 1: 45 kg × 15 and × 8. Mixed result; retain 45 kg for now rather than increasing, and prioritize clean reps.
+- Farmer's carry: 20 kg each hand × 3 rounds; seated knee raises: bodyweight × 75.
+- Side-lying leg raise: 15 kg per leg × 30 reps per leg today. Previous 20 kg per leg × 30 remains the historical best; latest completed load is 15 kg.
+- User explicitly corrected the temporary phase: no rest days this week or next week. Wednesday 2026-11-25 was completed as Back + Abs, and Wednesday 2026-12-02 is also a training day. This supersedes the phase plan's earlier active-recovery-only Wednesday text.
