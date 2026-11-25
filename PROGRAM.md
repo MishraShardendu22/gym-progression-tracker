@@ -15,7 +15,7 @@ The training week starts on **Sunday**, which is Day 1.
 - Friday: Hamstrings + Arms + Back accessories
 - Saturday: Legs + Shoulders + Hips
 
-Never shift the schedule to compensate for a missed workout. During the temporary phase through 2026-12-05, Wednesday is active recovery; permanent Wednesday full rest resumes 2026-12-06.
+Never shift the schedule to compensate for a missed workout. During the temporary phase through 2026-12-05, the user has explicitly requested no rest days. Wednesday 2026-11-25 was completed as Back + Abs; Wednesday 2026-12-02 is also a training day. Permanent Wednesday full rest resumes 2026-12-06.
 
 ## Current gym and confirmed equipment
 
