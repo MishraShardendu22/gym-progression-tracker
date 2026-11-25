@@ -24,18 +24,18 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 | Chest press | 3 | 26.25 kg × 10 | Latest session 2026-11-05: 22.5 × 30, then 26.25 × 10 for two sets. The 30-rep entry is recorded literally as reported. |
 | Incline press | 4 | 18.75 kg × 10 | Latest session 2026-11-05: 18.75 × 10 for three sets (reported as 15 + 3.75 kg). |
 | Shoulder press | 5 | 15 kg × 17, 10 | Latest session 2026-11-24: 15 × 17 and 15 × 10. |
-| Lat pulldown | Unknown | 37.5 kg × 4 | Latest session 2026-11-02: at 30 kg, wide 5, less-wide 5, close 10; at 33.75 kg, 5/5/5; at 37.5 kg, 5/5/4. Grip order preserved. |
-| Seated row | Unknown | 45 kg × 10 | Latest session 2026-11-02: 37.5 × 10, 41.25 × 13, 45 × 10. |
+| Lat pulldown | Unknown | 41.25 kg × 5/5/4, then 5/5/3 | Latest session 2026-11-25: two grip sequences at 41.25 kg (37.5 + 3.75), wide/less-wide/close. |
+| Seated row | Unknown | 45 kg × 9, 9 | Latest session 2026-11-25. |
 | Rear-delt fly | 5 | 37.5 kg × 10; 41.25 kg × 5 | Latest session 2026-11-24: 37.5 × 10, then 41.25 × 5. |
 | Biceps curl machine | 5 | 37.5 kg × 7 | Latest session 2026-11-05: 37.5 × 7, 5, 4. |
 | Triceps exercise/machine | 5 | 37.5 kg × 6 | Latest session 2026-11-05: 37.5 × 5, 6, 3. Exact exercise/machine naming should be confirmed if needed. |
-| Abdominal machine | 7 | 45 kg × 10 | Latest confirmed session 2026-11-02: 45 × 10. Earlier 33.75 kg × 12 and × 15 (30 + 3.75). |
-| Back extension | 1 | 45 kg × 10 | Earlier 33.75 kg × 12 and × 15. |
+| Abdominal machine | 7 | 48.75 kg × 18, 16 | Latest session 2026-11-25; 48.75 = 45 + 3.75. |
+| Back extension | 1 | 45 kg × 15, 8 | Latest session 2026-11-25. |
 | Leg press (historical stance unspecified) | 5 | 63.75 kg × 21 | Latest historical session 2026-11-03: 52.5 × 20, 60 × 21, 63.75 × 21. Stance was not recorded. |
 | Wide-stance leg press | 5 | 60 kg × 23; 63.75 kg × 10 | Latest session 2026-11-24: 60 × 23, then 63.75 × 10. Earlier session 2026-11-22: 63.75 × 17 and × 9. |
 | Calf raise | 5 | 37.5 kg × 19, 18 | Latest session 2026-11-24: 37.5 × 19 and × 18. |
 | Lateral raise | Cable machine | 5 kg per hand × 5 | Latest session 2026-11-24; user confirmed cable machine and per-hand load. |
-| Side-lying hip abduction | N/A | 20 kg per leg × 30 per leg | User clarified 2026-11-24: 20 kg each leg, 30 reps per leg. |
+| Side-lying hip abduction | N/A | 15 kg per leg × 30 per leg | Latest session 2026-11-25; previous 20 kg per leg × 30 remains historical best. |
 | Dumbbell Romanian deadlift | N/A | 15 kg per dumbbell × 10 (30 kg total) | Latest session 2026-11-24: 12.5 kg per dumbbell × 10, then 15 kg per dumbbell × 10. |
 | Seated knee raises | N/A | Bodyweight × 75 | Latest session 2026-11-24. Every training day except Wednesday. |
 | Farmer's carry | N/A | 20 kg each hand × 3 rounds | Latest Bengaluru session 2026-11-24: walking to and fro inside the gym. |
@@ -68,3 +68,13 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 - Pull-ups: daily max clean bodyweight reps; latest report 4 reps.
 
 See `instruction.md` for the complete coaching rules and `agent.md` for the agent workflow. Preserve the historical context in old rows; do not treat an old PR as the latest session result.
+
+
+## Latest session update: 2026-11-25
+- Lat pulldown: 41.25 kg (37.5 + 3.75), first grip sequence wide 5, less-wide 5, close 4; second sequence wide 5, less-wide 5, close 3. Machine setting unknown.
+- Seated row: 45 kg × 9, then × 9. Machine setting unknown.
+- Abdominal machine setting 7: 48.75 kg (45 + 3.75) × 18 and × 16.
+- Back extension setting 1: 45 kg × 15 and × 8.
+- Farmer's carry: 20 kg each hand × 3 rounds.
+- Seated knee raises: bodyweight × 75.
+- Side-lying leg raise: 15 kg per leg × 30 reps per leg. The prior 20 kg per leg × 30 remains the historical best.
