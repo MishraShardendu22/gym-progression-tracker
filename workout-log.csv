@@ -152,3 +152,14 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-11-25,Wednesday,Farmer's carry,,warm-up,3,20,each hand,,,One of 3 rounds; walking to and fro inside gym.
 2026-11-25,Wednesday,Seated knee raises,,warm-up,1,bodyweight,bodyweight,75,,Completed.
 2026-11-25,Wednesday,Side-lying leg raise,,warm-up,1,15,per leg,30,,15 kg per leg; 30 reps each leg.
+2026-11-26,Thursday,Chest press,3,working,1,33.75,machine stack,10,0,Reported as 30 + 3.75 kg; failure-based working set per standing rule.
+2026-11-26,Thursday,Chest press,3,working,2,33.75,machine stack,7,0,Reported as 30 + 3.75 kg; failure-based working set per standing rule.
+2026-11-26,Thursday,Incline press,4,working,1,26.25,machine stack,10,0,Reported as 22.5 + 3.75 kg; only one set reported.
+2026-11-26,Thursday,Biceps curl,5,working,1,30,machine stack,10,0,Failure-based working set per standing rule.
+2026-11-26,Thursday,Biceps curl,5,working,2,33.75,machine stack,8,0,Reported as 30 + 3.75 kg; below 10-rep load threshold.
+2026-11-26,Thursday,Triceps,5,working,1,30,machine stack,15,0,Failure-based working set per standing rule.
+2026-11-26,Thursday,Triceps,5,working,2,33.75,machine stack,9,0,Reported as 30 + 3.75 kg; below 10-rep load threshold.
+2026-11-26,Thursday,Side-lying leg raise,,warm-up,1,15,per leg,30,,Interpreted as 15 kg each side x 30 reps per leg.
+2026-11-26,Thursday,Seated knee raises,,warm-up,1,bodyweight,bodyweight,75,,75 reps; no added load reported.
+2026-11-26,Thursday,Farmer's carry,,warm-up,1,20,each hand,,,20 kg each hand; number of rounds not reported.
+2026-11-26,Thursday,Pull-ups,,working,1,bodyweight,bodyweight,6,,Daily max-rep result; set/attempt structure not specified.
