@@ -5,7 +5,8 @@
 
 ## Fixed weekly schedule
 
-The training week starts on **Sunday**, which is Day 1.
+The training week starts on **Sunday**, which is Day 1.  
+**Scheduled workout start time:** 07:00 (7:00 AM), Asia/Kolkata, on every scheduled training day.
 
 - Sunday: Chest + Legs + Hamstrings
 - Monday: Back + Abs
