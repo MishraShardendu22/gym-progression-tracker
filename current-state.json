@@ -108,21 +108,35 @@
     },
     "biceps_curl": {
       "machine_setting": 5,
-      "load_kg": 33.75,
-      "reps": [
-        10,
-        8
+      "latest_sets": [
+        {
+          "load_kg": 30,
+          "reps": 10,
+          "date": "2026-11-26"
+        },
+        {
+          "load_kg": 33.75,
+          "reps": 8,
+          "date": "2026-11-26"
+        }
       ],
-      "status": "2026-11-26: 30 kg x 10, then 33.75 kg (30 + 3.75) x 8."
+      "status": "2026-11-26: 30 kg x 10, then 33.75 kg (30 + 3.75) x 8. Qualifying load PR: 30 kg x 10."
     },
     "triceps": {
       "machine_setting": 5,
-      "load_kg": 33.75,
-      "reps": [
-        15,
-        9
+      "latest_sets": [
+        {
+          "load_kg": 30,
+          "reps": 15,
+          "date": "2026-11-26"
+        },
+        {
+          "load_kg": 33.75,
+          "reps": 9,
+          "date": "2026-11-26"
+        }
       ],
-      "status": "2026-11-26: 30 kg x 15, then 33.75 kg (30 + 3.75) x 9."
+      "status": "2026-11-26: 30 kg x 15, then 33.75 kg (30 + 3.75) x 9. Qualifying load PR: 30 kg x 15."
     },
     "abdominal_machine": {
       "machine_setting": 7,
