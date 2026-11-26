@@ -30,6 +30,7 @@ If two repository files conflict, prefer the more recent explicit user correctio
 ## 2. Determine today's session
 
 - Use the current date and weekday in **Asia/Kolkata**.
+- The scheduled workout start time is **07:00 (7:00 AM) Asia/Kolkata** on every scheduled training day.
 - Training week begins Sunday as Day 1.
 - Apply the exact seven-day split in `instruction.md` and `PROGRAM.md`.
 - Never shift a missed workout to another day.
