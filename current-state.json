@@ -602,5 +602,10 @@
     "instruction": "instruction.md",
     "agent": "agent.md",
     "note": "instruction.md contains user-specific coaching rules. agent.md contains the tool-agnostic workflow for any AI agent."
+  },
+  "scheduled_start_time": {
+    "time": "07:00",
+    "timezone": "Asia/Kolkata",
+    "note": "7:00 AM on every scheduled training day."
   }
 }
