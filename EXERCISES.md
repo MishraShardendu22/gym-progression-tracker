@@ -21,25 +21,25 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 
 | Exercise | Machine setting | Known load × reps | Confidence / notes |
 |---|---:|---|---|
-| Chest press | 3 | 26.25 kg × 10 | Latest session 2026-11-05: 22.5 × 30, then 26.25 × 10 for two sets. The 30-rep entry is recorded literally as reported. |
-| Incline press | 4 | 18.75 kg × 10 | Latest session 2026-11-05: 18.75 × 10 for three sets (reported as 15 + 3.75 kg). |
+| Chest press | 3 | 33.75 kg × 10, then × 7 | Latest session 2026-11-26; 33.75 = 30 + 3.75. New qualifying load PR: 33.75 kg × 10. |
+| Incline press | 4 | 26.25 kg × 10 | Latest session 2026-11-26; 26.25 = 22.5 + 3.75. One set reported; new qualifying load PR. |
 | Shoulder press | 5 | 15 kg × 17, 10 | Latest session 2026-11-24: 15 × 17 and 15 × 10. |
 | Lat pulldown | Unknown | 41.25 kg × 5/5/4, then 5/5/3 | Latest session 2026-11-25: two grip sequences at 41.25 kg (37.5 + 3.75), wide/less-wide/close. |
 | Seated row | Unknown | 45 kg × 9, 9 | Latest session 2026-11-25. |
 | Rear-delt fly | 5 | 37.5 kg × 10; 41.25 kg × 5 | Latest session 2026-11-24: 37.5 × 10, then 41.25 × 5. |
-| Biceps curl machine | 5 | 37.5 kg × 7 | Latest session 2026-11-05: 37.5 × 7, 5, 4. |
-| Triceps exercise/machine | 5 | 37.5 kg × 6 | Latest session 2026-11-05: 37.5 × 5, 6, 3. Exact exercise/machine naming should be confirmed if needed. |
+| Biceps curl machine | 5 | 30 kg × 10; 33.75 kg × 8 | Latest session 2026-11-26. New qualifying load PR: 30 kg × 10; 33.75 kg × 8 is below the 10-rep threshold. |
+| Triceps exercise/machine | 5 | 30 kg × 15; 33.75 kg × 9 | Latest session 2026-11-26. New qualifying load PR: 30 kg × 15; 33.75 kg × 9 is below the 10-rep threshold. |
 | Abdominal machine | 7 | 48.75 kg × 18, 16 | Latest session 2026-11-25; 48.75 = 45 + 3.75. |
 | Back extension | 1 | 45 kg × 15, 8 | Latest session 2026-11-25. |
 | Leg press (historical stance unspecified) | 5 | 63.75 kg × 21 | Latest historical session 2026-11-03: 52.5 × 20, 60 × 21, 63.75 × 21. Stance was not recorded. |
 | Wide-stance leg press | 5 | 60 kg × 23; 63.75 kg × 10 | Latest session 2026-11-24: 60 × 23, then 63.75 × 10. Earlier session 2026-11-22: 63.75 × 17 and × 9. |
 | Calf raise | 5 | 37.5 kg × 19, 18 | Latest session 2026-11-24: 37.5 × 19 and × 18. |
 | Lateral raise | Cable machine | 5 kg per hand × 5 | Latest session 2026-11-24; user confirmed cable machine and per-hand load. |
-| Side-lying hip abduction | N/A | 15 kg per leg × 30 per leg | Latest session 2026-11-25; previous 20 kg per leg × 30 remains historical best. |
+| Side-lying hip abduction | N/A | 15 kg per leg × 30 per leg | Latest session 2026-11-26; historical best remains 20 kg per leg × 30. |
 | Dumbbell Romanian deadlift | N/A | 15 kg per dumbbell × 10 (30 kg total) | Latest session 2026-11-24: 12.5 kg per dumbbell × 10, then 15 kg per dumbbell × 10. |
-| Seated knee raises | N/A | Bodyweight × 75 | Latest session 2026-11-24. Every training day except Wednesday. |
+| Seated knee raises | N/A | Bodyweight × 75 | Latest session 2026-11-26. During the active no-rest phase, every day including Wednesday. |
 | Farmer's carry | N/A | 20 kg each hand × 3 rounds | Latest Bengaluru session 2026-11-24: walking to and fro inside the gym. |
-| Pull-ups | N/A | Bodyweight × 4 max reps | Daily maximum clean reps; latest report 2026-11-24. Attempt/set count not separately specified. |
+| Pull-ups | N/A | Bodyweight × 6 max reps | Latest report 2026-11-26; set/attempt count not specified. New rep PR. |
 
 
 ## Machine adjustment settings
@@ -78,3 +78,12 @@ See `instruction.md` for the complete coaching rules and `agent.md` for the agen
 - Farmer's carry: 20 kg each hand × 3 rounds.
 - Seated knee raises: bodyweight × 75.
 - Side-lying leg raise: 15 kg per leg × 30 reps per leg. The prior 20 kg per leg × 30 remains the historical best.
+
+
+## Latest session update: 2026-11-26
+- Chest press setting 3: 33.75 kg (30 + 3.75) × 10, then × 7. New qualifying load PR at 33.75 kg × 10.
+- Incline press setting 4: 26.25 kg (22.5 + 3.75) × 10. One set reported; new qualifying load PR.
+- Biceps curl setting 5: 30 kg × 10, then 33.75 kg (30 + 3.75) × 8. New qualifying load PR is 30 kg × 10; heavier set is below threshold.
+- Triceps setting 5: 30 kg × 15, then 33.75 kg (30 + 3.75) × 9. New qualifying load PR is 30 kg × 15; heavier set is below threshold.
+- Side-lying leg raise: interpreted as 15 kg per leg × 30 reps per leg. Seated knee raises: 75 bodyweight reps. Farmer's carry: 20 kg each hand; rounds not reported.
+- Pull-ups: bodyweight × 6 reps; new rep PR. Set/attempt structure not specified.
