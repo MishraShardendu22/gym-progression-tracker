@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-25",
+  "last_reconstructed_from_chat": "2026-11-26",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -51,18 +51,20 @@
   "known_records": {
     "chest_press": {
       "machine_setting": 3,
-      "load_kg": 26.25,
+      "load_kg": 33.75,
       "reps": [
-        17,
-        16
+        10,
+        7
       ],
-      "status": "2026-11-22: 26.25 kg (22.5 + 3.75) x 17 and x 16"
+      "status": "2026-11-26: 33.75 kg (30 + 3.75) x 10 and x 7."
     },
     "incline_press": {
       "machine_setting": 4,
-      "load_kg": 22.5,
-      "reps": 10,
-      "status": "2026-11-22: 18.75 kg x 12, then 22.5 kg x 10"
+      "load_kg": 26.25,
+      "reps": [
+        10
+      ],
+      "status": "2026-11-26: 26.25 kg (22.5 + 3.75) x 10; only one set reported."
     },
     "shoulder_press": {
       "machine_setting": 5,
@@ -106,15 +108,21 @@
     },
     "biceps_curl": {
       "machine_setting": 5,
-      "load_kg": 37.5,
-      "reps": 7,
-      "status": "latest session 2026-11-05; subsequent sets 37.5 x 5 and 37.5 x 4"
+      "load_kg": 33.75,
+      "reps": [
+        10,
+        8
+      ],
+      "status": "2026-11-26: 30 kg x 10, then 33.75 kg (30 + 3.75) x 8."
     },
     "triceps": {
       "machine_setting": 5,
-      "load_kg": 37.5,
-      "reps": 6,
-      "status": "latest session 2026-11-05; other sets 37.5 x 5 and 37.5 x 3"
+      "load_kg": 33.75,
+      "reps": [
+        15,
+        9
+      ],
+      "status": "2026-11-26: 30 kg x 15, then 33.75 kg (30 + 3.75) x 9."
     },
     "abdominal_machine": {
       "machine_setting": 7,
@@ -158,7 +166,7 @@
     "side_lying_hip_abduction": {
       "load_kg_per_leg": 15,
       "reps_per_leg": 30,
-      "status": "2026-11-25: 15 kg per leg x 30 reps per leg. Previous 20 kg x 30 remains historical best."
+      "status": "2026-11-26: 15 kg per side x 30 reps; interpreted as 30 reps per leg."
     },
     "dumbbell_romanian_deadlift": {
       "load_kg_per_dumbbell": 15,
@@ -172,13 +180,13 @@
     "seated_knee_raises": {
       "load": "bodyweight",
       "reps": 75,
-      "status": "2026-11-25: bodyweight x 75."
+      "status": "2026-11-26: 75 reps; user did not report added load."
     },
     "farmers_carry": {
       "load_kg_each_hand": 20,
-      "rounds": 3,
+      "rounds": null,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-25: 20 kg each hand x 3 rounds."
+      "status": "2026-11-26: 20 kg each hand; rounds not reported."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
@@ -191,9 +199,9 @@
     },
     "pull_ups": {
       "load": "bodyweight",
-      "reps": 4,
+      "reps": 6,
       "frequency": "Daily max clean reps",
-      "status": "2026-11-24: 4 reps; number of attempts/sets not separately reported."
+      "status": "2026-11-26: 6 reps; set/attempt structure not specified."
     }
   },
   "data_quality_notes": [
@@ -212,22 +220,26 @@
     "2026-11-24 user correction: RDL is 15 kg per dumbbell (30 kg total); lateral raise is 5 kg per hand; side-lying raise is 20 kg per leg x 30 reps per leg; Farmer's carry is 20 kg each hand; daily pull-ups latest 4 reps.",
     "2026-11-24 set strategy: usually 2 working sets per exercise; optional 3rd set is across all exercises if time permits. All working sets to failure. Minimum 10 clean reps, continue past 10; adjust next-session load based on actual failure reps.",
     "2026-11-24 workout report was clarified: RDL is per dumbbell, lateral raise 5 kg per hand, side-lying leg raise 20 kg per leg x 30 reps per leg, Farmer's carry 20 kg each hand for 3 rounds, and pull-ups daily max reps with 4 reported today.",
-    "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps."
+    "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps.",
+    "2026-11-26: side-lying leg raise interpreted as 15 kg per side x 30 reps per leg; seated knee raises recorded as 75 reps with no added load reported. Farmer's carry load was 20 kg each hand; rounds were not reported.",
+    "2026-11-26: pull-up count of 6 recorded as reported; number of sets/attempts not specified."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
     "exercises": {
       "chest_press": {
         "machine_setting": 3,
-        "load_kg": 18.75,
+        "load_kg": 33.75,
         "reps": 10,
-        "status": "latest confirmed session"
+        "date": "2026-11-26",
+        "status": "New qualifying load PR: 33.75 kg x 10. Second set 33.75 kg x 7."
       },
       "incline_press": {
         "machine_setting": 4,
-        "load_kg": 15,
-        "reps": 15,
-        "status": "latest confirmed session"
+        "load_kg": 26.25,
+        "reps": 10,
+        "date": "2026-11-26",
+        "status": "New qualifying load PR: 26.25 kg x 10; only one set reported."
       },
       "shoulder_press": {
         "machine_setting": 5,
@@ -256,12 +268,16 @@
       "biceps_curl": {
         "machine_setting": 5,
         "load_kg": 30,
-        "reps": 8
+        "reps": 10,
+        "date": "2026-11-26",
+        "status": "New qualifying load PR: 30 kg x 10. Heavier 33.75 kg x 8 does not qualify for the 10-rep load benchmark."
       },
       "triceps": {
         "machine_setting": 5,
         "load_kg": 30,
-        "reps": 10
+        "reps": 15,
+        "date": "2026-11-26",
+        "status": "New qualifying load PR: 30 kg x 15. Heavier 33.75 kg x 9 does not qualify for the 10-rep load benchmark."
       },
       "abdominal_machine": {
         "machine_setting": 7,
@@ -294,7 +310,7 @@
       "side_lying_hip_abduction": {
         "load_kg_per_leg": 20,
         "reps_per_leg": 30,
-        "status": "2026-11-24"
+        "status": "Historical best remains 20 kg per leg x 30; latest 2026-11-26 was 15 kg per side x 30."
       },
       "dumbbell_romanian_deadlift": {
         "load_kg_per_dumbbell": 15,
@@ -321,8 +337,9 @@
       },
       "pull_ups": {
         "load": "bodyweight",
-        "max_reps": 4,
-        "status": "2026-11-24"
+        "max_reps": 6,
+        "date": "2026-11-26",
+        "status": "New bodyweight rep PR: 6 reps; set/attempt structure not specified."
       }
     }
   },
@@ -367,8 +384,8 @@
       "Farmer's carries",
       "Side-lying leg raises"
     ],
-    "side_lying_leg_raises": "Daily; latest completed 2026-11-25: 15 kg per leg x 30 reps per leg.",
-    "pull_ups": "Daily bodyweight max reps including Wednesday; latest 4 reps",
+    "side_lying_leg_raises": "Daily; latest completed 2026-11-26: 15 kg per leg x 30 reps per leg.",
+    "pull_ups": "Daily bodyweight max reps including Wednesday; latest 6 reps on 2026-11-26.",
     "working_set_count": "Usually 2 working sets per exercise; if the user opts for 3, use 3 across all exercises that workout."
   },
   "equipment_availability": {
