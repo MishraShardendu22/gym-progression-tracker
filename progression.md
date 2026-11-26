@@ -180,3 +180,12 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 - Farmer's carry: 20 kg each hand × 3 rounds; seated knee raises: bodyweight × 75.
 - Side-lying leg raise: 15 kg per leg × 30 reps per leg today. Previous 20 kg per leg × 30 remains the historical best; latest completed load is 15 kg.
 - User explicitly corrected the temporary phase: no rest days this week or next week. Wednesday 2026-11-25 was completed as Back + Abs, and Wednesday 2026-12-02 is also a training day. This supersedes the phase plan's earlier active-recovery-only Wednesday text.
+
+
+## Confirmed update: 2026-11-26 Thursday
+- Chest press setting 3: 33.75 kg (30 + 3.75) × 10, then × 7. Qualifying load PR: 33.75 kg × 10; next exposure hold or reduce to achieve at least 10 clean reps on both sets.
+- Incline press setting 4: 26.25 kg (22.5 + 3.75) × 10. Qualifying load PR: 26.25 kg × 10; only one set was reported.
+- Biceps curl setting 5: 30 kg × 10, then 33.75 kg (30 + 3.75) × 8. Qualifying load PR: 30 kg × 10; do not use 33.75 kg as a qualifying load until it reaches 10 clean reps.
+- Triceps setting 5: 30 kg × 15, then 33.75 kg (30 + 3.75) × 9. Qualifying load PR: 30 kg × 15; reduce/hold next exposure to meet the 10-rep minimum.
+- Daily pull-ups: bodyweight × 6, new rep PR. Set/attempt structure was not specified.
+- Warm-up reported: side-lying leg raise interpreted as 15 kg per leg × 30 per leg; seated knee raises 75 reps with no added load reported; Farmer's carry 20 kg each hand, rounds not reported.
