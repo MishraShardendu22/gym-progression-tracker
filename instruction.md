@@ -2,7 +2,8 @@
 
 **Canonical user preferences.** Last explicitly confirmed: 2026-11-24.  
 **Current gym:** Bengaluru, India.  
-**Time zone for dates and training-day decisions:** Asia/Kolkata.
+**Time zone for dates and training-day decisions:** Asia/Kolkata.  
+**Scheduled workout start time:** 07:00 (7:00 AM), Asia/Kolkata, every scheduled training day.
 
 This file records the user's training rules. Do not silently replace them with generic fitness templates. When the user explicitly changes a rule, update this file and the current-state records. If a newer explicit user instruction conflicts with this file, the newer instruction wins and must be persisted.
 
