@@ -3,6 +3,7 @@
 Private source of truth for the user's gym program, workout logs, exercise settings, and progression decisions.
 
 ## Operating rules for the assistant
+- Scheduled workout start time: **07:00 (7:00 AM), Asia/Kolkata**, on every scheduled training day.
 - Before prescribing or logging a session, read `PROGRAM.md`, `EXERCISES.md`, `current-state.json`, and the relevant session logs.
 - After the user reports a workout, record only details actually supplied. Never fabricate dates, loads, reps, machine settings, warm-up/working classification, or RIR.
 - Commit updates to this repository when GitHub tools are available. Use descriptive commit messages and preserve historical records.
