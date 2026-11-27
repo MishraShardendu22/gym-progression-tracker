@@ -87,3 +87,13 @@ See `instruction.md` for the complete coaching rules and `agent.md` for the agen
 - Triceps setting 5: 30 kg × 15, then 33.75 kg (30 + 3.75) × 9. New qualifying load PR is 30 kg × 15; heavier set is below threshold.
 - Side-lying leg raise: interpreted as 15 kg per leg × 30 reps per leg. Seated knee raises: 75 bodyweight reps. Farmer's carry: 20 kg each hand; rounds not reported.
 - Pull-ups: bodyweight × 6 reps; new rep PR. Set/attempt structure not specified.
+
+
+## Latest session update: 2026-11-27
+- Lat pulldown: two grip sequences, very-wide/wide/close. First sequence: 5/2/2 reps; second: 5/3/3 reps. Load and machine setting were not reported; do not infer them.
+- Rear-delt fly setting 5: 41.25 kg (37.5 + 3.75) × 8 for both reported sets.
+- Biceps curl setting 5: 37.5 kg × 6; one set reported, below the 10-rep threshold.
+- Triceps setting 5: 33.75 kg (30 + 3.75) × 11, followed by 11 reps with load not reported.
+- Dumbbell RDL: 15 kg per dumbbell × 11, then × 10 (30 kg total).
+- Pull-ups: bodyweight × 6; set/attempt structure not specified. This matches the previous reported max of 6.
+- Warm-up movements were not reported and have not been recorded.
