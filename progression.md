@@ -189,3 +189,13 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 - Triceps setting 5: 30 kg × 15, then 33.75 kg (30 + 3.75) × 9. Qualifying load PR: 30 kg × 15; reduce/hold next exposure to meet the 10-rep minimum.
 - Daily pull-ups: bodyweight × 6, new rep PR. Set/attempt structure was not specified.
 - Warm-up reported: side-lying leg raise interpreted as 15 kg per leg × 30 per leg; seated knee raises 75 reps with no added load reported; Farmer's carry 20 kg each hand, rounds not reported.
+
+
+## Confirmed update: 2026-11-27 Friday
+- Lat pulldown: two grip sequences, very-wide/wide/close, with reps 5/2/2 and 5/3/3. Load and machine setting were not stated. Keep load unknown; all reported reps were below 10.
+- Rear-delt fly setting 5: 41.25 kg × 8 for both sets. Below the 10-rep minimum; do not increase.
+- Biceps curl setting 5: 37.5 kg × 6. Below the 10-rep minimum; reduce or hold at a lower load next exposure.
+- Triceps setting 5: 33.75 kg × 11, then 11 reps with load unspecified. First set qualifies at 33.75 kg for the 10-rep load threshold; second set's load remains unknown.
+- Dumbbell RDL: 15 kg per dumbbell × 11, then × 10 (30 kg total). Keep the load for now; preserve technical execution.
+- Pull-ups: bodyweight × 6; same reported rep count as 2026-11-26, no new rep PR. Set/attempt structure unspecified.
+- Warm-up movements were not reported.
