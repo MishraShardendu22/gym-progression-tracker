@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-26",
+  "last_reconstructed_from_chat": "2026-11-27",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -77,16 +77,16 @@
     },
     "lat_pulldown": {
       "machine_setting": null,
-      "load_kg": 41.25,
+      "load_kg": null,
       "reps": [
         5,
+        2,
+        2,
         5,
-        4,
-        5,
-        5,
+        3,
         3
       ],
-      "status": "2026-11-25: two reported grip sequences at 41.25 kg (37.5 + 3.75): wide 5, less-wide 5, close 4; then wide 5, less-wide 5, close 3. Setting unknown."
+      "status": "2026-11-27: two grip sequences, very-wide/wide/close: 5/2/2 and 5/3/3. Load not reported; do not infer."
     },
     "seated_row": {
       "machine_setting": null,
@@ -101,14 +101,19 @@
       "machine_setting": 5,
       "load_kg": 41.25,
       "reps": [
-        10,
-        5
+        8,
+        8
       ],
-      "status": "2026-11-24: 37.5 kg x 10, then 41.25 kg (37.5 + 3.75) x 5."
+      "status": "2026-11-27: 41.25 kg (37.5 + 3.75) x 8 for both reported sets."
     },
     "biceps_curl": {
       "machine_setting": 5,
       "latest_sets": [
+        {
+          "load_kg": 37.5,
+          "reps": 6,
+          "date": "2026-11-27"
+        },
         {
           "load_kg": 30,
           "reps": 10,
@@ -120,11 +125,21 @@
           "date": "2026-11-26"
         }
       ],
-      "status": "2026-11-26: 30 kg x 10, then 33.75 kg (30 + 3.75) x 8. Qualifying load PR: 30 kg x 10."
+      "status": "2026-11-27: 37.5 kg x 6, one set reported; below the 10-rep threshold."
     },
     "triceps": {
       "machine_setting": 5,
       "latest_sets": [
+        {
+          "load_kg": 33.75,
+          "reps": 11,
+          "date": "2026-11-27"
+        },
+        {
+          "load_kg": null,
+          "reps": 11,
+          "date": "2026-11-27"
+        },
         {
           "load_kg": 30,
           "reps": 15,
@@ -136,7 +151,7 @@
           "date": "2026-11-26"
         }
       ],
-      "status": "2026-11-26: 30 kg x 15, then 33.75 kg (30 + 3.75) x 9. Qualifying load PR: 30 kg x 15."
+      "status": "2026-11-27: 33.75 kg (30 + 3.75) x 11, then 11 reps with load not stated."
     },
     "abdominal_machine": {
       "machine_setting": 7,
@@ -186,10 +201,10 @@
       "load_kg_per_dumbbell": 15,
       "total_load_kg": 30,
       "reps": [
-        10,
+        11,
         10
       ],
-      "status": "2026-11-24: 12.5 kg per dumbbell x 10, then 15 kg per dumbbell x 10."
+      "status": "2026-11-27: 15 kg per dumbbell x 11, then x 10 (30 kg total)."
     },
     "seated_knee_raises": {
       "load": "bodyweight",
@@ -215,7 +230,7 @@
       "load": "bodyweight",
       "reps": 6,
       "frequency": "Daily max clean reps",
-      "status": "2026-11-26: 6 reps; set/attempt structure not specified."
+      "status": "2026-11-27: 6 reps; set/attempt structure not specified."
     }
   },
   "data_quality_notes": [
@@ -236,7 +251,8 @@
     "2026-11-24 workout report was clarified: RDL is per dumbbell, lateral raise 5 kg per hand, side-lying leg raise 20 kg per leg x 30 reps per leg, Farmer's carry 20 kg each hand for 3 rounds, and pull-ups daily max reps with 4 reported today.",
     "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps.",
     "2026-11-26: side-lying leg raise interpreted as 15 kg per side x 30 reps per leg; seated knee raises recorded as 75 reps with no added load reported. Farmer's carry load was 20 kg each hand; rounds were not reported.",
-    "2026-11-26: pull-up count of 6 recorded as reported; number of sets/attempts not specified."
+    "2026-11-26: pull-up count of 6 recorded as reported; number of sets/attempts not specified.",
+    "2026-11-27: lat-pulldown load was not reported; grip labels interpreted as very-wide, wide, and close in the order stated. Triceps second-set load was not reported. Warm-up movements were not reported and were not added to the log."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
@@ -370,7 +386,13 @@
     "Log each set individually, retain load basis, machine settings and role. Pull-up latest max-rep performance 4 is one daily metric; do not assume number of attempts unless specified.",
     "After session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and session note. Commit only after write succeeds and verify persisted records."
   ],
-  "latest_session_reference": "sessions/2026-11-25.md",
+  "latest_session_reference": {
+    "date": "2026-11-27",
+    "day": "Friday",
+    "split": "Hamstrings + Arms + Back accessories",
+    "file": "sessions/2026-11-27.md",
+    "status": "Completed"
+  },
   "week_start_day": "Sunday",
   "active_phase": {
     "name": "Two-week return-to-training / maintenance phase",
