@@ -199,3 +199,15 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 - Dumbbell RDL: 15 kg per dumbbell × 11, then × 10 (30 kg total). Keep the load for now; preserve technical execution.
 - Pull-ups: bodyweight × 6; same reported rep count as 2026-11-26, no new rep PR. Set/attempt structure unspecified.
 - Warm-up movements were not reported.
+
+
+## Confirmed update: 2026-11-28 Saturday
+
+- Shoulder press setting 5: 22.5 kg x 18 and x 15. New qualifying load PR at 22.5 kg x 18; next exposure assess the smallest practical increase.
+- Calf raise setting 5: 41.25 kg x 10, then 45 kg x 12. New qualifying load PR at 45 kg x 12; assess a small increase next exposure.
+- Wide-stance leg press setting 5: 67 kg x 18, then 70.75 kg (67 + 3.75) x 12. New qualifying load PR at 70.75 kg x 12; assess a small increase next exposure.
+- Cable lateral raise: 5 kg per hand x 10 and x 8. New rep PR at this exact load is 10; hold load until both sets support progression.
+- Weighted pull-ups: +7.5 kg x 4. Record separately from bodyweight max reps; this is not a qualifying 10-rep load PR.
+- Deadlift: 60 kg reported without reps, set count, or load basis. Do not classify progression until clarified.
+- Farmer's carry: 22.5 kg for 3 sets reported; per-hand basis is unconfirmed. Do not overwrite the confirmed 20 kg each-hand baseline until clarified.
+- Side-lying leg raise: 15 kg reported without reps. Preserve the load and missing reps; do not infer completion of the 30-rep target.
