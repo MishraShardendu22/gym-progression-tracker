@@ -5,18 +5,86 @@
 
 ## Fixed weekly schedule
 
-The training week starts on **Sunday**, which is Day 1.  
-**Scheduled workout start time:** 07:00 (7:00 AM), Asia/Kolkata, on every scheduled training day.
+The training week starts on **Sunday** (Day 1). The scheduled workout start time remains **07:00 (7:00 AM), Asia/Kolkata**.
 
-- Sunday: Chest + Legs + Hamstrings
-- Monday: Back + Abs
-- Tuesday: Shoulders + Legs + Hamstrings
-- Wednesday: Full rest
-- Thursday: Chest + Arms
-- Friday: Hamstrings + Arms + Back accessories
-- Saturday: Legs + Shoulders + Hips
+### Sunday — Upper body A
+- Flat chest press
+- Lat pulldown, using the full three-grip sequence described below
+- Seated cable row
+- Biceps
+- Triceps
 
-Never shift the schedule to compensate for a missed workout. During the temporary phase through 2026-12-05, the user has explicitly requested no rest days. Wednesday 2026-11-25 was completed as Back + Abs; Wednesday 2026-12-02 is also a training day. Permanent Wednesday full rest resumes 2026-12-06.
+### Monday — Legs + core
+- Wide-stance leg press
+- Calf raises
+- Seated knee raises
+- Standing side leg raises with a weighted plate
+- Farmer's carry
+
+### Tuesday — Pressing + posterior chain
+- Romanian deadlift (RDL)
+- Incline chest press
+- Shoulder press
+- Rear-delt fly
+- Abdominal crunch
+- Four-direction neck isometric holds
+
+### Wednesday — Complete rest
+No gym training or scheduled exercise. Do not schedule neck work, abs, pull-ups, carries, or other training on Wednesday.
+
+### Thursday — Upper body B
+- Flat chest press
+- Lat pulldown, using the full three-grip sequence described below
+- Seated cable row
+- Biceps
+- Triceps
+- Calf raises
+- Seated knee raises
+
+### Friday — Legs + accessories
+- Wide-stance leg press
+- Rear-delt fly
+- Standing side leg raises with a weighted plate
+- Four-direction neck isometric holds
+- Farmer's carry
+
+### Saturday — Strength day
+- Conventional deadlift
+- Incline chest press
+- Shoulder press
+- Lat pulldown, using the full three-grip sequence described below
+- Abdominal crunch
+
+### Lat-pulldown grip sequence
+Every scheduled lat-pulldown session (Sunday, Thursday, and Saturday) must use all three grips as one combined exercise:
+1. One-third of the total lat-pulldown work with a very-wide grip.
+2. One-third with a wide grip.
+3. One-third with a close grip.
+
+Distribute the work as evenly as practical across the three grips. These are grip variations within the lat-pulldown exercise, not three additional exercises. Do not omit a grip or replace the sequence with only one grip.
+
+### Weekly frequency
+- Flat chest press: 2× (Sunday, Thursday)
+- Incline chest press: 2× (Tuesday, Saturday)
+- Shoulder press: 2× (Tuesday, Saturday)
+- Lat pulldown: 3× (Sunday, Thursday, Saturday), each time using the full three-grip sequence
+- Seated cable row: 2× (Sunday, Thursday)
+- Biceps: 2× (Sunday, Thursday)
+- Triceps: 2× (Sunday, Thursday)
+- Wide-stance leg press: 2× (Monday, Friday)
+- Calf raises: 2× (Monday, Thursday)
+- RDL: 1× (Tuesday)
+- Conventional deadlift: 1× (Saturday)
+- Rear-delt fly: 2× (Tuesday, Friday)
+- Seated knee raises: 2× (Monday, Thursday)
+- Abdominal crunch: 2× (Tuesday, Saturday)
+- Standing side leg raises: 2× (Monday, Friday)
+- Farmer's carry: 2× (Monday, Friday)
+- Four-direction neck isometrics: 2× (Tuesday, Friday)
+
+Do not add chest fly. Flat and incline chest presses remain the user's chest exercises; rear-delt fly remains the rear-delt isolation movement.
+
+Never shift the schedule to compensate for a missed workout. Wednesday remains the fixed full rest day.
 
 ## Current gym and confirmed equipment
 
@@ -39,34 +107,28 @@ The user is currently training in **Bengaluru**. The following equipment is expl
 
 All machine settings previously provided by the user refer to this Bengaluru equipment. Do not reset them or label the machines as Kanpur equipment.
 
-## Fixed daily warm-up
+## Scheduled accessory and core movements
 
-The user's warm-up consists of:
-1. Seated knee raises.
-2. Farmer's carries.
-3. Side-lying leg raises.
+The former daily warm-up prescription is superseded by the current day-by-day split above. Seated knee raises, Farmer's carries, and standing side leg raises are scheduled only on the days listed in the split. Do not add them to Wednesday or duplicate them as extra work on other days.
 
-Do not add treadmill/cardio warm-up, generic mobility circuits, ramp-up sets, or separate warm-up sets by default. Do not duplicate these movements elsewhere in the workout prescription.
+Current reference values from the latest records remain historical starting references, not automatic prescriptions:
+- Seated knee raises: bodyweight × 75 reps.
+- Farmer's carry: latest 22.5 kg × 3 sets reported on 2026-11-28; whether 22.5 kg is per hand remains unconfirmed.
+- Standing side leg raises: latest reported load 15 kg; repetitions and exact load basis must be confirmed before prescribing a precise progression.
 
-Current warm-up targets:
-- Seated knee raises: 75 bodyweight reps on every training day except Wednesday.
-- Farmer's carries: 20 kg in each hand, walking to and fro inside the gym. Latest volume: 3 rounds. Carry forward 20 kg each hand; never revert to 15 kg without a user-reported reason.
-- Side-lying leg raises: 20 kg per leg × 30 reps per leg. Daily, including Wednesday/rest days.
+## Pull-ups
 
-## Daily pull-ups
-
-Pull-ups are a separate daily exercise, including Wednesday. Perform as many clean bodyweight reps as possible. Latest report: 4 reps on 2026-11-24. Track the max-rep performance and carry it forward; do not invent extra sets or attempts. This is separate from the three-movement warm-up.
+Pull-ups are not part of the current weekly split. Do not prescribe daily pull-ups or schedule them on Wednesday. If the user reintroduces pull-ups, add them only after confirming the intended training days and loading method.
 
 ## Fixed exercise requirements and split
 
-- Dumbbell Romanian deadlifts (RDL): Sunday, Tuesday, Friday. Current load reference: 15 kg per dumbbell, 30 kg total.
+Follow the exact day-by-day schedule and weekly frequencies in the Fixed weekly schedule section above.
+
 - Wide-stance leg press is the intended leg-press variation. Use this exact name.
-- Seated knee raises: 75 bodyweight reps on Sunday, Monday, Tuesday, Thursday, Friday, Saturday. None on Wednesday.
-- Side-lying leg raises: daily, 20 kg per leg × 30 reps per leg.
-- Farmer's carries: every training day, 20 kg in each hand, walking to and fro inside the gym. Latest volume: 3 rounds.
-- Pull-ups: daily max-rep bodyweight set(s), latest maximum reported performance 4 reps.
-- No hamstring curl machine is available in Bengaluru.
-- Never shift the fixed weekly schedule after a missed workout.
+- Every lat-pulldown session uses the very-wide, wide, and close-grip sequence, each accounting for one-third of the total work.
+- Wednesday is a complete rest day with no gym training or scheduled exercise.
+- Do not add chest fly. The user has chosen to retain flat and incline chest presses without chest-fly isolation.
+- Do not add exercises solely to increase session length. Keep the listed two-set working-set approach unless the user changes it.
 
 ## Training method, exercise order, and working sets
 
