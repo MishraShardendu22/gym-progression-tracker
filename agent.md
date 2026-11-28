@@ -8,11 +8,12 @@ At the beginning of every coaching or logging task, read these files from the cu
 
 1. `instruction.md` — canonical user preferences and training rules.
 2. `PROGRAM.md` — fixed weekly schedule, equipment, and program constraints.
-3. `current-state.json` — latest known state, targets, active phase, and PRs.
-4. `EXERCISES.md` — exercise names, machine settings, and performance references.
-5. `workout-log.csv` — normalized set-level history.
-6. `progression.md` — progression decisions and historical context.
-7. The applicable active-phase plan and relevant files in `sessions/`.
+3. `current-state.json` — latest known session state, targets, active phase, and latest performance.
+4. `personal-records.csv` — single current PR/best benchmark per exercise.
+5. `EXERCISES.md` — exercise names, machine settings, and latest performance references.
+6. `workout-log.csv` — normalized set-level history.
+7. `progression.md` — progression decisions and historical context.
+8. The applicable active-phase plan and relevant files in `sessions/`.
 
 Do not rely on chat memory or an old cached file when the repository can be read. If repository access fails, say so and do not fabricate that the files were checked.
 
@@ -100,10 +101,11 @@ The hamstring curl machine is unavailable. Do not prescribe it. Do not confuse c
 ## 5. Progression and PR logic
 
 Track separately:
-- load PR: highest load that reaches at least 10 clean reps to failure;
-- rep PR: highest reps at an exact load;
-- latest performance: actual reps and loads for every set;
+- current PR/best benchmark: one row per exercise in `personal-records.csv`;
+- latest performance: actual reps and loads for every set, in `current-state.json` and `workout-log.csv`;
 - adjustment settings and per-hand/per-dumbbell load basis.
+
+`personal-records.csv` is the sole PR index. On a new qualifying PR, update the existing row for that exercise in place. Never append a second PR row for the same exercise. Keep the table compact and fast to read. The full `workout-log.csv` history remains intact and continues to receive one row per reported set. Do not maintain duplicate PR catalogues in `current-state.json`.
 
 Do not infer estimated 1RM. Do not mark a below-10-rep set as a 10-rep load PR. Keep every reported set even when performance decreases.
 
@@ -125,8 +127,8 @@ When the user reports a session:
 4. Record the warm-up movements separately from working sets.
 5. Update `workout-log.csv` with one row per set and preserve its existing schema. Keep unknown fields blank or explicitly marked; do not fabricate RIR.
 6. Create `sessions/YYYY-MM-DD.md` for a new session or update the existing dated note without deleting history.
-7. Update `current-state.json`: latest session reference, latest performance for each touched exercise, fixed daily targets, active phase, and `performance_prs` / best performance markers.
-8. Update `EXERCISES.md` and `progression.md` when the latest reference or a progression decision changes.
+7. Update `current-state.json`: latest session reference, latest performance for each touched exercise, fixed daily targets, and active phase. Do not duplicate PR rows there.
+8. Update the existing exercise row in `personal-records.csv` only if a new qualifying PR is established. Update `EXERCISES.md` and `progression.md` when the latest reference or a progression decision changes.
 9. Update `PROGRAM.md` and `instruction.md` only when the user changes a standing program rule, equipment fact, or preference.
 10. Validate JSON syntax, CSV columns/row shape, session date/day, set numbering, and consistency across the changed files.
 11. Commit only after all writes succeed. Verify the committed files or fetch them again before reporting a successful commit. Report the commit SHA and files changed.
@@ -151,7 +153,8 @@ Never pre-fill a planned workout as completed. Never overwrite or delete older s
 | `agent.md` | Agent workflow, source-of-truth hierarchy, coaching, logging, and validation process |
 | `PROGRAM.md` | Weekly split, equipment facts, fixed exercise constraints |
 | `EXERCISES.md` | Exercise reference, machine settings, historical/latest performance |
-| `current-state.json` | Machine-readable latest state, active phase, PRs, and next-session baselines |
+| `current-state.json` | Machine-readable latest session state, active phase, and next-session baselines |
+| `personal-records.csv` | One current PR/best benchmark row per exercise, updated in place |
 | `workout-log.csv` | Normalized per-set history |
 | `progression.md` | Progression decisions and historical reasoning |
 | `sessions/` | Dated human-readable workout reports |
@@ -160,3 +163,7 @@ Never pre-fill a planned workout as completed. Never overwrite or delete older s
 
 ### Missing-load recovery and carry-forward
 Before writing "load unknown" or asking the user for a load, inspect earlier rows for the same exercise and equipment in workout-log.csv, then cross-check EXERCISES.md and current-state.json. If the user explicitly confirms that a missing session load matches the prior confirmed load, backfill every affected set with that value and record the confirmation in the dated session note and data-quality history. Update all canonical references consistently. Keep unrelated unknown fields blank. Do not infer a load solely because it is the most recent historical value when the user has not confirmed continuity. In coaching output, state the known last-session load and its actual rep performance separately from any next-session load recommendation.
+
+
+### PR index maintenance
+Read `personal-records.csv` directly for PR lookup. Keep one row per exercise and overwrite that row only when a new qualifying PR is achieved. Do not rebuild or append a PR history. Use `workout-log.csv` and dated session notes for historical progression and all individual sets. `current-state.json` must not contain a second PR catalogue.
