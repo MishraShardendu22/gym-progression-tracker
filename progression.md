@@ -192,7 +192,7 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 
 
 ## Confirmed update: 2026-11-27 Friday
-- Lat pulldown: two grip sequences, very-wide/wide/close, with reps 5/2/2 and 5/3/3. Load and machine setting were not stated. Keep load unknown; all reported reps were below 10.
+- Lat pulldown: two grip sequences, very-wide/wide/close, with reps 5/2/2 and 5/3/3. User confirmed on 2026-11-28 that all six sets used 41.25 kg machine stack, matching the 2026-11-25 load. Machine adjustment setting remains unknown; all reported reps were below 10.
 - Rear-delt fly setting 5: 41.25 kg × 8 for both sets. Below the 10-rep minimum; do not increase.
 - Biceps curl setting 5: 37.5 kg × 6. Below the 10-rep minimum; reduce or hold at a lower load next exposure.
 - Triceps setting 5: 33.75 kg × 11, then 11 reps with load unspecified. First set qualifies at 33.75 kg for the 10-rep load threshold; second set's load remains unknown.
@@ -211,3 +211,7 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 - Deadlift: 60 kg reported without reps, set count, or load basis. Do not classify progression until clarified.
 - Farmer's carry: 22.5 kg for 3 sets reported; per-hand basis is unconfirmed. Do not overwrite the confirmed 20 kg each-hand baseline until clarified.
 - Side-lying leg raise: 15 kg reported without reps. Preserve the load and missing reps; do not infer completion of the 30-rep target.
+
+
+## User-confirmed data correction: 2026-11-28
+The user confirmed that all six lat-pulldown sets reported on 2026-11-27 used 41.25 kg machine stack, the same load as the 2026-11-25 session. The CSV, current state, exercise reference, and 2026-11-27 session note now record 41.25 kg for those sets. Reps remain 5/2/2 and 5/3/3. The machine adjustment setting remains unknown. Future coaching must recover confirmed prior loads before declaring a load unknown, while keeping the load used in the last session distinct from the next-session progression recommendation.
