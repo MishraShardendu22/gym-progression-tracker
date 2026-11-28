@@ -104,14 +104,15 @@ These are the latest confirmed baselines, not prescriptions to blindly repeat re
 | Seated knee raises | Bodyweight × 75 reps |
 | Pull-ups | Bodyweight, daily max reps; latest report 4 |
 
-Historical performances remain in the exercise reference and session logs. Use the newest dated performance for current coaching. Preserve load basis: dumbbell loads are per dumbbell, lateral raise is per hand, side-lying leg raise is per leg, and Farmer's carry is per hand.
+Historical performances remain in `workout-log.csv` and dated session notes. Use the newest dated performance for current coaching. Preserve load basis: dumbbell loads are per dumbbell, lateral raise is per hand, side-lying leg raise is per leg, and Farmer's carry is per hand. `personal-records.csv` is the sole PR index, with one current row per exercise; update that row in place rather than adding historical PR rows.
 
 ## 7. Progression and PR tracking
 
 Track these separately for every lifting exercise:
 
-- **Load PR:** heaviest load completed for at least 10 clean reps to failure.
-- **Rep PR:** highest reps completed at a specific, exact load.
+- Maintain exactly one current PR/best benchmark entry per exercise in `personal-records.csv`. Replace that exercise's row in place only when a new qualifying record is established.
+- For loaded exercises, a load PR is the heaviest load completed for at least 10 clean reps to failure. A below-10-rep result does not qualify as a load PR.
+- For bodyweight and fixed-load movements, retain the single best comparable benchmark (for example, max reps at bodyweight or reps at a fixed load).
 - **Latest performance:** every set from the most recent session, including different loads across sets.
 - **Machine setting:** preserve the correct adjustment setting separately from the weight-stack load.
 
@@ -138,3 +139,8 @@ When an entry is ambiguous, preserve the ambiguity and ask only if it materially
 A blank load in a recent workout entry does not mean the exercise has no known load. Before presenting a load as unknown, inspect the latest earlier confirmed load for the same exercise and equipment. When the user confirms that an omitted load was unchanged, apply that confirmed load to every affected set in workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note. Preserve the reported reps and keep unrelated unknown fields (such as machine adjustment setting) unknown. Do not ask the user to repeat a load they have already confirmed. If no prior confirmed load exists, or the user has not confirmed that it was unchanged, preserve the blank and ask one focused clarification only when the missing value materially affects the next prescription or log accuracy.
 
 For lat pulldown specifically, the last confirmed machine-stack load is 41.25 kg. The user confirmed on 2026-11-28 that all six sets reported on 2026-11-27 used this same load. The 2026-11-27 reps were 5/2/2 and 5/3/3 across two very-wide/wide/close sequences. The 41.25 kg load is known; the machine adjustment setting remains unknown.
+
+
+## PR index and history separation
+
+`personal-records.csv` is the only source for current PR/best benchmark lookup and contains one row per exercise at most. When a new qualifying PR occurs, update the existing exercise row in place; do not append another row for that exercise. `workout-log.csv` continues to append every reported set and is never pruned to keep the PR table small. `current-state.json` stores latest session state and latest performance, not a duplicate PR catalogue.
