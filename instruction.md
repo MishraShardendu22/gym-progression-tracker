@@ -26,41 +26,42 @@ The normal prescription is **2 working sets per exercise**. When the user has en
 
 Warm-up activities do not count toward working-set volume.
 
-## 2. User's established warm-up
+## 2. Scheduled accessory and core movements
 
-The user's warm-up is exactly these three movements:
+The former daily warm-up routine is superseded by the current weekly split. Do not automatically perform seated knee raises, Farmer's carries, or side-lying/standing leg raises every day. Follow the exact exercise days in the current split:
+- Seated knee raises: Monday and Thursday.
+- Farmer's carries: Monday and Friday.
+- Standing side leg raises with a weighted plate: Monday and Friday.
+- Abdominal crunch: Tuesday and Saturday.
 
-1. **Seated knee raises:** bodyweight × 75 reps on every training day except Wednesday.
-2. **Farmer's carries:** 20 kg in each hand, walking to and fro inside the gym. Normal training-day baseline: 3 rounds.
-3. **Side-lying leg raises:** 20 kg per leg × 30 reps per leg, every day including Wednesday and other rest days.
+Wednesday is a complete rest day. None of these movements, or any other training, is scheduled on Wednesday.
 
-Do not add a treadmill, generic cardio warm-up, generic mobility circuit, ramp-up sets, or separate preparation sets by default. Do not duplicate these three movements later in the workout unless the user asks.
+Current historical references:
+- Seated knee raises: bodyweight × 75 reps.
+- Farmer's carry: 2026-11-28 report was 22.5 kg × 3 sets; per-hand versus total load is unconfirmed.
+- Standing side leg raise: 15 kg reported on 2026-11-28; repetitions and load basis require confirmation before precise progression.
 
-Temporary phase exception: during the current 2026-11-22 through 2026-12-05 return phase, Wednesday is active recovery. On those Wednesdays, do not do seated knee raises; side-lying leg raises remain daily; Farmer's carries are limited to one easy round only if comfortable. The permanent Wednesday full-rest schedule resumes 2026-12-06.
+## 3. Pull-ups
 
-## 3. Daily pull-ups
-
-Pull-ups are performed **every day**, including Wednesday, separately from the three-movement warm-up. Use bodyweight for daily max-rep work. Latest reported result: **4 reps on 2026-11-24**. The user has not yet clarified whether this was one set or the total across multiple sets.
-
-Record the reported rep count exactly. Do not infer or prescribe an unconfirmed number of sets/attempts, and do not label the 4 reps as a confirmed single-set maximum until the set structure is clarified.
+Pull-ups are not included in the current weekly split. Do not prescribe daily pull-ups or schedule pull-ups on Wednesday. If the user wants them restored, confirm the days and loading method first.
 
 ## 4. Fixed weekly split
 
-The training week begins on **Sunday, Day 1**.
+The training week begins on **Sunday, Day 1**. The current authoritative day-by-day schedule and exact exercise list are in [PROGRAM.md](PROGRAM.md). Follow it without substitutions or frequency changes.
 
-| Day | Session |
-|---|---|
-| Sunday | Chest + Legs + Hamstrings |
-| Monday | Back + Abs |
-| Tuesday | Shoulders + Legs + Hamstrings |
-| Wednesday | Full rest |
-| Thursday | Chest + Arms |
-| Friday | Hamstrings + Arms + Back accessories |
-| Saturday | Legs + Shoulders + Hips |
+- Sunday: Upper body A.
+- Monday: Legs + core.
+- Tuesday: Pressing + posterior chain.
+- Wednesday: Complete rest, no gym training or scheduled exercise.
+- Thursday: Upper body B.
+- Friday: Legs + accessories.
+- Saturday: Strength day.
 
-Never shift the split to compensate for a missed workout. Keep the weekday assignment fixed.
+Lat pulldown is scheduled Sunday, Thursday, and Saturday. Every session must include the full three-grip combination: one-third very-wide grip, one-third wide grip, and one-third close grip. These are grip variations within the same exercise, not separate additional exercises.
 
-**Temporary exception:** 2026-11-22 through 2026-12-05 is a 14-day return phase. The user requested activity on all 14 days; Wednesdays 2026-11-25 and 2026-12-02 are low-stress active recovery rather than lifting sessions. Resume normal Wednesday full rest on 2026-12-06. This dated exception expires automatically and must not be carried forward beyond its end date.
+Flat chest press is scheduled twice weekly; incline chest press and shoulder press are each scheduled twice weekly. Do not add chest fly. Rear-delt fly remains the rear-delt isolation exercise.
+
+Never shift the split to compensate for a missed workout. Wednesday remains the fixed complete rest day.
 
 ## 5. Confirmed Bengaluru gym equipment
 
