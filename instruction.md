@@ -131,3 +131,10 @@ Never invent:
 The standing rule is that working sets go to failure. Apply it to new sessions after the user confirmed it. Do not retroactively rewrite old sessions as failure sets unless the user explicitly confirms that historical classification.
 
 When an entry is ambiguous, preserve the ambiguity and ask only if it materially changes the next prescription or record.
+
+
+## Missing-load carry-forward
+
+A blank load in a recent workout entry does not mean the exercise has no known load. Before presenting a load as unknown, inspect the latest earlier confirmed load for the same exercise and equipment. When the user confirms that an omitted load was unchanged, apply that confirmed load to every affected set in workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note. Preserve the reported reps and keep unrelated unknown fields (such as machine adjustment setting) unknown. Do not ask the user to repeat a load they have already confirmed. If no prior confirmed load exists, or the user has not confirmed that it was unchanged, preserve the blank and ask one focused clarification only when the missing value materially affects the next prescription or log accuracy.
+
+For lat pulldown specifically, the last confirmed machine-stack load is 41.25 kg. The user confirmed on 2026-11-28 that all six sets reported on 2026-11-27 used this same load. The 2026-11-27 reps were 5/2/2 and 5/3/3 across two very-wide/wide/close sequences. The 41.25 kg load is known; the machine adjustment setting remains unknown.
