@@ -97,3 +97,15 @@ See `instruction.md` for the complete coaching rules and `agent.md` for the agen
 - Dumbbell RDL: 15 kg per dumbbell × 11, then × 10 (30 kg total).
 - Pull-ups: bodyweight × 6; set/attempt structure not specified. This matches the previous reported max of 6.
 - Warm-up movements were not reported and have not been recorded.
+
+
+## Latest session update: 2026-11-28
+
+- Shoulder press setting 5: 22.5 kg x 18 and x 15. New qualifying load PR: 22.5 kg x 18.
+- Calf raise setting 5: 41.25 kg x 10, then 45 kg x 12. New qualifying load PR: 45 kg x 12.
+- Wide-stance leg press setting 5: 67 kg x 18, then 70.75 kg (67 + 3.75) x 12. New qualifying load PR: 70.75 kg x 12.
+- Cable lateral raise: 5 kg per hand x 10 and x 8. New rep PR at 5 kg per hand: 10.
+- Weighted pull-ups: +7.5 kg x 4. Track separately from bodyweight max-rep pull-ups.
+- Deadlift: 60 kg reported; repetitions, set count, and load basis not supplied.
+- Farmer's carry: 22.5 kg for 3 sets; per-hand basis unconfirmed.
+- Side-lying leg raise: 15 kg reported; repetitions not supplied.
