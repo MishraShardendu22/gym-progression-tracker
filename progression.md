@@ -11,7 +11,7 @@ The canonical rules are in [instruction.md](instruction.md). In brief:
 - Normally 2 working sets per exercise. If the user opts for 3, use 3 across every exercise in that workout.
 - Warm-up is seated knee raises (75 reps on training days except Wednesday), Farmer's carries (20 kg each hand, 3 rounds on normal training days), and side-lying leg raises (20 kg per leg × 30 per leg daily). Do not add generic warm-up routines.
 - Pull-ups are daily max-rep bodyweight work; latest report: 4 reps.
-- Carry each new confirmed load and rep target forward. Track load PR and rep PR separately; do not infer estimated 1RM.
+- Carry each new confirmed load and rep target forward. Maintain one current PR/best benchmark row per exercise in `personal-records.csv`, updating that row in place. Do not infer estimated 1RM. `workout-log.csv` retains every historical set.
 
 ## Confirmed Bengaluru equipment
 
@@ -215,3 +215,7 @@ Follow the user's strength-biased hypertrophy style, failure-based minimum-10-re
 
 ## User-confirmed data correction: 2026-11-28
 The user confirmed that all six lat-pulldown sets reported on 2026-11-27 used 41.25 kg machine stack, the same load as the 2026-11-25 session. The CSV, current state, exercise reference, and 2026-11-27 session note now record 41.25 kg for those sets. Reps remain 5/2/2 and 5/3/3. The machine adjustment setting remains unknown. Future coaching must recover confirmed prior loads before declaring a load unknown, while keeping the load used in the last session distinct from the next-session progression recommendation.
+
+
+## PR index policy
+`personal-records.csv` is the single fast-lookup PR table, with one current row per exercise. Update a row in place only when that exercise establishes a new qualifying PR or best comparable benchmark. Do not append PR history or duplicate the table in `current-state.json`. Historical sets and progression remain in `workout-log.csv` and dated session notes.
