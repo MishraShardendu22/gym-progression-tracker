@@ -16,6 +16,7 @@ Private source of truth for the user's gym program, workout logs, exercise setti
 - Every lat-pulldown session uses the full one-third very-wide, one-third wide, and one-third close-grip combination.
 - Do not add chest fly; flat and incline chest presses are retained.
 - Record only confirmed workout data. Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
+- Before declaring a recent exercise load unknown, check prior confirmed set records. If the user confirms the omitted load was unchanged, backfill all affected records and carry the value into current state and coaching; do not ask again.
 
 ## Operating documents
 - `instruction.md`: canonical user training rules and preferences.
