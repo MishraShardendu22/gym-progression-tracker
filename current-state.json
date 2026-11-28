@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_reconstructed_from_chat": "2026-11-27",
+  "last_reconstructed_from_chat": "2026-11-28",
   "weekly_schedule": {
     "sunday": "Chest + Legs + Hamstrings",
     "monday": "Back + Abs",
@@ -33,19 +33,19 @@
       "route": "walking to and fro inside the gym",
       "frequency": "Every training day",
       "rounds": 3,
-      "note": "2026-11-25: 20 kg each hand for 3 rounds completed."
+      "note": "2026-11-28: 22.5 kg reported for 3 sets; per-hand basis unconfirmed."
     },
     "side_lying_hip_abduction": {
       "load_kg_per_leg": 20,
       "target": "30 reps per leg",
       "frequency": "Daily, including rest days",
-      "latest_completed": "2026-11-25: 15 kg per leg x 30 reps per leg; 20 kg per leg x 30 remains previous best."
+      "latest_completed": "2026-11-28: 15 kg per leg reported; repetitions not supplied."
     },
     "pull_ups": {
       "load": "bodyweight",
       "frequency": "Daily, including Wednesday",
       "target": "Maximum clean reps",
-      "latest_completed": "2026-11-24: 4 reps"
+      "latest_completed": "2026-11-28: +7.5 kg weighted pull-ups x 4; set/attempt structure not further specified."
     }
   },
   "known_records": {
@@ -68,12 +68,12 @@
     },
     "shoulder_press": {
       "machine_setting": 5,
-      "load_kg": 15,
+      "load_kg": 22.5,
       "reps": [
-        17,
-        10
+        18,
+        15
       ],
-      "status": "2026-11-24: 15 kg x 17 and x 10."
+      "status": "2026-11-28: 22.5 kg x 18 and x 15."
     },
     "lat_pulldown": {
       "machine_setting": null,
@@ -179,23 +179,26 @@
     },
     "calf_raise": {
       "machine_setting": 5,
-      "load_kg": 37.5,
+      "load_kg": 45,
       "reps": [
-        19,
-        18
+        10,
+        12
       ],
-      "status": "2026-11-24: 37.5 kg x 19 and x 18."
+      "status": "2026-11-28: 41.25 kg x 10, then 45 kg x 12."
     },
     "cable_lateral_raise": {
       "load_kg_per_hand": 5,
-      "reps": 5,
+      "reps": [
+        10,
+        8
+      ],
       "equipment": "Cable machine",
-      "status": "2026-11-24: 5 kg per hand x 5."
+      "status": "2026-11-28: 5 kg per hand x 10 and x 8."
     },
     "side_lying_hip_abduction": {
       "load_kg_per_leg": 15,
-      "reps_per_leg": 30,
-      "status": "2026-11-26: 15 kg per side x 30 reps; interpreted as 30 reps per leg."
+      "reps_per_leg": null,
+      "status": "2026-11-28: 15 kg reported; repetitions not supplied."
     },
     "dumbbell_romanian_deadlift": {
       "load_kg_per_dumbbell": 15,
@@ -212,25 +215,30 @@
       "status": "2026-11-26: 75 reps; user did not report added load."
     },
     "farmers_carry": {
-      "load_kg_each_hand": 20,
-      "rounds": null,
+      "load_kg_each_hand": null,
+      "rounds": 3,
       "route": "walking to and fro inside gym",
-      "status": "2026-11-26: 20 kg each hand; rounds not reported."
+      "status": "2026-11-28: 22.5 kg x 3 sets reported; whether 22.5 kg is per hand is unconfirmed."
     },
     "wide_stance_leg_press": {
       "machine_setting": 5,
-      "load_kg": 63.75,
+      "load_kg": 70.75,
       "reps": [
-        23,
-        10
+        18,
+        12
       ],
-      "status": "2026-11-24: 60 kg x 23, then 63.75 kg (60 + 3.75) x 10."
+      "status": "2026-11-28: 67 kg x 18, then 70.75 kg (67 + 3.75) x 12."
     },
     "pull_ups": {
-      "load": "bodyweight",
-      "reps": 6,
-      "frequency": "Daily max clean reps",
-      "status": "2026-11-27: 6 reps; set/attempt structure not specified."
+      "load": "weighted, +7.5 kg",
+      "reps": 4,
+      "frequency": "Daily pull-up performance",
+      "status": "2026-11-28: 4 weighted pull-ups with 7.5 kg added; set/attempt structure not further specified."
+    },
+    "deadlift": {
+      "load_kg": 60,
+      "reps": null,
+      "status": "2026-11-28: 60 kg reported; repetitions, set count, and load basis not supplied."
     }
   },
   "data_quality_notes": [
@@ -252,7 +260,8 @@
     "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps.",
     "2026-11-26: side-lying leg raise interpreted as 15 kg per side x 30 reps per leg; seated knee raises recorded as 75 reps with no added load reported. Farmer's carry load was 20 kg each hand; rounds were not reported.",
     "2026-11-26: pull-up count of 6 recorded as reported; number of sets/attempts not specified.",
-    "2026-11-27: lat-pulldown load was not reported; grip labels interpreted as very-wide, wide, and close in the order stated. Triceps second-set load was not reported. Warm-up movements were not reported and were not added to the log."
+    "2026-11-27: lat-pulldown load was not reported; grip labels interpreted as very-wide, wide, and close in the order stated. Triceps second-set load was not reported. Warm-up movements were not reported and were not added to the log.",
+    "2026-11-28: deadlift reported at 60 kg without reps, set count, or load basis; retained as incomplete. Farmer's carry reported as 22.5 kg for 3 sets, but per-hand basis is unconfirmed. Side-lying leg raise reported at 15 kg without reps."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
@@ -273,10 +282,10 @@
       },
       "shoulder_press": {
         "machine_setting": 5,
-        "load_kg": 15,
-        "reps": 17,
-        "date": "2026-11-24",
-        "status": "Best recorded set: 15 kg x 17. Latest session also included 15 kg x 10."
+        "load_kg": 22.5,
+        "reps": 18,
+        "date": "2026-11-28",
+        "status": "New qualifying load PR: 22.5 kg x 18."
       },
       "lat_pulldown": {
         "machine_setting": null,
@@ -327,15 +336,16 @@
       },
       "calf_raise": {
         "machine_setting": 5,
-        "load_kg": 37.5,
-        "reps": 23,
-        "date": "2026-11-03",
-        "status": "Historical rep PR: 37.5 kg x 23. Latest session 2026-11-24: 37.5 x 19 and x 18."
+        "load_kg": 45,
+        "reps": 12,
+        "date": "2026-11-28",
+        "status": "New qualifying load PR: 45 kg x 12."
       },
       "cable_lateral_raise": {
         "load_kg_per_hand": 5,
-        "reps": 5,
-        "status": "2026-11-24"
+        "reps": 10,
+        "date": "2026-11-28",
+        "status": "Rep PR at 5 kg per hand: 10 reps."
       },
       "side_lying_hip_abduction": {
         "load_kg_per_leg": 20,
@@ -360,16 +370,22 @@
       },
       "wide_stance_leg_press": {
         "machine_setting": 5,
-        "load_kg": 63.75,
-        "reps": 17,
-        "date": "2026-11-22",
-        "status": "Best recorded wide-stance leg press set at 63.75 kg x 17; latest session 2026-11-24 was 60 x 23 and 63.75 x 10."
+        "load_kg": 70.75,
+        "reps": 12,
+        "date": "2026-11-28",
+        "status": "New qualifying load PR: 70.75 kg x 12."
       },
       "pull_ups": {
         "load": "bodyweight",
         "max_reps": 6,
         "date": "2026-11-26",
         "status": "New bodyweight rep PR: 6 reps; set/attempt structure not specified."
+      },
+      "weighted_pull_ups": {
+        "added_load_kg": 7.5,
+        "reps": 4,
+        "date": "2026-11-28",
+        "status": "First recorded weighted result: +7.5 kg x 4; below the 10-rep load-PR threshold."
       }
     }
   },
@@ -387,10 +403,10 @@
     "After session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and session note. Commit only after write succeeds and verify persisted records."
   ],
   "latest_session_reference": {
-    "date": "2026-11-27",
-    "day": "Friday",
-    "split": "Hamstrings + Arms + Back accessories",
-    "file": "sessions/2026-11-27.md",
+    "date": "2026-11-28",
+    "day": "Saturday",
+    "split": "Legs + Shoulders + Hips",
+    "file": "sessions/2026-11-28.md",
     "status": "Completed"
   },
   "week_start_day": "Sunday",
