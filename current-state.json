@@ -2,50 +2,67 @@
   "schema_version": 1,
   "last_reconstructed_from_chat": "2026-11-28",
   "weekly_schedule": {
-    "sunday": "Chest + Legs + Hamstrings",
-    "monday": "Back + Abs",
-    "tuesday": "Shoulders + Legs + Hamstrings",
-    "wednesday": "Full rest",
-    "thursday": "Chest + Arms",
-    "friday": "Hamstrings + Arms + Back accessories",
-    "saturday": "Legs + Shoulders + Hips"
+    "sunday": "Upper body A: flat chest press, lat pulldown (very-wide/wide/close-grip combination), seated cable row, biceps, triceps",
+    "monday": "Legs + core: wide-stance leg press, calf raises, seated knee raises, standing side leg raises, Farmer's carry",
+    "tuesday": "Pressing + posterior chain: RDL, incline chest press, shoulder press, rear-delt fly, abdominal crunch, four-direction neck isometrics",
+    "wednesday": "Complete rest: no gym training or scheduled exercise",
+    "thursday": "Upper body B: flat chest press, lat pulldown (very-wide/wide/close-grip combination), seated cable row, biceps, triceps, calf raises, seated knee raises",
+    "friday": "Legs + accessories: wide-stance leg press, rear-delt fly, standing side leg raises, four-direction neck isometrics, Farmer's carry",
+    "saturday": "Strength day: conventional deadlift, incline chest press, shoulder press, lat pulldown (very-wide/wide/close-grip combination), abdominal crunch"
   },
   "fixed_exercises": {
-    "dumbbell_romanian_deadlift": [
-      "Sunday",
-      "Tuesday",
-      "Friday"
-    ],
+    "lat_pulldown": {
+      "days": [
+        "Sunday",
+        "Thursday",
+        "Saturday"
+      ],
+      "frequency": "3 times per week",
+      "grip_sequence": {
+        "very_wide_grip": "One-third of total lat-pulldown work",
+        "wide_grip": "One-third of total lat-pulldown work",
+        "close_grip": "One-third of total lat-pulldown work"
+      },
+      "note": "Perform all three grips during every scheduled lat-pulldown session. They are grip variations within one exercise, not three separate exercises."
+    },
     "seated_knee_raises": {
       "target": "75 bodyweight reps",
       "days": [
-        "Sunday",
         "Monday",
-        "Tuesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
+        "Thursday"
       ],
-      "latest_completed": "2026-11-25: bodyweight x 75 completed."
+      "latest_completed": "2026-11-26: bodyweight x 75 reps."
     },
     "farmers_carry": {
-      "load_kg_each_hand": 20,
-      "route": "walking to and fro inside the gym",
-      "frequency": "Every training day",
-      "rounds": 3,
-      "note": "2026-11-28: 22.5 kg reported for 3 sets; per-hand basis unconfirmed."
+      "days": [
+        "Monday",
+        "Friday"
+      ],
+      "frequency": "2 times per week",
+      "latest_reported": "2026-11-28: 22.5 kg x 3 sets; whether load is per hand or total is unconfirmed."
     },
-    "side_lying_hip_abduction": {
-      "load_kg_per_leg": 20,
-      "target": "30 reps per leg",
-      "frequency": "Daily, including rest days",
-      "latest_completed": "2026-11-28: 15 kg per leg reported; repetitions not supplied."
+    "standing_side_leg_raise": {
+      "days": [
+        "Monday",
+        "Friday"
+      ],
+      "frequency": "2 times per week",
+      "latest_reported": "2026-11-28: 15 kg reported; reps and load basis not supplied."
     },
-    "pull_ups": {
-      "load": "bodyweight",
-      "frequency": "Daily, including Wednesday",
-      "target": "Maximum clean reps",
-      "latest_completed": "2026-11-28: +7.5 kg weighted pull-ups x 4; set/attempt structure not further specified."
+    "abdominal_crunch": {
+      "days": [
+        "Tuesday",
+        "Saturday"
+      ],
+      "frequency": "2 times per week"
+    },
+    "neck_isometrics": {
+      "days": [
+        "Tuesday",
+        "Friday"
+      ],
+      "frequency": "2 times per week",
+      "directions": "Four directions"
     }
   },
   "known_records": {
@@ -395,17 +412,16 @@
     }
   },
   "daily_coaching_protocol": [
-    "Read instruction.md and agent.md before coaching; they are the canonical user-rule and agent-workflow documents.",
-    "Before coaching, retrieve latest repository records and relevant session notes. Determine date/weekday in Asia/Kolkata and follow the fixed Sunday-start split. Never shift the schedule after a missed workout. Temporary active-recovery Wednesdays continue through 2026-12-05; normal Wednesday full rest resumes 2026-12-06.",
-    "Current Bengaluru gym equipment is confirmed: combined chest/incline/shoulder press machine (settings 3/4/5), combined leg press/calf raise machine (setting 5), combined lat pulldown/seated row machine (setting unknown), abdominal machine (setting 7), back extension (setting 1), combined biceps/triceps machine (setting 5), rear-delt fly (setting 5), cable machine used only for lateral raises and pulls, dumbbells for RDL, and pull-up station. Hamstring curl machine is unavailable.",
-    "Warm-up is seated knee raises, Farmer's carries, side-lying leg raises. Do not add separate cardio, mobility, ramp-up, or preparation sets by default.",
-    "Seated knee raises: bodyweight x 75 every training day except Wednesday. Farmer's carries: 20 kg each hand, walking to and fro, 3 rounds baseline. Side-lying leg raises: 20 kg per leg x 30 reps per leg daily. Pull-ups: daily bodyweight maximum clean reps, latest 4.",
-    "RDL: 15 kg per dumbbell (30 kg total) latest reference. Cable lateral raise: 5 kg per hand. Use machine settings confirmed in current inventory.",
-    "Strength-biased hypertrophy method: place main/heaviest compound lifts early while fresh after the user's warm-up. All working sets normally go to failure. Heaviest practical load permitting at least 10 clean reps, then continue past 10 to failure. Above 10 at failure: assess smallest load increase next session. Below 10: hold or reduce. Do not prescribe RIR.",
-    "Usually use 2 working sets per exercise. If the user opts for 3 due to time, use 3 for all exercises in that workout; do not mix 2 and 3 sets.",
-    "Track load PR and rep PR separately. Carry every new load/rep result into the next session. Do not revert seated knee raises to 50, Farmer's carries to 15 kg, RDL to total-load interpretation, or side leg raises to old 10/15 kg records.",
-    "Log each set individually, retain load basis, machine settings and role. Pull-up latest max-rep performance 4 is one daily metric; do not assume number of attempts unless specified.",
-    "After session, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and session note. Commit only after write succeeds and verify persisted records."
+    "Read instruction.md, agent.md, PROGRAM.md, current-state.json, EXERCISES.md, workout-log.csv, and relevant session notes before coaching or logging.",
+    "Use the current day-by-day split in PROGRAM.md and current-state.json. Training week starts Sunday; Wednesday is a complete rest day with no gym training or scheduled exercise.",
+    "The 2026-11-22 to 2026-12-05 temporary no-rest phase was superseded on 2026-11-28. Do not schedule or recommend training on Wednesday.",
+    "Lat pulldown is scheduled Sunday, Thursday, and Saturday. Every session must use one-third very-wide grip, one-third wide grip, and one-third close grip. These are grip variations within one exercise.",
+    "Flat chest press is scheduled twice weekly; incline chest press and shoulder press are each scheduled twice weekly. Do not add chest fly.",
+    "Follow the listed weekly schedule for leg press, calves, RDL, deadlift, rows, arms, rear delts, abs, neck isometrics, side leg raises, and Farmer's carries. Do not restore the previous daily warm-up or daily pull-up rules unless the user explicitly requests them.",
+    "Strength-biased training method: normally 2 working sets per exercise. The user's established working-set approach is failure-based with at least 10 clean reps as the load-selection minimum, continuing beyond 10 until failure. Do not prescribe RIR by default. Stop technically sensitive lifts such as RDL/deadlift before technique deteriorates.",
+    "Keep alternating sets available for non-competing exercises to save time, but do not pair exercises that substantially fatigue the same muscles when strength performance is the priority.",
+    "Use latest confirmed performance records and preserve unknown loads, reps, machine settings, and load basis. Never fabricate completed sessions or shift a missed session.",
+    "After a reported workout, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note as appropriate. Commit only after writes succeed and verify persisted records."
   ],
   "latest_session_reference": {
     "date": "2026-11-28",
@@ -419,31 +435,8 @@
     "name": "Two-week return-to-training / maintenance phase",
     "start_date": "2026-11-22",
     "end_date": "2026-12-05",
-    "days": 14,
-    "objective": "Follow the user's current load and failure method; no invented equipment or unnecessary warm-up routines.",
-    "training_days": "14 consecutive calendar days; no rest days, including lifting on Wednesdays.",
-    "wednesday_override": "Normal lifting session on 2026-11-25 (Back + Abs) and 2026-12-02; user explicitly corrected that there are no rest days this week and next week.",
-    "working_sets_per_exercise": 2,
-    "rir_target": null,
-    "farmer_carry": {
-      "load_kg_each_hand": 20,
-      "route": "walking to and fro inside the gym",
-      "normal_day_rounds": 3,
-      "wednesday_rounds": "3 rounds on 2026-11-25 and 2026-12-02, per user's no-rest-days correction."
-    },
-    "seated_knee_raises": "75 bodyweight reps daily, including Wednesdays, per user's no-rest-days correction.",
-    "hometown_context": "User reports five gym visits during a two-week hometown break; final session used two sets per exercise. Lateral raise and seated row loads stayed the same as previous hometown sessions. Exact dates and complete set details are not established; do not create dated logs.",
-    "plan_file": "PHASE-2026-11-22-to-2026-12-05.md",
-    "resume_regular_program": "2026-12-06",
-    "failure_method": "Working sets taken to failure using the user's 10-rep minimum, no 10-rep cap.",
-    "warm_up": [
-      "Seated knee raises",
-      "Farmer's carries",
-      "Side-lying leg raises"
-    ],
-    "side_lying_leg_raises": "Daily; latest completed 2026-11-26: 15 kg per leg x 30 reps per leg.",
-    "pull_ups": "Daily bodyweight max reps including Wednesday; latest 6 reps on 2026-11-26.",
-    "working_set_count": "Usually 2 working sets per exercise; if the user opts for 3, use 3 across all exercises that workout."
+    "status": "Superseded on 2026-11-28 by the user's updated weekly split and fixed Wednesday rest day.",
+    "superseded_by": "Current weekly schedule in PROGRAM.md. The temporary no-rest-day/Wednesday override must not be applied."
   },
   "equipment_availability": {
     "current_location": "Bengaluru",
