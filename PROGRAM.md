@@ -61,7 +61,9 @@ Every scheduled lat-pulldown session (Sunday, Thursday, and Saturday) must use a
 2. One-third with a wide grip.
 3. One-third with a close grip.
 
-Distribute the work as evenly as practical across the three grips. These are grip variations within the lat-pulldown exercise, not three additional exercises. Do not omit a grip or replace the sequence with only one grip.
+Every scheduled session has exactly 3 working sets for this exercise: Set 1 very-wide grip, Set 2 wide grip, Set 3 close grip. Use one set per grip in that exact order. These are grip variations within one lat-pulldown exercise, not three additional exercises. Do not omit a grip or replace the sequence with another format.
+
+Latest confirmed load history: 41.25 kg on the machine stack. The 2026-11-27 session used 41.25 kg for all six reported sets (two grip sequences), confirmed by the user on 2026-11-28. Latest reps were 5/2/2 and 5/3/3. Keep the machine adjustment setting unknown. Use the load-progression rules and latest performance when deciding the next session's starting load.
 
 ### Weekly frequency
 - Flat chest press: 2× (Sunday, Thursday)
