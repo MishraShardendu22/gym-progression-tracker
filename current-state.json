@@ -94,7 +94,8 @@
     },
     "lat_pulldown": {
       "machine_setting": null,
-      "load_kg": null,
+      "load_kg": 41.25,
+      "load_basis": "machine stack",
       "reps": [
         5,
         2,
@@ -103,7 +104,7 @@
         3,
         3
       ],
-      "status": "2026-11-27: two grip sequences, very-wide/wide/close: 5/2/2 and 5/3/3. Load not reported; do not infer."
+      "status": "2026-11-27: two very-wide/wide/close grip sequences, reps 5/2/2 and 5/3/3. User confirmed on 2026-11-28 that all six sets used the same 41.25 kg machine-stack load as 2026-11-25. Adjustment setting remains unknown."
     },
     "seated_row": {
       "machine_setting": null,
@@ -282,8 +283,8 @@
     "Corrected 2026-11-24 performance bases: RDL 15 kg per dumbbell; lateral raise 5 kg per hand; side-lying leg raise 20 kg per leg x 30 per leg; Farmer's carry 20 kg each hand x 3 rounds; daily pull-ups 4 reps.",
     "2026-11-26: side-lying leg raise interpreted as 15 kg per side x 30 reps per leg; seated knee raises recorded as 75 reps with no added load reported. Farmer's carry load was 20 kg each hand; rounds were not reported.",
     "2026-11-26: pull-up count of 6 recorded as reported; number of sets/attempts not specified.",
-    "2026-11-27: lat-pulldown load was not reported; grip labels interpreted as very-wide, wide, and close in the order stated. Triceps second-set load was not reported. Warm-up movements were not reported and were not added to the log.",
-    "2026-11-28: deadlift reported at 60 kg without reps, set count, or load basis; retained as incomplete. Farmer's carry reported as 22.5 kg for 3 sets, but per-hand basis is unconfirmed. Side-lying leg raise reported at 15 kg without reps."
+    "2026-11-28: deadlift reported at 60 kg without reps, set count, or load basis; retained as incomplete. Farmer's carry reported as 22.5 kg for 3 sets, but per-hand basis is unconfirmed. Side-lying leg raise reported at 15 kg without reps.",
+    "2026-11-28 user confirmation: all six 2026-11-27 lat-pulldown sets used 41.25 kg machine stack, the same load as the 2026-11-25 session. The six CSV rows and session note have been corrected. The machine adjustment setting remains unknown."
   ],
   "best_recorded_performance": {
     "note": "Historical best performance records are kept separately from latest_session_reference and known_records. PRs are load-specific; do not overwrite a historical rep PR with a newer lower-rep set. These are not estimated 1RM values.",
@@ -421,7 +422,8 @@
     "Strength-biased training method: normally 2 working sets per exercise. The user's established working-set approach is failure-based with at least 10 clean reps as the load-selection minimum, continuing beyond 10 until failure. Do not prescribe RIR by default. Stop technically sensitive lifts such as RDL/deadlift before technique deteriorates.",
     "Keep alternating sets available for non-competing exercises to save time, but do not pair exercises that substantially fatigue the same muscles when strength performance is the priority.",
     "Use latest confirmed performance records and preserve unknown loads, reps, machine settings, and load basis. Never fabricate completed sessions or shift a missed session.",
-    "After a reported workout, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note as appropriate. Commit only after writes succeed and verify persisted records."
+    "After a reported workout, update workout-log.csv, current-state.json, EXERCISES.md, progression.md, and the dated session note as appropriate. Commit only after writes succeed and verify persisted records.",
+    "Missing-load carry-forward: distinguish a missing load in the latest session from an unknown historical load. Search the latest prior confirmed load for that same exercise and equipment. If the user explicitly confirms that an omitted load was unchanged, apply that exact load to every affected set in the log and carry it into current-state and exercise references. Do not mark it unknown or ask again. If there is no prior confirmed load or no confirmation that it was unchanged, preserve the missing value and ask one focused clarification only when needed."
   ],
   "latest_session_reference": {
     "date": "2026-11-28",
