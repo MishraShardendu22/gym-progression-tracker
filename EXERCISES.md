@@ -95,7 +95,7 @@ See `personal-records.csv` for current PRs, `workout-log.csv` for complete set-l
 
 ## Latest session update: 2026-11-27
 - Lat pulldown: user confirmed on 2026-11-28 that all six reported sets used 41.25 kg machine stack, matching the last confirmed load from 2026-11-25. Reps: very-wide/wide/close 5/2/2, then 5/3/3. The load is now recorded in workout-log.csv; machine adjustment setting remains unknown.
-- Lat pulldown: two grip sequences, very-wide/wide/close. First sequence: 5/2/2 reps; second: 5/3/3 reps. Load and machine setting were not reported; do not infer them.
+- Lat pulldown: two grip sequences, very-wide/wide/close. First sequence: 5/2/2 reps; second: 5/3/3 reps. User confirmed on 2026-11-28 that all six sets used 41.25 kg machine stack. Machine adjustment setting remains unknown.
 - Rear-delt fly setting 5: 41.25 kg (37.5 + 3.75) × 8 for both reported sets.
 - Biceps curl setting 5: 37.5 kg × 6; one set reported, below the 10-rep threshold.
 - Triceps setting 5: 33.75 kg (30 + 3.75) × 11, followed by 11 reps with load not reported.
