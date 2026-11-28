@@ -11,10 +11,10 @@ abdominal_machine,load_pr,45,kg,10,,7,
 back_extension,load_pr,45,kg,10,,1,
 leg_press,load_pr,63.75,kg,21,,5,latest session 2026-11-03
 calf_raise,load_pr,45,kg,12,2026-11-28,5,New qualifying load PR: 45 kg x 12.
-cable_lateral_raise,load_pr,5,kg_per_hand,10,2026-11-28,,Rep PR at 5 kg per hand: 10 reps.
+cable_lateral_raise,rep_pr,5,kg_per_hand,10,2026-11-28,,Best rep count at the exact load of 5 kg per hand.
 side_lying_hip_abduction,load_pr,20,kg_per_leg,30,,,Historical best remains 20 kg per leg x 30; latest 2026-11-26 was 15 kg per side x 30.
 dumbbell_romanian_deadlift,load_pr,15,kg_per_dumbbell,10,,,2026-11-24
 seated_knee_raises,rep_benchmark,bodyweight,bodyweight,75,,,2026-11-24
-farmers_carry,carry_benchmark,,,3,,,2026-11-24
+farmers_carry,carry_benchmark,20,kg_per_hand,3,2026-11-24,,20 kg each hand for 3 rounds.
 wide_stance_leg_press,load_pr,70.75,kg,12,2026-11-28,5,New qualifying load PR: 70.75 kg x 12.
 pull_ups,rep_benchmark,bodyweight,bodyweight,6,2026-11-26,,Best recorded bodyweight max-rep performance: 6; weighted results are tracked separately.
