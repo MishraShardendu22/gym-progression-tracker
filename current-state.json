@@ -516,7 +516,7 @@
     "failure_definition": "Stop when another clean concentric repetition cannot be completed. For RDL and other technically sensitive free-weight movements, stop at technical failure before form degrades.",
     "next_session_load_rule": "If failure occurs above 10 reps, assess the smallest practical load increase. If failure occurs below 10, hold or reduce. At 10 reps, hold unless broader performance supports an increase.",
     "logging": "Record actual load and reps per set. Track load PRs and rep PRs separately. Do not assign RIR by default.",
-    "exercise_order": "Strength-biased hypertrophy: main/heaviest compound lifts first while fresh, after the user's established warm-up."
+    "exercise_order": "Strength-biased hypertrophy: main/heaviest compound lifts first while fresh; follow the day-by-day exercise order in PROGRAM.md."
   },
   "performance_prs": {
     "tracking_rule": "Track weight PR and rep PR separately. Weight PR is the heaviest load completed for at least 10 clean reps to failure. Rep PR is the best rep count at an exact load. Track latest sets separately. Do not estimate 1RM.",
