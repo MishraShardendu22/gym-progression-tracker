@@ -49,7 +49,7 @@ For each exercise, provide:
 - expected rep threshold and instruction to continue to failure;
 - any necessary uncertainty, only when it affects the prescription.
 
-Follow the strength-biased hypertrophy approach: the main/heaviest compound exercises come first while the user is fresh, after the user's established warm-up.
+Follow the strength-biased hypertrophy approach: the main/heaviest compound exercises come first while the user is fresh. Follow the exercise order in PROGRAM.md.
 
 ### Scheduled accessory and core movements
 
@@ -107,7 +107,7 @@ Track separately:
 
 Do not infer estimated 1RM. Do not mark a below-10-rep set as a 10-rep load PR. Keep every reported set even when performance decreases.
 
-Carry the latest results forward into the next coaching session. Do not revert to older weights or warm-up counts:
+Carry the latest results forward into the next coaching session. Do not revert to older weights or accessory targets:
 - Farmer's carry: 20 kg each hand, 3 rounds;
 - seated knee raises: 75 bodyweight reps;
 - side-lying leg raises: 20 kg per leg × 30 per leg;
