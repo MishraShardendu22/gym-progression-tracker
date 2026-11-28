@@ -24,7 +24,7 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 | Chest press | 3 | 33.75 kg × 10, then × 7 | Latest session 2026-11-26; 33.75 = 30 + 3.75. New qualifying load PR: 33.75 kg × 10. |
 | Incline press | 4 | 26.25 kg × 10 | Latest session 2026-11-26; 26.25 = 22.5 + 3.75. One set reported; new qualifying load PR. |
 | Shoulder press | 5 | 15 kg × 17, 10 | Latest session 2026-11-24: 15 × 17 and 15 × 10. |
-| Lat pulldown | Unknown | 41.25 kg × 5/5/4, then 5/5/3 | Latest session 2026-11-25: two grip sequences at 41.25 kg (37.5 + 3.75), wide/less-wide/close. |
+| Lat pulldown | Unknown | 41.25 kg × 5/2/2, then 5/3/3 | Latest session 2026-11-27: two very-wide/wide/close sequences. User confirmed on 2026-11-28 that the load was the same 41.25 kg machine-stack load used on 2026-11-25. |
 | Seated row | Unknown | 45 kg × 9, 9 | Latest session 2026-11-25. |
 | Rear-delt fly | 5 | 37.5 kg × 10; 41.25 kg × 5 | Latest session 2026-11-24: 37.5 × 10, then 41.25 × 5. |
 | Biceps curl machine | 5 | 30 kg × 10; 33.75 kg × 8 | Latest session 2026-11-26. New qualifying load PR: 30 kg × 10; 33.75 kg × 8 is below the 10-rep threshold. |
@@ -90,6 +90,7 @@ See `instruction.md` for the complete coaching rules and `agent.md` for the agen
 
 
 ## Latest session update: 2026-11-27
+- Lat pulldown: user confirmed on 2026-11-28 that all six reported sets used 41.25 kg machine stack, matching the last confirmed load from 2026-11-25. Reps: very-wide/wide/close 5/2/2, then 5/3/3. The load is now recorded in workout-log.csv; machine adjustment setting remains unknown.
 - Lat pulldown: two grip sequences, very-wide/wide/close. First sequence: 5/2/2 reps; second: 5/3/3 reps. Load and machine setting were not reported; do not infer them.
 - Rear-delt fly setting 5: 41.25 kg (37.5 + 3.75) × 8 for both reported sets.
 - Biceps curl setting 5: 37.5 kg × 6; one set reported, below the 10-rep threshold.
