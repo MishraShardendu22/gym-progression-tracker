@@ -178,7 +178,7 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-11-27,Friday,Dumbbell Romanian deadlift,,working,2,15,per dumbbell,10,0,15 kg per dumbbell; 30 kg total. Stop at technical failure.
 2026-11-27,Friday,Pull-ups,,working,1,bodyweight,bodyweight,6,,Daily max-rep result; set/attempt structure not specified.
 2026-11-28,Saturday,Deadlift,,working,,60,load basis unspecified,,,User reported 60 kg; repetitions and set count not supplied.
-2026-11-28,Saturday,Weighted pull-ups,,working,1,7.5,added weight,4,,4 weighted pull-ups with 7.5 kg added; set/attempt structure not further specified.
+2026-11-28,Saturday,Weighted pull-ups,,working,,7.5,added weight,4,,4 weighted pull-ups with 7.5 kg added; set/attempt structure not further specified.
 2026-11-28,Saturday,Calf raise,5,working,1,41.25,machine stack,10,0,
 2026-11-28,Saturday,Calf raise,5,working,2,45,machine stack,12,0,
 2026-11-28,Saturday,Shoulder press,5,working,1,22.5,machine stack,18,0,
