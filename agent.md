@@ -30,12 +30,12 @@ If two repository files conflict, prefer the more recent explicit user correctio
 ## 2. Determine today's session
 
 - Use the current date and weekday in **Asia/Kolkata**.
-- The scheduled workout start time is **07:00 (7:00 AM) Asia/Kolkata** on every scheduled training day.
+- The scheduled workout start time is **07:00 (7:00 AM) Asia/Kolkata**.
 - Training week begins Sunday as Day 1.
-- Apply the exact seven-day split in `instruction.md` and `PROGRAM.md`.
+- Read the current day-by-day exercise schedule and frequencies from `PROGRAM.md`; that file is authoritative.
+- Wednesday is a complete rest day: no gym training, pull-ups, neck work, abs, carries, or accessory exercise.
 - Never shift a missed workout to another day.
-- Check `current-state.json.active_phase` and its end date before applying any temporary exception. A phase override must expire on its documented date.
-- Do not treat a rest day as a normal lifting day unless an active, dated phase explicitly says otherwise.
+- The 2026-11-22 to 2026-12-05 no-rest return phase has been superseded by the user's 2026-11-28 instruction. Do not apply its Wednesday override.
 
 ## 3. Build the workout
 
@@ -51,16 +51,25 @@ For each exercise, provide:
 
 Follow the strength-biased hypertrophy approach: the main/heaviest compound exercises come first while the user is fresh, after the user's established warm-up.
 
-### Warm-up and daily movements
+### Scheduled accessory and core movements
 
-Use exactly the user's established warm-up:
-- seated knee raises: bodyweight × 75 on training days except Wednesday;
-- Farmer's carries: 20 kg in each hand, 3 rounds on normal training days, walking to and fro;
-- side-lying leg raises: 20 kg per leg × 30 reps per leg, every day.
+Do not use the old daily warm-up prescription. Follow the exact day assignments in `PROGRAM.md`:
+- Seated knee raises: Monday and Thursday.
+- Farmer's carries: Monday and Friday.
+- Standing side leg raises with a weighted plate: Monday and Friday.
+- Abdominal crunch: Tuesday and Saturday.
+- Pull-ups are not currently scheduled.
 
-Do not add generic cardio, ramp-up sets, mobility circuits, or other warm-up work by default. Observe the dated Wednesday active-recovery exception in the current return phase.
+Wednesday is fully off. Do not add any movement to Wednesday.
 
-Pull-ups are a separate daily bodyweight max-rep exercise, including rest days. Latest reported performance is 4 reps on 2026-11-24. It is not yet confirmed whether 4 means one set or the total across multiple sets. Record the count exactly, but do not infer a set/attempt structure or call it a confirmed single-set maximum.
+### Lat-pulldown grip sequence
+
+Every lat-pulldown session (Sunday, Thursday, Saturday) must contain all three grips, divided as evenly as practical:
+- one-third very-wide grip;
+- one-third wide grip;
+- one-third close grip.
+
+This is one exercise with three grip variations, not three separate exercises. Never omit the combination.
 
 ### Working sets and failure
 
