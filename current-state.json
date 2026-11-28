@@ -230,15 +230,20 @@
       "status": "2026-11-28: 67 kg x 18, then 70.75 kg (67 + 3.75) x 12."
     },
     "pull_ups": {
-      "load": "weighted, +7.5 kg",
-      "reps": 4,
-      "frequency": "Daily pull-up performance",
-      "status": "2026-11-28: 4 weighted pull-ups with 7.5 kg added; set/attempt structure not further specified."
+      "load": "bodyweight",
+      "reps": 6,
+      "frequency": "Daily max clean reps",
+      "status": "2026-11-27: 6 bodyweight reps; set/attempt structure not specified. 2026-11-28 report was weighted (+7.5 kg) and is tracked separately."
     },
     "deadlift": {
       "load_kg": 60,
       "reps": null,
       "status": "2026-11-28: 60 kg reported; repetitions, set count, and load basis not supplied."
+    },
+    "weighted_pull_ups": {
+      "added_load_kg": 7.5,
+      "reps": 4,
+      "status": "2026-11-28: +7.5 kg x 4 reps; set/attempt structure not specified."
     }
   },
   "data_quality_notes": [
@@ -379,7 +384,7 @@
         "load": "bodyweight",
         "max_reps": 6,
         "date": "2026-11-26",
-        "status": "New bodyweight rep PR: 6 reps; set/attempt structure not specified."
+        "status": "Best recorded bodyweight max-rep performance: 6; weighted results are tracked separately."
       },
       "weighted_pull_ups": {
         "added_load_kg": 7.5,
