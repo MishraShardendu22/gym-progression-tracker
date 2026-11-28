@@ -163,12 +163,12 @@ date,day,exercise,machine_setting,set_type,set_number,load_kg,load_basis,reps,ri
 2026-11-26,Thursday,Seated knee raises,,warm-up,1,bodyweight,bodyweight,75,,75 reps; no added load reported.
 2026-11-26,Thursday,Farmer's carry,,warm-up,1,20,each hand,,,20 kg each hand; number of rounds not reported.
 2026-11-26,Thursday,Pull-ups,,working,1,bodyweight,bodyweight,6,,Daily max-rep result; set/attempt structure not specified.
-2026-11-27,Friday,Lat pulldown,,working,1,,machine stack,5,0,Very-wide grip; first reported grip sequence; load not stated.
-2026-11-27,Friday,Lat pulldown,,working,2,,machine stack,2,0,Wide grip; first reported grip sequence; load not stated.
-2026-11-27,Friday,Lat pulldown,,working,3,,machine stack,2,0,Close grip; first reported grip sequence; load not stated.
-2026-11-27,Friday,Lat pulldown,,working,4,,machine stack,5,0,Very-wide grip; second reported grip sequence; load not stated.
-2026-11-27,Friday,Lat pulldown,,working,5,,machine stack,3,0,Wide grip; second reported grip sequence; load not stated.
-2026-11-27,Friday,Lat pulldown,,working,6,,machine stack,3,0,Close grip; second reported grip sequence; load not stated.
+2026-11-27,Friday,Lat pulldown,,working,1,41.25,machine stack,5,0,Very-wide grip; first reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
+2026-11-27,Friday,Lat pulldown,,working,2,41.25,machine stack,2,0,Wide grip; first reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
+2026-11-27,Friday,Lat pulldown,,working,3,41.25,machine stack,2,0,Close grip; first reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
+2026-11-27,Friday,Lat pulldown,,working,4,41.25,machine stack,5,0,Very-wide grip; second reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
+2026-11-27,Friday,Lat pulldown,,working,5,41.25,machine stack,3,0,Wide grip; second reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
+2026-11-27,Friday,Lat pulldown,,working,6,41.25,machine stack,3,0,Close grip; second reported grip sequence; 41.25 kg, same as the 2026-11-25 confirmed machine-stack load; user confirmed this on 2026-11-28.
 2026-11-27,Friday,Rear-delt fly,5,working,1,41.25,machine stack,8,0,Reported as 37.5 + 3.75 kg.
 2026-11-27,Friday,Rear-delt fly,5,working,2,41.25,machine stack,8,0,Reported as 37.5 + 3.75 kg.
 2026-11-27,Friday,Biceps curl,5,working,1,37.5,machine stack,6,0,One set reported.
