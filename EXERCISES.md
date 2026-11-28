@@ -1,6 +1,6 @@
 # Exercise Reference and Performance
 
-The machine inventory below is confirmed for the user's current Bengaluru gym. The records table preserves historical sessions and latest reported performances. Use the newest dated performance for coaching. Machine setting and machine load are separate values.
+The machine inventory below is confirmed for the user's current Bengaluru gym. This file describes equipment and latest performance references. The single current PR/best benchmark per exercise is maintained in `personal-records.csv`; full set history remains in `workout-log.csv`. Machine setting and machine load are separate values.
 
 ## Confirmed Bengaluru equipment
 
@@ -16,6 +16,10 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 - Pull-up station: daily bodyweight max-rep pull-ups.
 - Seated knee raises, Farmer's carries, and side-lying leg raises.
 - Explicitly unavailable: seated/lying hamstring curl machine.
+
+## Personal records
+
+See [`personal-records.csv`](personal-records.csv) for the current PR/best benchmark index. It contains at most one current row per exercise and is updated in place only when a new qualifying record is established. Do not use this table as a workout history. For every set and historical performance, use `workout-log.csv` and the dated session notes.
 
 ## Exercise records
 
@@ -67,7 +71,7 @@ The machine inventory below is confirmed for the user's current Bengaluru gym. T
 - Seated knee raises: bodyweight × 75 reps on training days except Wednesday.
 - Pull-ups: daily max clean bodyweight reps; latest report 4 reps.
 
-See `instruction.md` for the complete coaching rules and `agent.md` for the agent workflow. Preserve the historical context in old rows; do not treat an old PR as the latest session result.
+See `personal-records.csv` for current PRs, `workout-log.csv` for complete set-level history, `instruction.md` for coaching rules, and `agent.md` for the agent workflow. The PR index is not the latest-session reference.
 
 
 ## Latest session update: 2026-11-25
