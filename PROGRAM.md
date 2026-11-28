@@ -151,13 +151,7 @@ Normally use **2 working sets per exercise**. Occasionally the user does 3 when 
 
 ## Progress tracking and PRs
 
-For every exercise track separately:
-- Heaviest load completed for at least 10 clean reps.
-- Best rep count at a given load.
-- Latest session's load and reps per set.
-- Date and machine setting where applicable.
-
-Use latest confirmed performance for the next starting load. Update current-state immediately after each reported session so the next workout starts from the latest baseline. Never revert to older loads or rep targets.
+Use `personal-records.csv` as the sole PR index. It must contain at most one current PR/best benchmark row per exercise; update that row in place only when a new qualifying record is established. Do not store a PR history or duplicate PR catalogue in `current-state.json`. Keep latest session load and reps per set in `current-state.json`, `workout-log.csv`, and dated session notes. The full workout log remains the historical source and is never pruned. Use latest confirmed performance, not the PR alone, to choose the next starting load. Update current state after each reported session.
 
 Specific current baselines:
 - Farmer's carry: 20 kg each hand, 3 rounds.
