@@ -132,7 +132,7 @@ Follow the exact day-by-day schedule and weekly frequencies in the Fixed weekly 
 
 ## Training method, exercise order, and working sets
 
-The user follows a strength-biased hypertrophy approach: prioritize heavy, challenging loads while fresh, aiming to increase strength while building muscle. Place the day's main compound/heaviest exercises early, after the user's established warm-up.
+The user follows a strength-biased hypertrophy approach: prioritize heavy, challenging loads while fresh, aiming to increase strength while building muscle. Place the day's main compound/heaviest exercises early, while fresh. Follow the exercise order in the daily schedule.
 
 The user normally takes **every working set to failure**. Select the heaviest practical load that permits at least 10 clean repetitions. Ten is a minimum reference, not a rep cap:
 - Continue beyond 10 reps until failure. Record the actual repetitions; never stop at 10 merely because the threshold was reached.
@@ -169,7 +169,7 @@ For Farmer's carries, track kg per hand and rounds/distance/time when provided. 
 
 ## Logging protocol
 
-Record sets individually with date, exercise, current machine setting, set type (warm-up or working), set number, load, load basis (per dumbbell/per hand/total), reps, failure status, and notes. Preserve unknown values rather than inventing them. Daily carry, knee raise, side raise, and pull-up performances must be carried forward into the next session.
+Record sets individually with date, exercise, current machine setting, set type (warm-up or working), set number, load, load basis (per dumbbell/per hand/total), reps, failure status, and notes. Preserve unknown values rather than inventing them. Carry forward the latest performance for each scheduled exercise. Do not treat any accessory movement as daily unless it is explicitly added to the split.
 
 ## Temporary 14-day return-to-training phase
 
