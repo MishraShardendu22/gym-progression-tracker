@@ -9,7 +9,7 @@ This file records the user's training rules. Do not silently replace them with g
 
 ## 1. Training objective and style
 
-The user trains with a **strength-biased hypertrophy** approach: build muscle while prioritizing progressive strength increases. Start the main/heaviest compound work while fresh, after the user's established warm-up. Arrange the session with the main compound movements before accessory/isolation movements where practical.
+The user trains with a **strength-biased hypertrophy** approach: build muscle while prioritizing progressive strength increases. Start the main/heaviest compound work while fresh. Follow the exercise order in PROGRAM.md. Arrange the session with the main compound movements before accessory/isolation movements where practical.
 
 The user normally takes **every working set to failure**. Choose a load expected to permit at least 10 clean reps, then continue beyond 10 until failure. Ten reps is a minimum load-selection reference, not a stopping point or rep cap.
 
@@ -24,7 +24,7 @@ The user normally takes **every working set to failure**. Choose a load expected
 
 The normal prescription is **2 working sets per exercise**. When the user has enough time and chooses a third set, use **3 working sets for every exercise in that workout**. Do not mix 2 sets for some exercises and 3 for others unless the user explicitly asks for that exception.
 
-Warm-up activities do not count toward working-set volume.
+Any preparation activity, if later specified, does not count toward working-set volume.
 
 ## 2. Scheduled accessory and core movements
 
