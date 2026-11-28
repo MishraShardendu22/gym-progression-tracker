@@ -156,3 +156,7 @@ Never pre-fill a planned workout as completed. Never overwrite or delete older s
 | `progression.md` | Progression decisions and historical reasoning |
 | `sessions/` | Dated human-readable workout reports |
 | `PHASE-*.md` | Explicitly dated temporary program overrides |
+
+
+### Missing-load recovery and carry-forward
+Before writing "load unknown" or asking the user for a load, inspect earlier rows for the same exercise and equipment in workout-log.csv, then cross-check EXERCISES.md and current-state.json. If the user explicitly confirms that a missing session load matches the prior confirmed load, backfill every affected set with that value and record the confirmation in the dated session note and data-quality history. Update all canonical references consistently. Keep unrelated unknown fields blank. Do not infer a load solely because it is the most recent historical value when the user has not confirmed continuity. In coaching output, state the known last-session load and its actual rep performance separately from any next-session load recommendation.
