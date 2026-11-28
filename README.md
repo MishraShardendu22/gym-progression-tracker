@@ -12,10 +12,10 @@ Private source of truth for the user's gym program, workout logs, exercise setti
 - Mark ambiguous or conflicting historical values as uncertain; do not silently resolve contradictions.
 - Follow the user's failure-based loading method: choose the heaviest practical load that permits at least 10 clean reps, continue past 10 until failure, and log actual reps. If failure occurs above 10, evaluate the smallest practical load increase next session; if below 10, hold or reduce. Do not stop sets at 10 or prescribe RIR by default.
 - The full equipment inventory below is confirmed available in the current Bengaluru gym. Do not incorrectly classify chest/incline press, lat/row, abs/back, biceps/triceps, rear-delt or cable equipment as Kanpur-only. Continue to exclude only explicitly unavailable equipment such as the hamstring curl machine.
-- The training week starts on Sunday as Day 1. Sunday is Chest + Legs + Hamstrings. Wednesday is the full rest day. Never move the schedule to compensate for a missed session.
-- The user's warm-up is seated knee raises, Farmer's carries, and side-lying leg raises. Pull-ups are also performed daily as a separate max-rep exercise. Do not add separate cardio, ramp-up sets, or generic warm-up blocks unless requested.
-- Carry forward updated loads and rep targets from the latest session. Do not revert to older baselines: current targets include 20 kg each hand for Farmer's carries, 75 bodyweight seated knee raises, and daily max-rep pull-ups (4 reps latest).
-- Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
+- The training week starts Sunday as Day 1. Follow the exact weekly exercise split in `PROGRAM.md`; Wednesday is a complete rest day with no training.
+- Every lat-pulldown session uses the full one-third very-wide, one-third wide, and one-third close-grip combination.
+- Do not add chest fly; flat and incline chest presses are retained.
+- Record only confirmed workout data. Do not infer that a missing exercise was completed. Ask when required data is ambiguous.
 
 ## Operating documents
 - `instruction.md`: canonical user training rules and preferences.
